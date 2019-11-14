@@ -1,0 +1,7 @@
+[25.10.2019]
+1571979836176
+cppcheck-error:2062
+cppcheck-warning:84
+cppcheck-style:984
+cppcheck-performance:1
+cppcheck-portability:3

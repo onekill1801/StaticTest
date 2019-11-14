@@ -1,0 +1,1352 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3379438824">
+        <error id="missingOverride" severity="style" msg="The function &apos;AddResults&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;AddResults&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier.">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\lib\astutils.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\lib\timer.h" line="64" column="10" info="Function in derived class"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\lib\astutils.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\lib\timer.h" line="40" column="18" info="Virtual function in base class"/>
+            <symbol>AddResults</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:1131:10" call-funcname="setFlag" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="455" call-argexpr="b" call-argvaluetype="0" call-argvalue="0">
+  <path filename="C:\Users\Sau\Desktop\cppcheck-1.89\lib\token.h" linenr="707" info="Calling function 'isStandardType', 1st argument 'false' value is 0"/>
+</function-call><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:619:25" call-funcname="findmatch" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="628" call-argexpr="varId" call-argvaluetype="0" call-argvalue="0" warning="true"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:620:25" call-funcname="findmatch" call-argnr="4" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="631" call-argexpr="varId" call-argvaluetype="0" call-argvalue="0" warning="true"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:349:10" call-funcname="tokType" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="706" call-argexpr="eVariable" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:454:10" call-funcname="isStandardType" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="707" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:349:10" call-funcname="tokType" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="833" call-argexpr="eVariable" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:55:13" call-funcname="astFlattenRecursive" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="71" call-argexpr="&result" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:86:15" call-funcname="astIsVariableComparison" call-argnr="4" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="203" call-argexpr="&ret" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:330:13" call-funcname="exprDependsOnThis" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="376" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:93:6" call-funcname="precedes" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="389" call-argexpr="end" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path filename="C:\Users\Sau\Desktop\cppcheck-1.89\lib\astutils.cpp" linenr="360" info="Assuming that condition 'end' is not redundant"/>
+</function-call><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:145:6" call-funcname="isVariableChanged" call-argnr="4" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="392" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:145:6" call-funcname="isVariableChanged" call-argnr="5" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="392" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:145:6" call-funcname="isVariableChanged" call-argnr="4" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="420" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:145:6" call-funcname="isVariableChanged" call-argnr="5" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="420" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="462" call-argexpr="macro" call-argvaluetype="0" call-argvalue="0">
+  <path filename="C:\Users\Sau\Desktop\cppcheck-1.89\lib\astutils.cpp" linenr="1686" info="Calling function 'isSameExpression', 2nd argument 'false' value is 0"/>
+</function-call><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="574" call-argexpr="cpp" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path filename="C:\Users\Sau\Desktop\cppcheck-1.89\lib\astutils.cpp" linenr="582" info="Assuming that condition 'if(cpp&&tok1->str()=="+"&&tok1->isBinaryOp())' is not redundant"/>
+</function-call><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="574" call-argexpr="macro" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path filename="C:\Users\Sau\Desktop\cppcheck-1.89\lib\astutils.cpp" linenr="493" info="Assuming that condition 'macro' is not redundant"/>
+</function-call><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:142:6" call-funcname="isVariableChangedByFunctionCall" call-argnr="4" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1107" call-argexpr="&inconclusive" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:151:14" call-funcname="findVariableChanged" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1135" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:151:14" call-funcname="findVariableChanged" call-argnr="5" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1135" call-argexpr="globalvar" call-argvaluetype="0" call-argvalue="0">
+  <path filename="C:\Users\Sau\Desktop\cppcheck-1.89\lib\astutils.cpp" linenr="392" info="Calling function 'isVariableChanged', 4th argument 'false' value is 0"/>
+</function-call><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:151:14" call-funcname="findVariableChanged" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1159" call-argexpr="indirect" call-argvaluetype="0" call-argvalue="0">
+  <path filename="C:\Users\Sau\Desktop\cppcheck-1.89\lib\astutils.cpp" linenr="1135" info="Calling function 'findVariableChanged', 3rd argument '0' value is 0"/>
+</function-call><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:1190:13" call-funcname="getArgumentsRecursive" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1212" call-argexpr="&arguments" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:1190:13" call-funcname="getArgumentsRecursive" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1212" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:62:6" call-funcname="astIsIntegral" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1259" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:235:34" call-funcname="checkCond" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1475" call-argexpr="i.known" call-argvaluetype="0" call-argvalue="0">
+  <path filename="C:\Users\Sau\Desktop\cppcheck-1.89\lib\astutils.cpp" linenr="1469" info="i.known is assigned value 0"/>
+</function-call><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:300:19" call-funcname="checkRecursive" call-argnr="6" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1585" call-argexpr="inInnerClass" call-argvaluetype="0" call-argvalue="0">
+  <path filename="C:\Users\Sau\Desktop\cppcheck-1.89\lib\astutils.cpp" linenr="1868" info="Calling function 'checkRecursive', 6th argument 'false' value is 0"/>
+</function-call><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1686" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="6" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1686" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="7" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1686" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="8" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1686" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1689" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="6" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1689" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="7" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1689" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="8" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1689" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1721" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="6" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1721" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="7" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1721" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="8" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1721" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:300:19" call-funcname="checkRecursive" call-argnr="6" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1868" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:300:19" call-funcname="checkRecursive" call-argnr="6" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1877" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1887" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="6" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1887" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="7" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1887" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="8" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1887" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1937" call-argexpr="macro" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="6" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1937" call-argexpr="pure" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="7" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1937" call-argexpr="followVar" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1955" call-argexpr="macro" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="6" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1955" call-argexpr="pure" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="7" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1955" call-argexpr="followVar" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="316" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:315:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="324" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:323:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="329" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:328:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="337" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:336:24" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="342" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:341:41" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="349" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:348:49" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="354" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:353:31" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:618:25" call-funcname="findsimplematch" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="625" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:624:19" my-argnr="3"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:620:25" call-funcname="findmatch" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="631" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:630:19" my-argnr="3"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/symboldatabase.h:661:10" call-funcname="evaluate" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/symboldatabase.h" linenr="235" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/symboldatabase.h:223:5" my-argnr="8"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:55:13" call-funcname="astFlattenRecursive" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="61" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:55:13" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:55:13" call-funcname="astFlattenRecursive" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="71" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:51:27" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:55:13" call-funcname="astFlattenRecursive" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="71" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:51:27" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:94:13" call-funcname="astIsCharWithSign" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="106" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:58:6" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:94:13" call-funcname="astIsCharWithSign" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="111" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:60:6" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:568:40" call-funcname="getLibraryContainer" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="147" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:72:6" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:93:6" call-funcname="precedes" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="297" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:295:13" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:93:6" call-funcname="precedes" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="297" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:295:13" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="8" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="462" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" my-argnr="8"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="8" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="635" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:110:6" my-argnr="8"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:110:6" call-funcname="isOppositeCond" call-argnr="8" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="746" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:112:6" my-argnr="7"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:121:6" call-funcname="isReturnScope" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="874" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:121:6" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:142:6" call-funcname="isVariableChangedByFunctionCall" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="918" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:132:6" my-argnr="4"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:142:6" call-funcname="isVariableChangedByFunctionCall" call-argnr="4" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="918" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:132:6" my-argnr="5"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:149:6" call-funcname="isVariableChanged" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1070" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:147:6" my-argnr="3"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:151:14" call-funcname="findVariableChanged" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1135" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:145:6" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:151:14" call-funcname="findVariableChanged" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1135" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:145:6" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:151:14" call-funcname="findVariableChanged" call-argnr="6" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1135" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:145:6" my-argnr="5"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:93:6" call-funcname="precedes" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1140" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:152:8" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:93:6" call-funcname="precedes" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1140" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:152:8" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:147:6" call-funcname="isVariableChanged" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1151" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:152:8" my-argnr="6"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:151:14" call-funcname="findVariableChanged" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1159" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:151:14" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:151:14" call-funcname="findVariableChanged" call-argnr="6" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1159" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:151:14" my-argnr="6"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:145:6" call-funcname="isVariableChanged" call-argnr="5" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1173" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:149:6" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:1190:13" call-funcname="getArgumentsRecursive" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1196" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:1190:13" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:300:19" call-funcname="checkRecursive" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1573" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:300:19" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:49:6" call-funcname="visitAstNodes" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1766" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:303:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:49:6" call-funcname="visitAstNodes" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1837" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:299:19" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:300:19" call-funcname="checkRecursive" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1868" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:299:19" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:300:19" call-funcname="checkRecursive" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1868" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:299:19" my-argnr="3"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="4" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1887" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:257:10" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:299:19" call-funcname="check" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1895" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:266:18" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:299:19" call-funcname="check" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1895" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:266:18" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:299:19" call-funcname="check" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1895" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:266:18" my-argnr="3"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:289:17" call-funcname="isEscapedAlias" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1901" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:275:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:299:19" call-funcname="check" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1904" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:275:10" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:299:19" call-funcname="check" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1904" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:275:10" my-argnr="3"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:299:19" call-funcname="check" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1912" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:282:32" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:299:19" call-funcname="check" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1912" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:282:32" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:299:19" call-funcname="check" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1912" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:282:32" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:149:17" my-argnr="1" my-argname="func" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="150" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:157:17" my-argnr="1" my-argname="func" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="158" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:505:14" my-argnr="1" my-argname="s" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="506" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:508:14" my-argnr="1" my-argname="e" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="509" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:1204:17" my-argnr="1" my-argname="sep" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="1210" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:149:17" my-argnr="1" my-argname="func" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="150" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:157:17" my-argnr="1" my-argname="func" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="158" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:168:13" my-argnr="1" my-argname="tok" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="170" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:280:13" my-argnr="1" my-argname="tok" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="282" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:97:6" my-argnr="1" my-argname="tok1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="601" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:99:6" my-argnr="1" my-argname="tok1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="606" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:160:5" my-argnr="1" my-argname="start" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1179" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:165:28" my-argnr="1" my-argname="ftok" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1206" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:235:34" my-argnr="1" my-argname="tok" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1395" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:245:6" my-argnr="1" my-argname="start" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1520" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:285:10" my-argnr="1" my-argname="expr" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1918" value="0"/>
+  </FileInfo>
+        <error id="unsignedLessThanZero" severity="style" msg="Checking if unsigned expression &apos;tok-&gt;varId()&apos; is less than zero." verbose="The unsigned expression &apos;tok-&gt;varId()&apos; will never be negative so it is either pointless or an error to check if it is." cwe="570">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\lib\astutils.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\lib\astutils.cpp" line="1536" column="26" info="Unsigned less than zero"/>
+            <symbol>tok-&gt;varId()</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:1131:10" call-funcname="setFlag" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="455" call-argexpr="b" call-argvaluetype="0" call-argvalue="0">
+  <path filename="C:\Users\Sau\Desktop\cppcheck-1.89\lib\token.h" linenr="707" info="Calling function 'isStandardType', 1st argument 'false' value is 0"/>
+</function-call><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:619:25" call-funcname="findmatch" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="628" call-argexpr="varId" call-argvaluetype="0" call-argvalue="0" warning="true"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:620:25" call-funcname="findmatch" call-argnr="4" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="631" call-argexpr="varId" call-argvaluetype="0" call-argvalue="0" warning="true"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:349:10" call-funcname="tokType" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="706" call-argexpr="eVariable" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:454:10" call-funcname="isStandardType" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="707" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:349:10" call-funcname="tokType" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="833" call-argexpr="eVariable" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:55:13" call-funcname="astFlattenRecursive" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="71" call-argexpr="&result" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:86:15" call-funcname="astIsVariableComparison" call-argnr="4" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="203" call-argexpr="&ret" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:330:13" call-funcname="exprDependsOnThis" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="376" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:93:6" call-funcname="precedes" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="389" call-argexpr="end" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path filename="C:\Users\Sau\Desktop\cppcheck-1.89\lib\astutils.cpp" linenr="360" info="Assuming that condition 'end' is not redundant"/>
+</function-call><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:145:6" call-funcname="isVariableChanged" call-argnr="4" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="392" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:145:6" call-funcname="isVariableChanged" call-argnr="5" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="392" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:145:6" call-funcname="isVariableChanged" call-argnr="4" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="420" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:145:6" call-funcname="isVariableChanged" call-argnr="5" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="420" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="462" call-argexpr="macro" call-argvaluetype="0" call-argvalue="0">
+  <path filename="C:\Users\Sau\Desktop\cppcheck-1.89\lib\astutils.cpp" linenr="1686" info="Calling function 'isSameExpression', 2nd argument 'false' value is 0"/>
+</function-call><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="574" call-argexpr="cpp" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path filename="C:\Users\Sau\Desktop\cppcheck-1.89\lib\astutils.cpp" linenr="582" info="Assuming that condition 'if(cpp&&tok1->str()=="+"&&tok1->isBinaryOp())' is not redundant"/>
+</function-call><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="574" call-argexpr="macro" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path filename="C:\Users\Sau\Desktop\cppcheck-1.89\lib\astutils.cpp" linenr="493" info="Assuming that condition 'macro' is not redundant"/>
+</function-call><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:142:6" call-funcname="isVariableChangedByFunctionCall" call-argnr="4" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1107" call-argexpr="&inconclusive" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:151:14" call-funcname="findVariableChanged" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1135" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:151:14" call-funcname="findVariableChanged" call-argnr="5" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1135" call-argexpr="globalvar" call-argvaluetype="0" call-argvalue="0">
+  <path filename="C:\Users\Sau\Desktop\cppcheck-1.89\lib\astutils.cpp" linenr="392" info="Calling function 'isVariableChanged', 4th argument 'false' value is 0"/>
+</function-call><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:151:14" call-funcname="findVariableChanged" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1159" call-argexpr="indirect" call-argvaluetype="0" call-argvalue="0">
+  <path filename="C:\Users\Sau\Desktop\cppcheck-1.89\lib\astutils.cpp" linenr="1135" info="Calling function 'findVariableChanged', 3rd argument '0' value is 0"/>
+</function-call><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:1190:13" call-funcname="getArgumentsRecursive" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1212" call-argexpr="&arguments" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:1190:13" call-funcname="getArgumentsRecursive" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1212" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:62:6" call-funcname="astIsIntegral" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1259" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:235:34" call-funcname="checkCond" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1475" call-argexpr="i.known" call-argvaluetype="0" call-argvalue="0">
+  <path filename="C:\Users\Sau\Desktop\cppcheck-1.89\lib\astutils.cpp" linenr="1469" info="i.known is assigned value 0"/>
+</function-call><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:300:19" call-funcname="checkRecursive" call-argnr="6" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1585" call-argexpr="inInnerClass" call-argvaluetype="0" call-argvalue="0">
+  <path filename="C:\Users\Sau\Desktop\cppcheck-1.89\lib\astutils.cpp" linenr="1868" info="Calling function 'checkRecursive', 6th argument 'false' value is 0"/>
+</function-call><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1686" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="6" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1686" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="7" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1686" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="8" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1686" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1689" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="6" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1689" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="7" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1689" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="8" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1689" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1721" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="6" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1721" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="7" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1721" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="8" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1721" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:300:19" call-funcname="checkRecursive" call-argnr="6" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1868" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:300:19" call-funcname="checkRecursive" call-argnr="6" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1877" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1887" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="6" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1887" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="7" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1887" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="8" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1887" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1937" call-argexpr="macro" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="6" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1937" call-argexpr="pure" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="7" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1937" call-argexpr="followVar" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1955" call-argexpr="macro" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="6" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1955" call-argexpr="pure" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="7" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1955" call-argexpr="followVar" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="316" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:315:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="324" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:323:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="329" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:328:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="337" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:336:24" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="342" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:341:41" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="349" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:348:49" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="354" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:353:31" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:618:25" call-funcname="findsimplematch" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="625" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:624:19" my-argnr="3"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:620:25" call-funcname="findmatch" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="631" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:630:19" my-argnr="3"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/symboldatabase.h:661:10" call-funcname="evaluate" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/symboldatabase.h" linenr="235" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/symboldatabase.h:223:5" my-argnr="8"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:55:13" call-funcname="astFlattenRecursive" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="61" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:55:13" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:55:13" call-funcname="astFlattenRecursive" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="71" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:51:27" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:55:13" call-funcname="astFlattenRecursive" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="71" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:51:27" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:94:13" call-funcname="astIsCharWithSign" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="106" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:58:6" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:94:13" call-funcname="astIsCharWithSign" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="111" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:60:6" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:568:40" call-funcname="getLibraryContainer" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="147" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:72:6" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:93:6" call-funcname="precedes" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="297" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:295:13" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:93:6" call-funcname="precedes" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="297" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:295:13" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="8" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="462" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" my-argnr="8"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="8" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="635" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:110:6" my-argnr="8"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:110:6" call-funcname="isOppositeCond" call-argnr="8" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="746" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:112:6" my-argnr="7"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:121:6" call-funcname="isReturnScope" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="874" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:121:6" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:142:6" call-funcname="isVariableChangedByFunctionCall" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="918" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:132:6" my-argnr="4"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:142:6" call-funcname="isVariableChangedByFunctionCall" call-argnr="4" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="918" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:132:6" my-argnr="5"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:149:6" call-funcname="isVariableChanged" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1070" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:147:6" my-argnr="3"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:151:14" call-funcname="findVariableChanged" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1135" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:145:6" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:151:14" call-funcname="findVariableChanged" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1135" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:145:6" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:151:14" call-funcname="findVariableChanged" call-argnr="6" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1135" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:145:6" my-argnr="5"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:93:6" call-funcname="precedes" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1140" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:152:8" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:93:6" call-funcname="precedes" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1140" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:152:8" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:147:6" call-funcname="isVariableChanged" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1151" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:152:8" my-argnr="6"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:151:14" call-funcname="findVariableChanged" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1159" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:151:14" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:151:14" call-funcname="findVariableChanged" call-argnr="6" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1159" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:151:14" my-argnr="6"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:145:6" call-funcname="isVariableChanged" call-argnr="5" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1173" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:149:6" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:1190:13" call-funcname="getArgumentsRecursive" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1196" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:1190:13" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:300:19" call-funcname="checkRecursive" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1573" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:300:19" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:49:6" call-funcname="visitAstNodes" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1766" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:303:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:49:6" call-funcname="visitAstNodes" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1837" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:299:19" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:300:19" call-funcname="checkRecursive" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1868" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:299:19" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:300:19" call-funcname="checkRecursive" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1868" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:299:19" my-argnr="3"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="4" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1887" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:257:10" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:299:19" call-funcname="check" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1895" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:266:18" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:299:19" call-funcname="check" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1895" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:266:18" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:299:19" call-funcname="check" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1895" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:266:18" my-argnr="3"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:289:17" call-funcname="isEscapedAlias" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1901" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:275:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:299:19" call-funcname="check" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1904" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:275:10" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:299:19" call-funcname="check" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1904" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:275:10" my-argnr="3"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:299:19" call-funcname="check" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1912" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:282:32" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:299:19" call-funcname="check" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1912" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:282:32" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:299:19" call-funcname="check" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1912" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:282:32" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:149:17" my-argnr="1" my-argname="func" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="150" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:157:17" my-argnr="1" my-argname="func" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="158" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:505:14" my-argnr="1" my-argname="s" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="506" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:508:14" my-argnr="1" my-argname="e" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="509" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:1204:17" my-argnr="1" my-argname="sep" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="1210" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:149:17" my-argnr="1" my-argname="func" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="150" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:157:17" my-argnr="1" my-argname="func" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="158" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:168:13" my-argnr="1" my-argname="tok" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="170" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:280:13" my-argnr="1" my-argname="tok" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="282" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:97:6" my-argnr="1" my-argname="tok1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="601" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:99:6" my-argnr="1" my-argname="tok1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="606" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:160:5" my-argnr="1" my-argname="start" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1179" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:165:28" my-argnr="1" my-argname="ftok" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1206" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:235:34" my-argnr="1" my-argname="tok" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1395" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:245:6" my-argnr="1" my-argname="start" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1520" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:285:10" my-argnr="1" my-argname="expr" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1918" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:1131:10" call-funcname="setFlag" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="455" call-argexpr="b" call-argvaluetype="0" call-argvalue="0">
+  <path filename="C:\Users\Sau\Desktop\cppcheck-1.89\lib\token.h" linenr="707" info="Calling function 'isStandardType', 1st argument 'false' value is 0"/>
+</function-call><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:619:25" call-funcname="findmatch" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="628" call-argexpr="varId" call-argvaluetype="0" call-argvalue="0" warning="true"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:620:25" call-funcname="findmatch" call-argnr="4" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="631" call-argexpr="varId" call-argvaluetype="0" call-argvalue="0" warning="true"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:349:10" call-funcname="tokType" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="706" call-argexpr="eVariable" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:454:10" call-funcname="isStandardType" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="707" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:349:10" call-funcname="tokType" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="833" call-argexpr="eVariable" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:55:13" call-funcname="astFlattenRecursive" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="71" call-argexpr="&result" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:86:15" call-funcname="astIsVariableComparison" call-argnr="4" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="203" call-argexpr="&ret" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:330:13" call-funcname="exprDependsOnThis" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="376" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:93:6" call-funcname="precedes" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="389" call-argexpr="end" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path filename="C:\Users\Sau\Desktop\cppcheck-1.89\lib\astutils.cpp" linenr="360" info="Assuming that condition 'end' is not redundant"/>
+</function-call><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:145:6" call-funcname="isVariableChanged" call-argnr="4" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="392" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:145:6" call-funcname="isVariableChanged" call-argnr="5" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="392" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:145:6" call-funcname="isVariableChanged" call-argnr="4" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="420" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:145:6" call-funcname="isVariableChanged" call-argnr="5" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="420" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="462" call-argexpr="macro" call-argvaluetype="0" call-argvalue="0">
+  <path filename="C:\Users\Sau\Desktop\cppcheck-1.89\lib\astutils.cpp" linenr="1686" info="Calling function 'isSameExpression', 2nd argument 'false' value is 0"/>
+</function-call><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="574" call-argexpr="cpp" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path filename="C:\Users\Sau\Desktop\cppcheck-1.89\lib\astutils.cpp" linenr="582" info="Assuming that condition 'if(cpp&&tok1->str()=="+"&&tok1->isBinaryOp())' is not redundant"/>
+</function-call><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="574" call-argexpr="macro" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path filename="C:\Users\Sau\Desktop\cppcheck-1.89\lib\astutils.cpp" linenr="493" info="Assuming that condition 'macro' is not redundant"/>
+</function-call><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:142:6" call-funcname="isVariableChangedByFunctionCall" call-argnr="4" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1107" call-argexpr="&inconclusive" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:151:14" call-funcname="findVariableChanged" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1135" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:151:14" call-funcname="findVariableChanged" call-argnr="5" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1135" call-argexpr="globalvar" call-argvaluetype="0" call-argvalue="0">
+  <path filename="C:\Users\Sau\Desktop\cppcheck-1.89\lib\astutils.cpp" linenr="392" info="Calling function 'isVariableChanged', 4th argument 'false' value is 0"/>
+</function-call><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:151:14" call-funcname="findVariableChanged" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1159" call-argexpr="indirect" call-argvaluetype="0" call-argvalue="0">
+  <path filename="C:\Users\Sau\Desktop\cppcheck-1.89\lib\astutils.cpp" linenr="1135" info="Calling function 'findVariableChanged', 3rd argument '0' value is 0"/>
+</function-call><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:1190:13" call-funcname="getArgumentsRecursive" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1212" call-argexpr="&arguments" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:1190:13" call-funcname="getArgumentsRecursive" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1212" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:62:6" call-funcname="astIsIntegral" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1259" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:235:34" call-funcname="checkCond" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1475" call-argexpr="i.known" call-argvaluetype="0" call-argvalue="0">
+  <path filename="C:\Users\Sau\Desktop\cppcheck-1.89\lib\astutils.cpp" linenr="1469" info="i.known is assigned value 0"/>
+</function-call><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:300:19" call-funcname="checkRecursive" call-argnr="6" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1585" call-argexpr="inInnerClass" call-argvaluetype="0" call-argvalue="0">
+  <path filename="C:\Users\Sau\Desktop\cppcheck-1.89\lib\astutils.cpp" linenr="1868" info="Calling function 'checkRecursive', 6th argument 'false' value is 0"/>
+</function-call><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1686" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="6" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1686" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="7" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1686" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="8" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1686" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1689" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="6" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1689" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="7" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1689" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="8" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1689" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1721" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="6" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1721" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="7" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1721" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="8" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1721" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:300:19" call-funcname="checkRecursive" call-argnr="6" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1868" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:300:19" call-funcname="checkRecursive" call-argnr="6" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1877" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1887" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="6" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1887" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="7" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1887" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="8" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1887" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1937" call-argexpr="macro" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="6" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1937" call-argexpr="pure" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="7" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1937" call-argexpr="followVar" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1955" call-argexpr="macro" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="6" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1955" call-argexpr="pure" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="7" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1955" call-argexpr="followVar" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="316" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:315:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="324" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:323:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="329" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:328:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="337" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:336:24" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="342" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:341:41" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="349" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:348:49" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="354" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:353:31" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:618:25" call-funcname="findsimplematch" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="625" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:624:19" my-argnr="3"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:620:25" call-funcname="findmatch" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="631" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:630:19" my-argnr="3"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/symboldatabase.h:661:10" call-funcname="evaluate" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/symboldatabase.h" linenr="235" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/symboldatabase.h:223:5" my-argnr="8"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:55:13" call-funcname="astFlattenRecursive" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="61" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:55:13" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:55:13" call-funcname="astFlattenRecursive" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="71" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:51:27" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:55:13" call-funcname="astFlattenRecursive" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="71" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:51:27" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:94:13" call-funcname="astIsCharWithSign" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="106" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:58:6" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:94:13" call-funcname="astIsCharWithSign" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="111" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:60:6" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:568:40" call-funcname="getLibraryContainer" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="147" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:72:6" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:93:6" call-funcname="precedes" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="297" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:295:13" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:93:6" call-funcname="precedes" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="297" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:295:13" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="8" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="462" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" my-argnr="8"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="8" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="635" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:110:6" my-argnr="8"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:110:6" call-funcname="isOppositeCond" call-argnr="8" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="746" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:112:6" my-argnr="7"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:121:6" call-funcname="isReturnScope" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="874" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:121:6" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:142:6" call-funcname="isVariableChangedByFunctionCall" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="918" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:132:6" my-argnr="4"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:142:6" call-funcname="isVariableChangedByFunctionCall" call-argnr="4" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="918" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:132:6" my-argnr="5"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:149:6" call-funcname="isVariableChanged" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1070" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:147:6" my-argnr="3"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:151:14" call-funcname="findVariableChanged" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1135" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:145:6" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:151:14" call-funcname="findVariableChanged" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1135" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:145:6" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:151:14" call-funcname="findVariableChanged" call-argnr="6" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1135" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:145:6" my-argnr="5"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:93:6" call-funcname="precedes" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1140" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:152:8" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:93:6" call-funcname="precedes" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1140" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:152:8" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:147:6" call-funcname="isVariableChanged" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1151" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:152:8" my-argnr="6"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:151:14" call-funcname="findVariableChanged" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1159" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:151:14" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:151:14" call-funcname="findVariableChanged" call-argnr="6" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1159" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:151:14" my-argnr="6"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:145:6" call-funcname="isVariableChanged" call-argnr="5" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1173" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:149:6" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:1190:13" call-funcname="getArgumentsRecursive" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1196" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:1190:13" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:300:19" call-funcname="checkRecursive" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1573" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:300:19" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:49:6" call-funcname="visitAstNodes" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1766" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:303:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:49:6" call-funcname="visitAstNodes" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1837" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:299:19" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:300:19" call-funcname="checkRecursive" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1868" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:299:19" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:300:19" call-funcname="checkRecursive" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1868" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:299:19" my-argnr="3"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:95:6" call-funcname="isSameExpression" call-argnr="4" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1887" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:257:10" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:299:19" call-funcname="check" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1895" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:266:18" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:299:19" call-funcname="check" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1895" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:266:18" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:299:19" call-funcname="check" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1895" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:266:18" my-argnr="3"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:289:17" call-funcname="isEscapedAlias" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1901" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:275:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:299:19" call-funcname="check" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1904" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:275:10" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:299:19" call-funcname="check" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1904" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:275:10" my-argnr="3"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:299:19" call-funcname="check" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1912" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:282:32" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:299:19" call-funcname="check" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1912" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:282:32" my-argnr="2"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:299:19" call-funcname="check" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1912" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:282:32" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:149:17" my-argnr="1" my-argname="func" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="150" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:157:17" my-argnr="1" my-argname="func" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="158" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:505:14" my-argnr="1" my-argname="s" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="506" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:508:14" my-argnr="1" my-argname="e" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="509" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:1204:17" my-argnr="1" my-argname="sep" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="1210" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:149:17" my-argnr="1" my-argname="func" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="150" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:157:17" my-argnr="1" my-argname="func" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="158" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:168:13" my-argnr="1" my-argname="tok" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="170" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp:280:13" my-argnr="1" my-argname="tok" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="282" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:97:6" my-argnr="1" my-argname="tok1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="601" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:99:6" my-argnr="1" my-argname="tok1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="606" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:160:5" my-argnr="1" my-argname="start" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1179" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:165:28" my-argnr="1" my-argname="ftok" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1206" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:235:34" my-argnr="1" my-argname="tok" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1395" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:245:6" my-argnr="1" my-argname="start" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1520" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.h:285:10" my-argnr="1" my-argname="expr" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/astutils.cpp" linenr="1918" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="visitAstNodes" lineNumber="34"/>
+    <functiondecl functionName="astFlattenRecursive" lineNumber="55"/>
+    <functiondecl functionName="astFlatten" lineNumber="68"/>
+    <functiondecl functionName="astHasToken" lineNumber="76"/>
+    <functiondecl functionName="astHasVar" lineNumber="85"/>
+    <functiondecl functionName="astIsCharWithSign" lineNumber="94"/>
+    <functiondecl functionName="astIsSignedChar" lineNumber="104"/>
+    <functiondecl functionName="astIsUnknownSignChar" lineNumber="109"/>
+    <functiondecl functionName="astIsIntegral" lineNumber="114"/>
+    <functiondecl functionName="astIsFloat" lineNumber="122"/>
+    <functiondecl functionName="astIsBool" lineNumber="130"/>
+    <functiondecl functionName="astIsPointer" lineNumber="135"/>
+    <functiondecl functionName="astIsIterator" lineNumber="140"/>
+    <functiondecl functionName="astIsContainer" lineNumber="145"/>
+    <functiondecl functionName="astCanonicalType" lineNumber="150"/>
+    <functiondecl functionName="match" lineNumber="168"/>
+    <functiondecl functionName="astIsVariableComparison" lineNumber="177"/>
+    <functiondecl functionName="isFunctionCall" lineNumber="217"/>
+    <functiondecl functionName="hasToken" lineNumber="228"/>
+    <functiondecl functionName="nextAfterAstRightmostLeaf" lineNumber="237"/>
+    <functiondecl functionName="astParentSkipParens" lineNumber="255"/>
+    <functiondecl functionName="astParentSkipParens" lineNumber="259"/>
+    <functiondecl functionName="getVariableInitExpression" lineNumber="271"/>
+    <functiondecl functionName="isInLoopCondition" lineNumber="280"/>
+    <functiondecl functionName="precedes" lineNumber="286"/>
+    <functiondecl functionName="isAliased" lineNumber="295"/>
+    <functiondecl functionName="isAliased" lineNumber="318"/>
+    <functiondecl functionName="exprDependsOnThis" lineNumber="330"/>
+    <functiondecl functionName="followVariableExpression" lineNumber="355"/>
+    <functiondecl functionName="followVariableExpressionError" lineNumber="434"/>
+    <functiondecl functionName="isSameExpression" lineNumber="448"/>
+    <functiondecl functionName="isEqualKnownValue" lineNumber="599"/>
+    <functiondecl functionName="isDifferentKnownValues" lineNumber="604"/>
+    <functiondecl functionName="isZeroBoundCond" lineNumber="609"/>
+    <functiondecl functionName="isOppositeCond" lineNumber="627"/>
+    <functiondecl functionName="isOppositeExpression" lineNumber="742"/>
+    <functiondecl functionName="isConstExpression" lineNumber="755"/>
+    <functiondecl functionName="isWithoutSideEffects" lineNumber="777"/>
+    <functiondecl functionName="isUniqueExpression" lineNumber="791"/>
+    <functiondecl functionName="isEscaped" lineNumber="845"/>
+    <functiondecl functionName="isEscapedOrJump" lineNumber="853"/>
+    <functiondecl functionName="isReturnScope" lineNumber="861"/>
+    <functiondecl functionName="isVariableChangedByFunctionCall" lineNumber="913"/>
+    <functiondecl functionName="isScopeBracket" lineNumber="923"/>
+    <functiondecl functionName="isVariableChangedByFunctionCall" lineNumber="936"/>
+    <functiondecl functionName="isVariableChanged" lineNumber="1052"/>
+    <functiondecl functionName="isVariableChanged" lineNumber="1133"/>
+    <functiondecl functionName="findVariableChanged" lineNumber="1138"/>
+    <functiondecl functionName="findVariableChanged" lineNumber="1157"/>
+    <functiondecl functionName="isVariableChanged" lineNumber="1162"/>
+    <functiondecl functionName="numberOfArguments" lineNumber="1176"/>
+    <functiondecl functionName="getArgumentsRecursive" lineNumber="1190"/>
+    <functiondecl functionName="getArguments" lineNumber="1203"/>
+    <functiondecl functionName="findLambdaStartToken" lineNumber="1216"/>
+    <functiondecl functionName="findLambdaEndToken" lineNumber="1228"/>
+    <functiondecl functionName="isLikelyStream" lineNumber="1245"/>
+    <functiondecl functionName="isLikelyStreamRead" lineNumber="1262"/>
+    <functiondecl functionName="isCPPCast" lineNumber="1285"/>
+    <functiondecl functionName="isConstVarExpression" lineNumber="1290"/>
+    <functiondecl functionName="getLHSVariableRecursive" lineNumber="1321"/>
+    <functiondecl functionName="getLHSVariable" lineNumber="1336"/>
+    <functiondecl functionName="nonLocal" lineNumber="1347"/>
+    <functiondecl functionName="hasGccCompoundStatement" lineNumber="1352"/>
+    <functiondecl functionName="hasFunctionCall" lineNumber="1361"/>
+    <functiondecl functionName="findOuterScope" lineNumber="1371"/>
+    <functiondecl functionName="getCondTok" lineNumber="1380"/>
+    <functiondecl functionName="checkCond" lineNumber="1393"/>
+    <functiondecl functionName="forwardRange" lineNumber="1428"/>
+    <functiondecl functionName="forward" lineNumber="1508"/>
+    <functiondecl functionName="reaches" lineNumber="1518"/>
+    <functiondecl functionName="isUnchanged" lineNumber="1530"/>
+    <functiondecl functionName="checkRecursive" lineNumber="1555"/>
+    <functiondecl functionName="isGlobalData" lineNumber="1763"/>
+    <functiondecl functionName="check" lineNumber="1831"/>
+    <functiondecl functionName="hasOperand" lineNumber="1883"/>
+    <functiondecl functionName="reassign" lineNumber="1892"/>
+    <functiondecl functionName="unusedValue" lineNumber="1899"/>
+    <functiondecl functionName="valueFlow" lineNumber="1908"/>
+    <functiondecl functionName="possiblyAliased" lineNumber="1916"/>
+    <functiondecl functionName="isEscapedAlias" lineNumber="1962"/>
+    <functiondecl functionName="isNullOperand" lineNumber="1981"/>
+    <functiondecl functionName="visitAstNodes" lineNumber="34"/>
+    <functiondecl functionName="astFlattenRecursive" lineNumber="55"/>
+    <functiondecl functionName="astFlatten" lineNumber="68"/>
+    <functiondecl functionName="astHasToken" lineNumber="76"/>
+    <functiondecl functionName="astHasVar" lineNumber="85"/>
+    <functiondecl functionName="astIsCharWithSign" lineNumber="94"/>
+    <functiondecl functionName="astIsSignedChar" lineNumber="104"/>
+    <functiondecl functionName="astIsUnknownSignChar" lineNumber="109"/>
+    <functiondecl functionName="astIsIntegral" lineNumber="114"/>
+    <functiondecl functionName="astIsFloat" lineNumber="122"/>
+    <functiondecl functionName="astIsBool" lineNumber="130"/>
+    <functiondecl functionName="astIsPointer" lineNumber="135"/>
+    <functiondecl functionName="astIsIterator" lineNumber="140"/>
+    <functiondecl functionName="astIsContainer" lineNumber="145"/>
+    <functiondecl functionName="astCanonicalType" lineNumber="150"/>
+    <functiondecl functionName="match" lineNumber="168"/>
+    <functiondecl functionName="astIsVariableComparison" lineNumber="177"/>
+    <functiondecl functionName="isFunctionCall" lineNumber="217"/>
+    <functiondecl functionName="hasToken" lineNumber="228"/>
+    <functiondecl functionName="nextAfterAstRightmostLeaf" lineNumber="237"/>
+    <functiondecl functionName="astParentSkipParens" lineNumber="255"/>
+    <functiondecl functionName="astParentSkipParens" lineNumber="259"/>
+    <functiondecl functionName="getVariableInitExpression" lineNumber="271"/>
+    <functiondecl functionName="isInLoopCondition" lineNumber="280"/>
+    <functiondecl functionName="precedes" lineNumber="286"/>
+    <functiondecl functionName="isAliased" lineNumber="295"/>
+    <functiondecl functionName="isAliased" lineNumber="318"/>
+    <functiondecl functionName="exprDependsOnThis" lineNumber="330"/>
+    <functiondecl functionName="followVariableExpression" lineNumber="355"/>
+    <functiondecl functionName="followVariableExpressionError" lineNumber="434"/>
+    <functiondecl functionName="isSameExpression" lineNumber="448"/>
+    <functiondecl functionName="isEqualKnownValue" lineNumber="599"/>
+    <functiondecl functionName="isDifferentKnownValues" lineNumber="604"/>
+    <functiondecl functionName="isZeroBoundCond" lineNumber="609"/>
+    <functiondecl functionName="isOppositeCond" lineNumber="627"/>
+    <functiondecl functionName="isOppositeExpression" lineNumber="742"/>
+    <functiondecl functionName="isConstExpression" lineNumber="755"/>
+    <functiondecl functionName="isWithoutSideEffects" lineNumber="777"/>
+    <functiondecl functionName="isUniqueExpression" lineNumber="791"/>
+    <functiondecl functionName="isEscaped" lineNumber="845"/>
+    <functiondecl functionName="isEscapedOrJump" lineNumber="853"/>
+    <functiondecl functionName="isReturnScope" lineNumber="861"/>
+    <functiondecl functionName="isVariableChangedByFunctionCall" lineNumber="913"/>
+    <functiondecl functionName="isScopeBracket" lineNumber="923"/>
+    <functiondecl functionName="isVariableChangedByFunctionCall" lineNumber="936"/>
+    <functiondecl functionName="isVariableChanged" lineNumber="1052"/>
+    <functiondecl functionName="isVariableChanged" lineNumber="1133"/>
+    <functiondecl functionName="findVariableChanged" lineNumber="1138"/>
+    <functiondecl functionName="findVariableChanged" lineNumber="1157"/>
+    <functiondecl functionName="isVariableChanged" lineNumber="1162"/>
+    <functiondecl functionName="numberOfArguments" lineNumber="1176"/>
+    <functiondecl functionName="getArgumentsRecursive" lineNumber="1190"/>
+    <functiondecl functionName="getArguments" lineNumber="1203"/>
+    <functiondecl functionName="findLambdaStartToken" lineNumber="1216"/>
+    <functiondecl functionName="findLambdaEndToken" lineNumber="1228"/>
+    <functiondecl functionName="isLikelyStream" lineNumber="1245"/>
+    <functiondecl functionName="isLikelyStreamRead" lineNumber="1262"/>
+    <functiondecl functionName="isCPPCast" lineNumber="1285"/>
+    <functiondecl functionName="isConstVarExpression" lineNumber="1290"/>
+    <functiondecl functionName="getLHSVariableRecursive" lineNumber="1321"/>
+    <functiondecl functionName="getLHSVariable" lineNumber="1336"/>
+    <functiondecl functionName="nonLocal" lineNumber="1347"/>
+    <functiondecl functionName="hasGccCompoundStatement" lineNumber="1352"/>
+    <functiondecl functionName="hasFunctionCall" lineNumber="1361"/>
+    <functiondecl functionName="findOuterScope" lineNumber="1371"/>
+    <functiondecl functionName="getCondTok" lineNumber="1380"/>
+    <functiondecl functionName="checkCond" lineNumber="1393"/>
+    <functiondecl functionName="forwardRange" lineNumber="1428"/>
+    <functiondecl functionName="forward" lineNumber="1508"/>
+    <functiondecl functionName="reaches" lineNumber="1518"/>
+    <functiondecl functionName="isUnchanged" lineNumber="1530"/>
+    <functiondecl functionName="checkRecursive" lineNumber="1555"/>
+    <functiondecl functionName="isGlobalData" lineNumber="1763"/>
+    <functiondecl functionName="check" lineNumber="1831"/>
+    <functiondecl functionName="hasOperand" lineNumber="1883"/>
+    <functiondecl functionName="reassign" lineNumber="1892"/>
+    <functiondecl functionName="unusedValue" lineNumber="1899"/>
+    <functiondecl functionName="valueFlow" lineNumber="1908"/>
+    <functiondecl functionName="possiblyAliased" lineNumber="1916"/>
+    <functiondecl functionName="isEscapedAlias" lineNumber="1962"/>
+    <functiondecl functionName="isNullOperand" lineNumber="1981"/>
+    <functiondecl functionName="visitAstNodes" lineNumber="34"/>
+    <functiondecl functionName="astFlattenRecursive" lineNumber="55"/>
+    <functiondecl functionName="astFlatten" lineNumber="68"/>
+    <functiondecl functionName="astHasToken" lineNumber="76"/>
+    <functiondecl functionName="astHasVar" lineNumber="85"/>
+    <functiondecl functionName="astIsCharWithSign" lineNumber="94"/>
+    <functiondecl functionName="astIsSignedChar" lineNumber="104"/>
+    <functiondecl functionName="astIsUnknownSignChar" lineNumber="109"/>
+    <functiondecl functionName="astIsIntegral" lineNumber="114"/>
+    <functiondecl functionName="astIsFloat" lineNumber="122"/>
+    <functiondecl functionName="astIsBool" lineNumber="130"/>
+    <functiondecl functionName="astIsPointer" lineNumber="135"/>
+    <functiondecl functionName="astIsIterator" lineNumber="140"/>
+    <functiondecl functionName="astIsContainer" lineNumber="145"/>
+    <functiondecl functionName="astCanonicalType" lineNumber="150"/>
+    <functiondecl functionName="match" lineNumber="168"/>
+    <functiondecl functionName="astIsVariableComparison" lineNumber="177"/>
+    <functiondecl functionName="isFunctionCall" lineNumber="217"/>
+    <functiondecl functionName="hasToken" lineNumber="228"/>
+    <functiondecl functionName="nextAfterAstRightmostLeaf" lineNumber="237"/>
+    <functiondecl functionName="astParentSkipParens" lineNumber="255"/>
+    <functiondecl functionName="astParentSkipParens" lineNumber="259"/>
+    <functiondecl functionName="getVariableInitExpression" lineNumber="271"/>
+    <functiondecl functionName="isInLoopCondition" lineNumber="280"/>
+    <functiondecl functionName="precedes" lineNumber="286"/>
+    <functiondecl functionName="isAliased" lineNumber="295"/>
+    <functiondecl functionName="isAliased" lineNumber="318"/>
+    <functiondecl functionName="exprDependsOnThis" lineNumber="330"/>
+    <functiondecl functionName="followVariableExpression" lineNumber="355"/>
+    <functiondecl functionName="followVariableExpressionError" lineNumber="434"/>
+    <functiondecl functionName="isSameExpression" lineNumber="448"/>
+    <functiondecl functionName="isEqualKnownValue" lineNumber="599"/>
+    <functiondecl functionName="isDifferentKnownValues" lineNumber="604"/>
+    <functiondecl functionName="isZeroBoundCond" lineNumber="609"/>
+    <functiondecl functionName="isOppositeCond" lineNumber="627"/>
+    <functiondecl functionName="isOppositeExpression" lineNumber="742"/>
+    <functiondecl functionName="isConstExpression" lineNumber="755"/>
+    <functiondecl functionName="isWithoutSideEffects" lineNumber="777"/>
+    <functiondecl functionName="isUniqueExpression" lineNumber="791"/>
+    <functiondecl functionName="isEscaped" lineNumber="845"/>
+    <functiondecl functionName="isEscapedOrJump" lineNumber="853"/>
+    <functiondecl functionName="isReturnScope" lineNumber="861"/>
+    <functiondecl functionName="isVariableChangedByFunctionCall" lineNumber="913"/>
+    <functiondecl functionName="isScopeBracket" lineNumber="923"/>
+    <functiondecl functionName="isVariableChangedByFunctionCall" lineNumber="936"/>
+    <functiondecl functionName="isVariableChanged" lineNumber="1052"/>
+    <functiondecl functionName="isVariableChanged" lineNumber="1133"/>
+    <functiondecl functionName="findVariableChanged" lineNumber="1138"/>
+    <functiondecl functionName="findVariableChanged" lineNumber="1157"/>
+    <functiondecl functionName="isVariableChanged" lineNumber="1162"/>
+    <functiondecl functionName="numberOfArguments" lineNumber="1176"/>
+    <functiondecl functionName="getArgumentsRecursive" lineNumber="1190"/>
+    <functiondecl functionName="getArguments" lineNumber="1203"/>
+    <functiondecl functionName="findLambdaStartToken" lineNumber="1216"/>
+    <functiondecl functionName="findLambdaEndToken" lineNumber="1228"/>
+    <functiondecl functionName="isLikelyStream" lineNumber="1245"/>
+    <functiondecl functionName="isLikelyStreamRead" lineNumber="1262"/>
+    <functiondecl functionName="isCPPCast" lineNumber="1285"/>
+    <functiondecl functionName="isConstVarExpression" lineNumber="1290"/>
+    <functiondecl functionName="getLHSVariableRecursive" lineNumber="1321"/>
+    <functiondecl functionName="getLHSVariable" lineNumber="1336"/>
+    <functiondecl functionName="nonLocal" lineNumber="1347"/>
+    <functiondecl functionName="hasGccCompoundStatement" lineNumber="1352"/>
+    <functiondecl functionName="hasFunctionCall" lineNumber="1361"/>
+    <functiondecl functionName="findOuterScope" lineNumber="1371"/>
+    <functiondecl functionName="getCondTok" lineNumber="1380"/>
+    <functiondecl functionName="checkCond" lineNumber="1393"/>
+    <functiondecl functionName="forwardRange" lineNumber="1428"/>
+    <functiondecl functionName="forward" lineNumber="1508"/>
+    <functiondecl functionName="reaches" lineNumber="1518"/>
+    <functiondecl functionName="isUnchanged" lineNumber="1530"/>
+    <functiondecl functionName="checkRecursive" lineNumber="1555"/>
+    <functiondecl functionName="isGlobalData" lineNumber="1763"/>
+    <functiondecl functionName="check" lineNumber="1831"/>
+    <functiondecl functionName="hasOperand" lineNumber="1883"/>
+    <functiondecl functionName="reassign" lineNumber="1892"/>
+    <functiondecl functionName="unusedValue" lineNumber="1899"/>
+    <functiondecl functionName="valueFlow" lineNumber="1908"/>
+    <functiondecl functionName="possiblyAliased" lineNumber="1916"/>
+    <functiondecl functionName="isEscapedAlias" lineNumber="1962"/>
+    <functiondecl functionName="isNullOperand" lineNumber="1981"/>
+    <functioncall functionName="ARGVALUE"/>
+    <functioncall functionName="AST"/>
+    <functioncall functionName="AT_INDEX"/>
+    <functioncall functionName="Address"/>
+    <functioncall functionName="AllocFunc"/>
+    <functioncall functionName="Argument"/>
+    <functioncall functionName="ArgumentChecks"/>
+    <functioncall functionName="BAD_ATTRIBUTE_VALUE"/>
+    <functioncall functionName="BAD_XML"/>
+    <functioncall functionName="BAILOUT"/>
+    <functioncall functionName="BORLAND"/>
+    <functioncall functionName="BREAK"/>
+    <functioncall functionName="BUFFER"/>
+    <functioncall functionName="BUFFER_NT"/>
+    <functioncall functionName="BUFFER_SIZE"/>
+    <functioncall functionName="Break"/>
+    <functioncall functionName="C"/>
+    <functioncall functionName="C11"/>
+    <functioncall functionName="C89"/>
+    <functioncall functionName="C99"/>
+    <functioncall functionName="CHANGE"/>
+    <functioncall functionName="CHANGE_CONTENT"/>
+    <functioncall functionName="CHANGE_INTERNAL"/>
+    <functioncall functionName="CLEAR"/>
+    <functioncall functionName="CLOCKS_PER_SEC"/>
+    <functioncall functionName="COMPILE_DB"/>
+    <functioncall functionName="CONTAINER"/>
+    <functioncall functionName="CONTAINER_SIZE"/>
+    <functioncall functionName="CPP"/>
+    <functioncall functionName="CPP03"/>
+    <functioncall functionName="CPP11"/>
+    <functioncall functionName="CPP14"/>
+    <functioncall functionName="CPP17"/>
+    <functioncall functionName="CPP20"/>
+    <functioncall functionName="CPPCHECK_GUI"/>
+    <functioncall functionName="CPPLatest"/>
+    <functioncall functionName="CodeBlock"/>
+    <functioncall functionName="Container"/>
+    <functioncall functionName="Continue"/>
+    <functioncall functionName="DIR_IN"/>
+    <functioncall functionName="DIR_INOUT"/>
+    <functioncall functionName="DIR_OUT"/>
+    <functioncall functionName="DIR_UNKNOWN"/>
+    <functioncall functionName="DOUBLE"/>
+    <functioncall functionName="DUPLICATE_PLATFORM_TYPE"/>
+    <functioncall functionName="Dimension"/>
+    <functioncall functionName="EMPTY"/>
+    <functioncall functionName="END_ITERATOR"/>
+    <functioncall functionName="ERASE"/>
+    <functioncall functionName="ErrorLogger"/>
+    <functioncall functionName="ErrorMessage"/>
+    <functioncall functionName="ExportedFunctions"/>
+    <functioncall functionName="FALLBACK1"/>
+    <functioncall functionName="FALLBACK2"/>
+    <functioncall functionName="FILE_NOT_FOUND"/>
+    <functioncall functionName="FIND"/>
+    <functioncall functionName="False"/>
+    <functioncall functionName="FileLocation"/>
+    <functioncall functionName="FileSettings"/>
+    <functioncall functionName="ForwardedVariable"/>
+    <functioncall functionName="FriendInfo"/>
+    <functioncall functionName="Function"/>
+    <functioncall functionName="Global"/>
+    <functioncall functionName="HIGH"/>
+    <functioncall functionName="ID"/>
+    <functioncall functionName="INSERT"/>
+    <functioncall functionName="INSTANTIATION"/>
+    <functioncall functionName="INT"/>
+    <functioncall functionName="INTERNAL"/>
+    <functioncall functionName="ITEM"/>
+    <functioncall functionName="ITERATOR"/>
+    <functioncall functionName="Inconclusive"/>
+    <functioncall functionName="InternalError"/>
+    <functioncall functionName="Iterator"/>
+    <functioncall functionName="Known"/>
+    <functioncall functionName="LIFETIME"/>
+    <functioncall functionName="LIMIT"/>
+    <functioncall functionName="LONGDOUBLE"/>
+    <functioncall functionName="LOW"/>
+    <functioncall functionName="Lambda"/>
+    <functioncall functionName="Local"/>
+    <functioncall functionName="MISSING"/>
+    <functioncall functionName="MISSING_ATTRIBUTE"/>
+    <functioncall functionName="MOVED"/>
+    <functioncall functionName="MUL"/>
+    <functioncall functionName="Match"/>
+    <functioncall functionName="MinSize"/>
+    <functioncall functionName="MovedVariable"/>
+    <functioncall functionName="NOMATCH"/>
+    <functioncall functionName="NONE"/>
+    <functioncall functionName="NONSTD"/>
+    <functioncall functionName="NO_ACTION"/>
+    <functioncall functionName="NO_LINE"/>
+    <functioncall functionName="NO_YIELD"/>
+    <functioncall functionName="Namespace"/>
+    <functioncall functionName="Native"/>
+    <functioncall functionName="NonMovedVariable"/>
+    <functioncall functionName="None"/>
+    <functioncall functionName="OK"/>
+    <functioncall functionName="Object"/>
+    <functioncall functionName="PLATFORM_TYPE_REDEFINED"/>
+    <functioncall functionName="POP"/>
+    <functioncall functionName="PUSH"/>
+    <functioncall functionName="PathAnalysis"/>
+    <functioncall functionName="Platform"/>
+    <functioncall functionName="PlatformFile"/>
+    <functioncall functionName="PlatformType"/>
+    <functioncall functionName="PodType"/>
+    <functioncall functionName="Possible"/>
+    <functioncall functionName="Private"/>
+    <functioncall functionName="Protected"/>
+    <functioncall functionName="Public"/>
+    <functioncall functionName="READ"/>
+    <functioncall functionName="RECORD"/>
+    <functioncall functionName="RESIZE"/>
+    <functioncall functionName="RETURN"/>
+    <functioncall functionName="Reassign"/>
+    <functioncall functionName="Result"/>
+    <functioncall functionName="SAME"/>
+    <functioncall functionName="SHOWTIME_FILE"/>
+    <functioncall functionName="SHOWTIME_SUMMARY"/>
+    <functioncall functionName="SHOWTIME_TOP5"/>
+    <functioncall functionName="SIGNED"/>
+    <functioncall functionName="SIZE"/>
+    <functioncall functionName="SIZEOF"/>
+    <functioncall functionName="START_ITERATOR"/>
+    <functioncall functionName="STRLEN"/>
+    <functioncall functionName="SYNTAX"/>
+    <functioncall functionName="Scope"/>
+    <functioncall functionName="ScopeInfo2"/>
+    <functioncall functionName="Standards"/>
+    <functioncall functionName="Suppression"/>
+    <functioncall functionName="TOK"/>
+    <functioncall functionName="Throw"/>
+    <functioncall functionName="TimerResultsData"/>
+    <functioncall functionName="Token"/>
+    <functioncall functionName="TokenAndName"/>
+    <functioncall functionName="TokenImpl"/>
+    <functioncall functionName="True"/>
+    <functioncall functionName="Type"/>
+    <functioncall functionName="UNINIT"/>
+    <functioncall functionName="UNKNOWN"/>
+    <functioncall functionName="UNKNOWN_ELEMENT"/>
+    <functioncall functionName="UNKNOWN_INT"/>
+    <functioncall functionName="UNKNOWN_MACRO"/>
+    <functioncall functionName="UNKNOWN_SIGN"/>
+    <functioncall functionName="UNKNOWN_TYPE"/>
+    <functioncall functionName="UNSIGNED"/>
+    <functioncall functionName="UNSUPPORTED_FORMAT"/>
+    <functioncall functionName="Unix32"/>
+    <functioncall functionName="Unix64"/>
+    <functioncall functionName="Unknown"/>
+    <functioncall functionName="Unspecified"/>
+    <functioncall functionName="UnusedValue"/>
+    <functioncall functionName="VALUE"/>
+    <functioncall functionName="VS_SLN"/>
+    <functioncall functionName="VS_VCXPROJ"/>
+    <functioncall functionName="Value"/>
+    <functioncall functionName="ValueFlow"/>
+    <functioncall functionName="ValueType"/>
+    <functioncall functionName="WCHAR_T"/>
+    <functioncall functionName="WRITE"/>
+    <functioncall functionName="WarnInfo"/>
+    <functioncall functionName="Win32A"/>
+    <functioncall functionName="Win32W"/>
+    <functioncall functionName="Win64"/>
+    <functioncall functionName="_const_ptr"/>
+    <functioncall functionName="_long"/>
+    <functioncall functionName="_pointer"/>
+    <functioncall functionName="_ptr_ptr"/>
+    <functioncall functionName="_signed"/>
+    <functioncall functionName="_unsigned"/>
+    <functioncall functionName="a"/>
+    <functioncall functionName="ac"/>
+    <functioncall functionName="access"/>
+    <functioncall functionName="access_"/>
+    <functioncall functionName="action"/>
+    <functioncall functionName="addrOf"/>
+    <functioncall functionName="all_of"/>
+    <functioncall functionName="any_of"/>
+    <functioncall functionName="arg"/>
+    <functioncall functionName="arg2"/>
+    <functioncall functionName="argCount"/>
+    <functioncall functionName="argnr"/>
+    <functioncall functionName="argument"/>
+    <functioncall functionName="argumentList"/>
+    <functioncall functionName="arguments"/>
+    <functioncall functionName="arrayLike_indexOp"/>
+    <functioncall functionName="ast"/>
+    <functioncall functionName="astFlattenRecursive"/>
+    <functioncall functionName="astHasToken"/>
+    <functioncall functionName="astHasVar"/>
+    <functioncall functionName="astIsCharWithSign"/>
+    <functioncall functionName="astIsIntegral"/>
+    <functioncall functionName="astIsPointer"/>
+    <functioncall functionName="astIsVariableComparison"/>
+    <functioncall functionName="astOperand1"/>
+    <functioncall functionName="astOperand2"/>
+    <functioncall functionName="astParent"/>
+    <functioncall functionName="astParentSkipParens"/>
+    <functioncall functionName="astString"/>
+    <functioncall functionName="astTop"/>
+    <functioncall functionName="at"/>
+    <functioncall functionName="b"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="bits"/>
+    <functioncall functionName="blockName"/>
+    <functioncall functionName="blockStart"/>
+    <functioncall functionName="bodyEnd"/>
+    <functioncall functionName="bodyEnd_"/>
+    <functioncall functionName="bodyStart"/>
+    <functioncall functionName="bool"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="c"/>
+    <functioncall functionName="calloc"/>
+    <functioncall functionName="caseInsensitiveStringCompare"/>
+    <functioncall functionName="cbegin"/>
+    <functioncall functionName="cend"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="char_bit"/>
+    <functioncall functionName="check"/>
+    <functioncall functionName="checkCond"/>
+    <functioncall functionName="checkElse"/>
+    <functioncall functionName="checkRecursive"/>
+    <functioncall functionName="checkThen"/>
+    <functioncall functionName="classDef"/>
+    <functioncall functionName="classDef_"/>
+    <functioncall functionName="classScope"/>
+    <functioncall functionName="classScope_"/>
+    <functioncall functionName="classes"/>
+    <functioncall functionName="close"/>
+    <functioncall functionName="column"/>
+    <functioncall functionName="compare"/>
+    <functioncall functionName="cond1"/>
+    <functioncall functionName="cond2"/>
+    <functioncall functionName="condTok"/>
+    <functioncall functionName="condition"/>
+    <functioncall functionName="conditionStart"/>
+    <functioncall functionName="conditional"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="const_cast"/>
+    <functioncall functionName="constness"/>
+    <functioncall functionName="container"/>
+    <functioncall functionName="containerTypeToken"/>
+    <functioncall functionName="continue"/>
+    <functioncall functionName="cpp"/>
+    <functioncall functionName="debug"/>
+    <functioncall functionName="declEndToken"/>
+    <functioncall functionName="declarationId"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="defaultArg"/>
+    <functioncall functionName="delete"/>
+    <functioncall functionName="depth"/>
+    <functioncall functionName="deref"/>
+    <functioncall functionName="direction"/>
+    <functioncall functionName="done"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="e"/>
+    <functioncall functionName="eArithmeticalOp"/>
+    <functioncall functionName="eAssignmentOp"/>
+    <functioncall functionName="eBitOp"/>
+    <functioncall functionName="eBoolean"/>
+    <functioncall functionName="eBracket"/>
+    <functioncall functionName="eCatch"/>
+    <functioncall functionName="eChar"/>
+    <functioncall functionName="eClass"/>
+    <functioncall functionName="eComparisonOp"/>
+    <functioncall functionName="eConstructor"/>
+    <functioncall functionName="eCopyConstructor"/>
+    <functioncall functionName="eDestructor"/>
+    <functioncall functionName="eDo"/>
+    <functioncall functionName="eElse"/>
+    <functioncall functionName="eEnum"/>
+    <functioncall functionName="eEnumerator"/>
+    <functioncall functionName="eExtendedOp"/>
+    <functioncall functionName="eFor"/>
+    <functioncall functionName="eFunction"/>
+    <functioncall functionName="eGlobal"/>
+    <functioncall functionName="eIf"/>
+    <functioncall functionName="eIncDecOp"/>
+    <functioncall functionName="eKeyword"/>
+    <functioncall functionName="eLambda"/>
+    <functioncall functionName="eLiteral"/>
+    <functioncall functionName="eLogicalOp"/>
+    <functioncall functionName="eMoveConstructor"/>
+    <functioncall functionName="eName"/>
+    <functioncall functionName="eNamespace"/>
+    <functioncall functionName="eNone"/>
+    <functioncall functionName="eNumber"/>
+    <functioncall functionName="eOperatorEqual"/>
+    <functioncall functionName="eOther"/>
+    <functioncall functionName="eString"/>
+    <functioncall functionName="eStruct"/>
+    <functioncall functionName="eSwitch"/>
+    <functioncall functionName="eTry"/>
+    <functioncall functionName="eType"/>
+    <functioncall functionName="eUnconditional"/>
+    <functioncall functionName="eUnion"/>
+    <functioncall functionName="eVariable"/>
+    <functioncall functionName="eWhile"/>
+    <functioncall functionName="elseStart"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="emptyString"/>
+    <functioncall functionName="enclosingScope"/>
+    <functioncall functionName="enclosingScope_"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="endBlock"/>
+    <functioncall functionName="endScope"/>
+    <functioncall functionName="endTok"/>
+    <functioncall functionName="endToken"/>
+    <functioncall functionName="endToken2"/>
+    <functioncall functionName="end_"/>
+    <functioncall functionName="endlen"/>
+    <functioncall functionName="error"/>
+    <functioncall functionName="errorId"/>
+    <functioncall functionName="errorPath"/>
+    <functioncall functionName="errorcode"/>
+    <functioncall functionName="errors"/>
+    <functioncall functionName="evaluate"/>
+    <functioncall functionName="expr"/>
+    <functioncall functionName="expr1"/>
+    <functioncall functionName="expr2"/>
+    <functioncall functionName="exprDependsOnThis"/>
+    <functioncall functionName="exprVarIds"/>
+    <functioncall functionName="expressionString"/>
+    <functioncall functionName="externalFunctions"/>
+    <functioncall functionName="externalVariables"/>
+    <functioncall functionName="f"/>
+    <functioncall functionName="fAtAddress"/>
+    <functioncall functionName="fConstexpr"/>
+    <functioncall functionName="fFamilyMask"/>
+    <functioncall functionName="fHasBody"/>
+    <functioncall functionName="fHasDefault"/>
+    <functioncall functionName="fHasFinalSpecifier"/>
+    <functioncall functionName="fHasLvalRefQual"/>
+    <functioncall functionName="fHasOverrideSpecifier"/>
+    <functioncall functionName="fHasRvalRefQual"/>
+    <functioncall functionName="fHasTrailingReturnType"/>
+    <functioncall functionName="fHasVirtualSpecifier"/>
+    <functioncall functionName="fIncompleteVar"/>
+    <functioncall functionName="fIsAlias"/>
+    <functioncall functionName="fIsArray"/>
+    <functioncall functionName="fIsAttributeConst"/>
+    <functioncall functionName="fIsAttributeConstructor"/>
+    <functioncall functionName="fIsAttributeDestructor"/>
+    <functioncall functionName="fIsAttributeNodiscard"/>
+    <functioncall functionName="fIsAttributeNoreturn"/>
+    <functioncall functionName="fIsAttributeNothrow"/>
+    <functioncall functionName="fIsAttributePacked"/>
+    <functioncall functionName="fIsAttributePure"/>
+    <functioncall functionName="fIsAttributeUnused"/>
+    <functioncall functionName="fIsAttributeUsed"/>
+    <functioncall functionName="fIsCast"/>
+    <functioncall functionName="fIsClass"/>
+    <functioncall functionName="fIsComplex"/>
+    <functioncall functionName="fIsConst"/>
+    <functioncall functionName="fIsControlFlowKeyword"/>
+    <functioncall functionName="fIsDefault"/>
+    <functioncall functionName="fIsDelete"/>
+    <functioncall functionName="fIsEnumType"/>
+    <functioncall functionName="fIsEscapeFunction"/>
+    <functioncall functionName="fIsExpandedMacro"/>
+    <functioncall functionName="fIsExplicit"/>
+    <functioncall functionName="fIsExtern"/>
+    <functioncall functionName="fIsFloatType"/>
+    <functioncall functionName="fIsForwardDeclaration"/>
+    <functioncall functionName="fIsFriend"/>
+    <functioncall functionName="fIsFunction"/>
+    <functioncall functionName="fIsInline"/>
+    <functioncall functionName="fIsLiteral"/>
+    <functioncall functionName="fIsLong"/>
+    <functioncall functionName="fIsMutable"/>
+    <functioncall functionName="fIsName"/>
+    <functioncall functionName="fIsNoExcept"/>
+    <functioncall functionName="fIsOperator"/>
+    <functioncall functionName="fIsOperatorKeyword"/>
+    <functioncall functionName="fIsPartialSpecialization"/>
+    <functioncall functionName="fIsPointer"/>
+    <functioncall functionName="fIsPointerCompare"/>
+    <functioncall functionName="fIsPure"/>
+    <functioncall functionName="fIsRValueRef"/>
+    <functioncall functionName="fIsReference"/>
+    <functioncall functionName="fIsSigned"/>
+    <functioncall functionName="fIsSmartPointer"/>
+    <functioncall functionName="fIsSpecialization"/>
+    <functioncall functionName="fIsStandardType"/>
+    <functioncall functionName="fIsStatic"/>
+    <functioncall functionName="fIsStaticLocal"/>
+    <functioncall functionName="fIsStlString"/>
+    <functioncall functionName="fIsStlType"/>
+    <functioncall functionName="fIsTemplateArg"/>
+    <functioncall functionName="fIsThrow"/>
+    <functioncall functionName="fIsUnsigned"/>
+    <functioncall functionName="fIsVariable"/>
+    <functioncall functionName="fIsVariadic"/>
+    <functioncall functionName="fIsVolatile"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="file"/>
+    <functioncall functionName="fileIndex"/>
+    <functioncall functionName="fileName"/>
+    <functioncall functionName="filename"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="findExpressionStartEndTokens"/>
+    <functioncall functionName="findLambdaEndToken"/>
+    <functioncall functionName="findOuterScope"/>
+    <functioncall functionName="findRecordInNestedList"/>
+    <functioncall functionName="findScope"/>
+    <functioncall functionName="findType"/>
+    <functioncall functionName="findVariableChanged"/>
+    <functioncall functionName="find_first_of"/>
+    <functioncall functionName="find_if"/>
+    <functioncall functionName="findmatch"/>
+    <functioncall functionName="findsimplematch"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="flag"/>
+    <functioncall functionName="flag_"/>
+    <functioncall functionName="flags_"/>
+    <functioncall functionName="float"/>
+    <functioncall functionName="floatValue"/>
+    <functioncall functionName="followVar"/>
+    <functioncall functionName="followVariableExpression"/>
+    <functioncall functionName="followVariableExpressionError"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="formatstr"/>
+    <functioncall functionName="formatstr_scan"/>
+    <functioncall functionName="formatstr_secure"/>
+    <functioncall functionName="forward"/>
+    <functioncall functionName="forwardFind"/>
+    <functioncall functionName="forwardRange"/>
+    <functioncall functionName="forwardRecursive"/>
+    <functioncall functionName="front"/>
+    <functioncall functionName="ftok"/>
+    <functioncall functionName="func"/>
+    <functioncall functionName="funcname"/>
+    <functioncall functionName="function"/>
+    <functioncall functionName="functionList"/>
+    <functioncall functionName="functionOf"/>
+    <functioncall functionName="functionScope"/>
+    <functioncall functionName="functionname"/>
+    <functioncall functionName="functionsScope"/>
+    <functioncall functionName="getAllocDealloc"/>
+    <functioncall functionName="getArgDirection"/>
+    <functioncall functionName="getArgumentVar"/>
+    <functioncall functionName="getArguments"/>
+    <functioncall functionName="getArgumentsRecursive"/>
+    <functioncall functionName="getCondTok"/>
+    <functioncall functionName="getCppcheckAttribute"/>
+    <functioncall functionName="getFlag"/>
+    <functioncall functionName="getLHSVariable"/>
+    <functioncall functionName="getLHSVariableRecursive"/>
+    <functioncall functionName="getLibraryContainer"/>
+    <functioncall functionName="getValue"/>
+    <functioncall functionName="getVariableInitExpression"/>
+    <functioncall functionName="getarg"/>
+    <functioncall functionName="globalvar"/>
+    <functioncall functionName="groupId"/>
+    <functioncall functionName="hasFunctionCall"/>
+    <functioncall functionName="hasGccCompoundStatement"/>
+    <functioncall functionName="hasKnownIntValue"/>
+    <functioncall functionName="hasKnownValue"/>
+    <functioncall functionName="hasOperand"/>
+    <functioncall functionName="hasToken"/>
+    <functioncall functionName="hasTrailingReturnType"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="ignore"/>
+    <functioncall functionName="inInnerClass"/>
+    <functioncall functionName="inconclusive"/>
+    <functioncall functionName="index"/>
+    <functioncall functionName="indexOfFile"/>
+    <functioncall functionName="index_"/>
+    <functioncall functionName="indirect"/>
+    <functioncall functionName="info"/>
+    <functioncall functionName="information"/>
+    <functioncall functionName="initArgCount"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="int_bit"/>
+    <functioncall functionName="internalFunctions"/>
+    <functioncall functionName="intvalue"/>
+    <functioncall functionName="isAliased"/>
+    <functioncall functionName="isArgument"/>
+    <functioncall functionName="isArithmeticalOp"/>
+    <functioncall functionName="isArray"/>
+    <functioncall functionName="isAssignmentOp"/>
+    <functioncall functionName="isAttributeConst"/>
+    <functioncall functionName="isAttributeConstructor"/>
+    <functioncall functionName="isAttributeDestructor"/>
+    <functioncall functionName="isAttributeNodiscard"/>
+    <functioncall functionName="isAttributeNoreturn"/>
+    <functioncall functionName="isAttributeNothrow"/>
+    <functioncall functionName="isAttributePure"/>
+    <functioncall functionName="isBinaryOp"/>
+    <functioncall functionName="isBoolean"/>
+    <functioncall functionName="isCPPCast"/>
+    <functioncall functionName="isCast"/>
+    <functioncall functionName="isChanged"/>
+    <functioncall functionName="isClass"/>
+    <functioncall functionName="isClassOrStruct"/>
+    <functioncall functionName="isComparisonOp"/>
+    <functioncall functionName="isComplex"/>
+    <functioncall functionName="isConst"/>
+    <functioncall functionName="isConstExpression"/>
+    <functioncall functionName="isConstOp"/>
+    <functioncall functionName="isConstVarExpression"/>
+    <functioncall functionName="isConstructor"/>
+    <functioncall functionName="isContainerSizeValue"/>
+    <functioncall functionName="isContainerYield"/>
+    <functioncall functionName="isDifferentKnownValues"/>
+    <functioncall functionName="isEnumType"/>
+    <functioncall functionName="isEnumerator"/>
+    <functioncall functionName="isEscapeFunction"/>
+    <functioncall functionName="isEscaped"/>
+    <functioncall functionName="isEscapedAlias"/>
+    <functioncall functionName="isEscapedOrJump"/>
+    <functioncall functionName="isExpandedMacro"/>
+    <functioncall functionName="isExtern"/>
+    <functioncall functionName="isFloat"/>
+    <functioncall functionName="isFloatingType"/>
+    <functioncall functionName="isFunctionCall"/>
+    <functioncall functionName="isFunctionConst"/>
+    <functioncall functionName="isGlobal"/>
+    <functioncall functionName="isGlobalData"/>
+    <functioncall functionName="isInLoopCondition"/>
+    <functioncall functionName="isIntValue"/>
+    <functioncall functionName="isIntegral"/>
+    <functioncall functionName="isKnown"/>
+    <functioncall functionName="isLifetimeValue"/>
+    <functioncall functionName="isLikelyStream"/>
+    <functioncall functionName="isLikelyStreamRead"/>
+    <functioncall functionName="isLocal"/>
+    <functioncall functionName="isLocalLifetimeValue"/>
+    <functioncall functionName="isLong"/>
+    <functioncall functionName="isMovedValue"/>
+    <functioncall functionName="isName"/>
+    <functioncall functionName="isNot"/>
+    <functioncall functionName="isOppositeCond"/>
+    <functioncall functionName="isPointer"/>
+    <functioncall functionName="isPointerArray"/>
+    <functioncall functionName="isPrefix"/>
+    <functioncall functionName="isReference"/>
+    <functioncall functionName="isReturnScope"/>
+    <functioncall functionName="isSameExpression"/>
+    <functioncall functionName="isScopeBracket"/>
+    <functioncall functionName="isSigned"/>
+    <functioncall functionName="isStandardType"/>
+    <functioncall functionName="isStatic"/>
+    <functioncall functionName="isStlType"/>
+    <functioncall functionName="isSuffix"/>
+    <functioncall functionName="isTemplateArg"/>
+    <functioncall functionName="isUnaryOp"/>
+    <functioncall functionName="isUnchanged"/>
+    <functioncall functionName="isUninitValue"/>
+    <functioncall functionName="isUniqueExpression"/>
+    <functioncall functionName="isUnsigned"/>
+    <functioncall functionName="isVariableChanged"/>
+    <functioncall functionName="isVariableChangedByFunctionCall"/>
+    <functioncall functionName="isVirtual"/>
+    <functioncall functionName="isVolatile"/>
+    <functioncall functionName="isZero"/>
+    <functioncall functionName="isZeroBoundCond"/>
+    <functioncall functionName="is_open"/>
+    <functioncall functionName="isconst"/>
+    <functioncall functionName="isnoreturn"/>
+    <functioncall functionName="isnullargbad"/>
+    <functioncall functionName="ispure"/>
+    <functioncall functionName="it"/>
+    <functioncall functionName="item"/>
+    <functioncall functionName="iteratorInfo"/>
+    <functioncall functionName="known"/>
+    <functioncall functionName="kwd"/>
+    <functioncall functionName="lambdaEndToken"/>
+    <functioncall functionName="last"/>
+    <functioncall functionName="lastTok"/>
+    <functioncall functionName="leakignore"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="lhs"/>
+    <functioncall functionName="lhsIsConst"/>
+    <functioncall functionName="library"/>
+    <functioncall functionName="lifetimeKind"/>
+    <functioncall functionName="lifetimeScope"/>
+    <functioncall functionName="line"/>
+    <functioncall functionName="lineNumber"/>
+    <functioncall functionName="link"/>
+    <functioncall functionName="linkAt"/>
+    <functioncall functionName="linkToToken"/>
+    <functioncall functionName="local"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="long_bit"/>
+    <functioncall functionName="loopVar"/>
+    <functioncall functionName="m"/>
+    <functioncall functionName="mAccess"/>
+    <functioncall functionName="mAlloc"/>
+    <functioncall functionName="mAstOperand1"/>
+    <functioncall functionName="mAstOperand2"/>
+    <functioncall functionName="mAstParent"/>
+    <functioncall functionName="mBits"/>
+    <functioncall functionName="mClocks"/>
+    <functioncall functionName="mColumn"/>
+    <functioncall functionName="mCpp"/>
+    <functioncall functionName="mCppcheckAttributes"/>
+    <functioncall functionName="mDealloc"/>
+    <functioncall functionName="mDoubleValue"/>
+    <functioncall functionName="mEmptyValueList"/>
+    <functioncall functionName="mEnumerator"/>
+    <functioncall functionName="mFileIndex"/>
+    <functioncall functionName="mFileName"/>
+    <functioncall functionName="mFlags"/>
+    <functioncall functionName="mFunction"/>
+    <functioncall functionName="mIndex"/>
+    <functioncall functionName="mInfo"/>
+    <functioncall functionName="mIntValue"/>
+    <functioncall functionName="mLibrary"/>
+    <functioncall functionName="mLineNumber"/>
+    <functioncall functionName="mNameToken"/>
+    <functioncall functionName="mNumberOfResults"/>
+    <functioncall functionName="mOffset"/>
+    <functioncall functionName="mOrigFileName"/>
+    <functioncall functionName="mOriginalName"/>
+    <functioncall functionName="mProgressValue"/>
+    <functioncall functionName="mScope"/>
+    <functioncall functionName="mScopeInfo"/>
+    <functioncall functionName="mStr"/>
+    <functioncall functionName="mTemplateSimplifierPointers"/>
+    <functioncall functionName="mType"/>
+    <functioncall functionName="mTypeEndToken"/>
+    <functioncall functionName="mTypeStartToken"/>
+    <functioncall functionName="mValueFlowKnown"/>
+    <functioncall functionName="mValueType"/>
+    <functioncall functionName="mValues"/>
+    <functioncall functionName="mVarId"/>
+    <functioncall functionName="mVariable"/>
+    <functioncall functionName="mWhat"/>
+    <functioncall functionName="macro"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="match"/>
+    <functioncall functionName="matched"/>
+    <functioncall functionName="max_value"/>
+    <functioncall functionName="mem_fn"/>
+    <functioncall functionName="memoizedIsLiteral"/>
+    <functioncall functionName="memoizedIsName"/>
+    <functioncall functionName="min_value"/>
+    <functioncall functionName="minsizes"/>
+    <functioncall functionName="moveKind"/>
+    <functioncall functionName="msc"/>
+    <functioncall functionName="msg"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="nameEnd"/>
+    <functioncall functionName="nameStart"/>
+    <functioncall functionName="nameTok"/>
+    <functioncall functionName="nameToken"/>
+    <functioncall functionName="name_"/>
+    <functioncall functionName="needInitialization"/>
+    <functioncall functionName="nestedIn"/>
+    <functioncall functionName="next"/>
+    <functioncall functionName="nextAfterAstRightmostLeaf"/>
+    <functioncall functionName="nextArgument"/>
+    <functioncall functionName="nextToken"/>
+    <functioncall functionName="nonLocal"/>
+    <functioncall functionName="noncommutativeEquals"/>
+    <functioncall functionName="none"/>
+    <functioncall functionName="noreturn"/>
+    <functioncall functionName="notbool"/>
+    <functioncall functionName="notnull"/>
+    <functioncall functionName="notuninit"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="num"/>
+    <functioncall functionName="numberOfArguments"/>
+    <functioncall functionName="o"/>
+    <functioncall functionName="op"/>
+    <functioncall functionName="op1"/>
+    <functioncall functionName="op1_and_op2"/>
+    <functioncall functionName="op2"/>
+    <functioncall functionName="opLessAllowed"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="originalName"/>
+    <functioncall functionName="originalTypeName"/>
+    <functioncall functionName="other"/>
+    <functioncall functionName="otn"/>
+    <functioncall functionName="outer"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="p"/>
+    <functioncall functionName="parent"/>
+    <functioncall functionName="pattern"/>
+    <functioncall functionName="performance"/>
+    <functioncall functionName="platform"/>
+    <functioncall functionName="platformString"/>
+    <functioncall functionName="platformType"/>
+    <functioncall functionName="platform_type"/>
+    <functioncall functionName="plistFooter"/>
+    <functioncall functionName="pointer"/>
+    <functioncall functionName="pop"/>
+    <functioncall functionName="portability"/>
+    <functioncall functionName="possiblyAliased"/>
+    <functioncall functionName="possiblyPassedByReference"/>
+    <functioncall functionName="precedes"/>
+    <functioncall functionName="pred"/>
+    <functioncall functionName="prefix"/>
+    <functioncall functionName="prev"/>
+    <functioncall functionName="previous"/>
+    <functioncall functionName="previousToken"/>
+    <functioncall functionName="pt"/>
+    <functioncall functionName="ptok"/>
+    <functioncall functionName="pure"/>
+    <functioncall functionName="push"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="r"/>
+    <functioncall functionName="reallocArg"/>
+    <functioncall functionName="reason"/>
+    <functioncall functionName="reassign"/>
+    <functioncall functionName="reportErr"/>
+    <functioncall functionName="result"/>
+    <functioncall functionName="ret"/>
+    <functioncall functionName="retDef"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="rhs"/>
+    <functioncall functionName="root"/>
+    <functioncall functionName="s"/>
+    <functioncall functionName="safe"/>
+    <functioncall functionName="scope"/>
+    <functioncall functionName="scope_"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="sep"/>
+    <functioncall functionName="setCppcheckAttribute"/>
+    <functioncall functionName="setFlag"/>
+    <functioncall functionName="setOfVars"/>
+    <functioncall functionName="settings"/>
+    <functioncall functionName="severity"/>
+    <functioncall functionName="short"/>
+    <functioncall functionName="sign"/>
+    <functioncall functionName="simpleMatch"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="size_templateArgNo"/>
+    <functioncall functionName="smartPointerType"/>
+    <functioncall functionName="stage"/>
+    <functioncall functionName="start"/>
+    <functioncall functionName="startScope"/>
+    <functioncall functionName="startTok"/>
+    <functioncall functionName="startToken"/>
+    <functioncall functionName="start_"/>
+    <functioncall functionName="state"/>
+    <functioncall functionName="stdAssociativeLike"/>
+    <functioncall functionName="stdStringLike"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="strAt"/>
+    <functioncall functionName="strdup"/>
+    <functioncall functionName="stream"/>
+    <functioncall functionName="stricmp"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="stringifyList"/>
+    <functioncall functionName="strz"/>
+    <functioncall functionName="style"/>
+    <functioncall functionName="subexpr"/>
+    <functioncall functionName="suffix"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="symbolName"/>
+    <functioncall functionName="t"/>
+    <functioncall functionName="this"/>
+    <functioncall functionName="tie"/>
+    <functioncall functionName="toString"/>
+    <functioncall functionName="tok"/>
+    <functioncall functionName="tok1"/>
+    <functioncall functionName="tok2"/>
+    <functioncall functionName="tokAt"/>
+    <functioncall functionName="tokType"/>
+    <functioncall functionName="token"/>
+    <functioncall functionName="tokenAndName"/>
+    <functioncall functionName="tokenDef"/>
+    <functioncall functionName="token_"/>
+    <functioncall functionName="tokenlist"/>
+    <functioncall functionName="tokvalue"/>
+    <functioncall functionName="top"/>
+    <functioncall functionName="toupper"/>
+    <functioncall functionName="traverseLoop"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="type"/>
+    <functioncall functionName="typeEnd"/>
+    <functioncall functionName="typeEndToken"/>
+    <functioncall functionName="typeScope"/>
+    <functioncall functionName="typeStart"/>
+    <functioncall functionName="typeStartToken"/>
+    <functioncall functionName="type_"/>
+    <functioncall functionName="type_templateArgNo"/>
+    <functioncall functionName="unknownVarId"/>
+    <functioncall functionName="unused"/>
+    <functioncall functionName="update_property_info"/>
+    <functioncall functionName="use"/>
+    <functioncall functionName="useMfc"/>
+    <functioncall functionName="used"/>
+    <functioncall functionName="useretval"/>
+    <functioncall functionName="usingNamespaces"/>
+    <functioncall functionName="usingNamespaces_"/>
+    <functioncall functionName="v"/>
+    <functioncall functionName="val"/>
+    <functioncall functionName="valid"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="value2"/>
+    <functioncall functionName="valueKind"/>
+    <functioncall functionName="valueType"/>
+    <functioncall functionName="value_known"/>
+    <functioncall functionName="values"/>
+    <functioncall functionName="var"/>
+    <functioncall functionName="varId"/>
+    <functioncall functionName="varTok"/>
+    <functioncall functionName="varTok1"/>
+    <functioncall functionName="varTok2"/>
+    <functioncall functionName="varType"/>
+    <functioncall functionName="variable"/>
+    <functioncall functionName="variadic"/>
+    <functioncall functionName="varid"/>
+    <functioncall functionName="varlist"/>
+    <functioncall functionName="vars"/>
+    <functioncall functionName="vartok"/>
+    <functioncall functionName="varvalue"/>
+    <functioncall functionName="visitAstNodes"/>
+    <functioncall functionName="visitor"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="vt"/>
+    <functioncall functionName="warning"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="yield"/>
+  </FileInfo>
+</analyzerinfo>

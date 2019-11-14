@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2175597645">
+        <error id="zerodiv" severity="error" msg="Division by zero." verbose="Division by zero." cwe="369">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cli\proj2\a\a.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cli\proj2\a\a.c" line="1" column="7" info="Division by zero"/>
+        </error>
+</analyzerinfo>

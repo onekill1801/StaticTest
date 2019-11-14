@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="4219806018">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="match" lineNumber="37"/>
+    <functiondecl functionName="removeFilename" lineNumber="81"/>
+    <functioncall functionName="PathMatch"/>
+    <functioncall functionName="acceptFile"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="caseSensitive"/>
+    <functioncall functionName="compare"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="continue"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="endlen"/>
+    <functioncall functionName="endsWith"/>
+    <functioncall functionName="excludedPath"/>
+    <functioncall functionName="excludedPaths"/>
+    <functioncall functionName="extra"/>
+    <functioncall functionName="filename"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="find_last_of"/>
+    <functioncall functionName="findpath"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="fromNativeSeparators"/>
+    <functioncall functionName="getCurrentPath"/>
+    <functioncall functionName="getRelativePath"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="isAbsolute"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="mCaseSensitive"/>
+    <functioncall functionName="mExcludedPaths"/>
+    <functioncall functionName="mWorkingDirectory"/>
+    <functioncall functionName="path"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="removeFilename"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="substr"/>
+    <functioncall functionName="tolower"/>
+    <functioncall functionName="toupper"/>
+    <functioncall functionName="transform"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

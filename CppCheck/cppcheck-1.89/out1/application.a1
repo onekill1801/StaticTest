@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="4113492788">
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="Application"/>
+    <functioncall functionName="mName"/>
+    <functioncall functionName="mParameters"/>
+    <functioncall functionName="mPath"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="parameters"/>
+    <functioncall functionName="params"/>
+    <functioncall functionName="path"/>
+  </FileInfo>
+</analyzerinfo>

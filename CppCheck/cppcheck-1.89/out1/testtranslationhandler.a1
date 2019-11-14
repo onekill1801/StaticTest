@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="4085667726">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="construct" lineNumber="23"/>
+    <functioncall functionName="QCOMPARE"/>
+    <functioncall functionName="QString"/>
+    <functioncall functionName="QTEST_MAIN"/>
+    <functioncall functionName="TestTranslationHandler"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="getCurrentLanguage"/>
+    <functioncall functionName="getNames"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="size"/>
+  </FileInfo>
+</analyzerinfo>

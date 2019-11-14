@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1583260509">
+        <error id="doubleFree" severity="error" msg="Memory pointed to by &apos;pI&apos; is freed twice." verbose="Memory pointed to by &apos;pI&apos; is freed twice." cwe="415">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuites\duma\wrong1.cc" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuites\duma\wrong1.cc" line="13" column="10"/>
+            <symbol>pI</symbol>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="main" lineNumber="7"/>
+    <functioncall functionName="delete"/>
+    <functioncall functionName="pI"/>
+  </FileInfo>
+</analyzerinfo>

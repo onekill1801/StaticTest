@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1558775455">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="addFile" lineNumber="25"/>
+    <functiondecl functionName="addPathList" lineNumber="40"/>
+    <functiondecl functionName="addFile_notexist" lineNumber="57"/>
+    <functiondecl functionName="addFile_unknown" lineNumber="65"/>
+    <functiondecl functionName="addDirectory" lineNumber="74"/>
+    <functiondecl functionName="addDirectory_recursive" lineNumber="82"/>
+    <functiondecl functionName="filterFiles" lineNumber="95"/>
+    <functiondecl functionName="filterFiles2" lineNumber="116"/>
+    <functiondecl functionName="filterFiles3" lineNumber="131"/>
+    <functiondecl functionName="filterFiles4" lineNumber="148"/>
+    <functioncall functionName="QCOMPARE"/>
+    <functioncall functionName="QString"/>
+    <functioncall functionName="QTEST_MAIN"/>
+    <functioncall functionName="QVERIFY"/>
+    <functioncall functionName="SRCDIR"/>
+    <functioncall functionName="TestFileList"/>
+    <functioncall functionName="addDirectory"/>
+    <functioncall functionName="addExcludeList"/>
+    <functioncall functionName="addFile"/>
+    <functioncall functionName="addPathList"/>
+    <functioncall functionName="canonicalPath"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="contains"/>
+    <functioncall functionName="dir"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="filters"/>
+    <functioncall functionName="getFileList"/>
+    <functioncall functionName="paths"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

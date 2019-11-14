@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2360056339">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="unhandledElement" lineNumber="31"/>
+    <functiondecl functionName="loadContainer" lineNumber="36"/>
+    <functiondecl functionName="loadDefine" lineNumber="86"/>
+    <functiondecl functionName="loadUndefine" lineNumber="94"/>
+    <functiondecl functionName="loadFunctionArg" lineNumber="99"/>
+    <functiondecl functionName="loadFunction" lineNumber="145"/>
+    <functiondecl functionName="loadMemoryResource" lineNumber="189"/>
+    <functiondecl functionName="loadPodType" lineNumber="214"/>
+    <functiondecl functionName="open" lineNumber="223"/>
+    <functiondecl functionName="writeContainerFunctions" lineNumber="268"/>
+    <functiondecl functionName="writeContainer" lineNumber="291"/>
+    <functiondecl functionName="writeFunction" lineNumber="320"/>
+    <functiondecl functionName="writeMemoryResource" lineNumber="434"/>
+    <functiondecl functionName="toString" lineNumber="452"/>
+    <functioncall functionName="ANY"/>
+    <functioncall functionName="Alloc"/>
+    <functioncall functionName="Arg"/>
+    <functioncall functionName="Container"/>
+    <functioncall functionName="CppcheckLibraryData"/>
+    <functioncall functionName="False"/>
+    <functioncall functionName="Function"/>
+    <functioncall functionName="Iterator"/>
+    <functioncall functionName="QString"/>
+    <functioncall functionName="ReturnValue"/>
+    <functioncall functionName="True"/>
+    <functioncall functionName="Unknown"/>
+    <functioncall functionName="VARIADIC"/>
+    <functioncall functionName="accessFunctions"/>
+    <functioncall functionName="access_arrayLike"/>
+    <functioncall functionName="action"/>
+    <functioncall functionName="alloc"/>
+    <functioncall functionName="alternatives"/>
+    <functioncall functionName="append"/>
+    <functioncall functionName="arg"/>
+    <functioncall functionName="arg2"/>
+    <functioncall functionName="args"/>
+    <functioncall functionName="atEnd"/>
+    <functioncall functionName="attributes"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="catch"/>
+    <functioncall functionName="chop"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="comment"/>
+    <functioncall functionName="comments"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="container"/>
+    <functioncall functionName="containers"/>
+    <functioncall functionName="continue"/>
+    <functioncall functionName="cstd"/>
+    <functioncall functionName="dealloc"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="defaultValue"/>
+    <functioncall functionName="defines"/>
+    <functioncall functionName="elementName"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="endPattern"/>
+    <functioncall functionName="endsWith"/>
+    <functioncall functionName="extra"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="file"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="foreach"/>
+    <functioncall functionName="formatstr"/>
+    <functioncall functionName="function"/>
+    <functioncall functionName="functions"/>
+    <functioncall functionName="gccConst"/>
+    <functioncall functionName="gccPure"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="inherits"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="isEmpty"/>
+    <functioncall functionName="isNull"/>
+    <functioncall functionName="itEndPattern"/>
+    <functioncall functionName="leakignore"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="lineNumber"/>
+    <functioncall functionName="loadContainer"/>
+    <functioncall functionName="loadDefine"/>
+    <functioncall functionName="loadFunction"/>
+    <functioncall functionName="loadFunctionArg"/>
+    <functioncall functionName="loadMemoryResource"/>
+    <functioncall functionName="loadPodType"/>
+    <functioncall functionName="loadUndefine"/>
+    <functioncall functionName="memoryresource"/>
+    <functioncall functionName="mid"/>
+    <functioncall functionName="minsize"/>
+    <functioncall functionName="minsizes"/>
+    <functioncall functionName="mr"/>
+    <functioncall functionName="msg"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="noreturn"/>
+    <functioncall functionName="notbool"/>
+    <functioncall functionName="notnull"/>
+    <functioncall functionName="notuninit"/>
+    <functioncall functionName="nr"/>
+    <functioncall functionName="number"/>
+    <functioncall functionName="opLessAllowed"/>
+    <functioncall functionName="otherFunctions"/>
+    <functioncall functionName="outputString"/>
+    <functioncall functionName="podtypes"/>
+    <functioncall functionName="readElementText"/>
+    <functioncall functionName="readNext"/>
+    <functioncall functionName="reason"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="runtime_error"/>
+    <functioncall functionName="scan"/>
+    <functioncall functionName="secure"/>
+    <functioncall functionName="setAutoFormatting"/>
+    <functioncall functionName="setAutoFormattingIndent"/>
+    <functioncall functionName="severity"/>
+    <functioncall functionName="sign"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sizeFunctions"/>
+    <functioncall functionName="size_templateParameter"/>
+    <functioncall functionName="split"/>
+    <functioncall functionName="startPattern"/>
+    <functioncall functionName="startsWith"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="strz"/>
+    <functioncall functionName="swap"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="t"/>
+    <functioncall functionName="templateParameter"/>
+    <functioncall functionName="text"/>
+    <functioncall functionName="toInt"/>
+    <functioncall functionName="toStdString"/>
+    <functioncall functionName="toString"/>
+    <functioncall functionName="toUInt"/>
+    <functioncall functionName="tr"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="type"/>
+    <functioncall functionName="undef"/>
+    <functioncall functionName="undefines"/>
+    <functioncall functionName="unhandledElement"/>
+    <functioncall functionName="use"/>
+    <functioncall functionName="useretval"/>
+    <functioncall functionName="valid"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="what"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="writeAttribute"/>
+    <functioncall functionName="writeCharacters"/>
+    <functioncall functionName="writeComment"/>
+    <functioncall functionName="writeContainer"/>
+    <functioncall functionName="writeContainerFunctions"/>
+    <functioncall functionName="writeEmptyElement"/>
+    <functioncall functionName="writeEndElement"/>
+    <functioncall functionName="writeFunction"/>
+    <functioncall functionName="writeMemoryResource"/>
+    <functioncall functionName="writeStartDocument"/>
+    <functioncall functionName="writeStartElement"/>
+    <functioncall functionName="writeTextElement"/>
+    <functioncall functionName="xmlReader"/>
+    <functioncall functionName="xmlWriter"/>
+    <functioncall functionName="yields"/>
+  </FileInfo>
+</analyzerinfo>

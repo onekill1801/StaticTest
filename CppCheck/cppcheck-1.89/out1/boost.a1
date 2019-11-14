@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2948153922">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="boost_forceinline_test" lineNumber="15"/>
+    <functiondecl functionName="boost_noinline_test" lineNumber="19"/>
+    <functiondecl functionName="boost_noreturn_test" lineNumber="23"/>
+    <functiondecl functionName="valid_code" lineNumber="27"/>
+    <functiondecl functionName="ignoredReturnValue" lineNumber="38"/>
+    <functiondecl functionName="uninitvar" lineNumber="52"/>
+    <functioncall functionName="BOOST_LIKELY"/>
+    <functioncall functionName="BOOST_UNLIKELY"/>
+    <functioncall functionName="endian_reverse"/>
+    <functioncall functionName="endian_reverse_inplace"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="int1"/>
+    <functioncall functionName="intUninit1"/>
+    <functioncall functionName="intUninit2"/>
+    <functioncall functionName="iround"/>
+    <functioncall functionName="llround"/>
+    <functioncall functionName="lround"/>
+    <functioncall functionName="round"/>
+    <functioncall functionName="void"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2548949098">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="addFiles2" lineNumber="178"/>
+    <functiondecl functionName="recursiveAddFiles" lineNumber="227"/>
+    <functiondecl functionName="addFiles" lineNumber="232"/>
+    <functiondecl functionName="isDirectory" lineNumber="243"/>
+    <functiondecl functionName="fileExists" lineNumber="249"/>
+    <functiondecl functionName="MyIsDirectory" lineNumber="43"/>
+    <functiondecl functionName="MyFindFirstFile" lineNumber="53"/>
+    <functiondecl functionName="MyFileExists" lineNumber="59"/>
+    <functiondecl functionName="recursiveAddFiles" lineNumber="72"/>
+    <functiondecl functionName="addFiles" lineNumber="77"/>
+    <functiondecl functionName="isDirectory" lineNumber="153"/>
+    <functiondecl functionName="fileExists" lineNumber="158"/>
+    <functiondecl functionName="addFiles2" lineNumber="178"/>
+    <functiondecl functionName="recursiveAddFiles" lineNumber="227"/>
+    <functiondecl functionName="addFiles" lineNumber="232"/>
+    <functiondecl functionName="isDirectory" lineNumber="243"/>
+    <functiondecl functionName="fileExists" lineNumber="249"/>
+    <functiondecl functionName="MyIsDirectory" lineNumber="43"/>
+    <functiondecl functionName="MyFindFirstFile" lineNumber="53"/>
+    <functiondecl functionName="MyFileExists" lineNumber="59"/>
+    <functiondecl functionName="recursiveAddFiles" lineNumber="72"/>
+    <functiondecl functionName="addFiles" lineNumber="77"/>
+    <functiondecl functionName="isDirectory" lineNumber="153"/>
+    <functiondecl functionName="fileExists" lineNumber="158"/>
+    <functiondecl functionName="MyIsDirectory" lineNumber="43"/>
+    <functiondecl functionName="MyFindFirstFile" lineNumber="53"/>
+    <functiondecl functionName="MyFileExists" lineNumber="59"/>
+    <functiondecl functionName="recursiveAddFiles" lineNumber="72"/>
+    <functiondecl functionName="addFiles" lineNumber="77"/>
+    <functiondecl functionName="isDirectory" lineNumber="153"/>
+    <functiondecl functionName="fileExists" lineNumber="158"/>
+    <functioncall functionName="FALSE"/>
+    <functioncall functionName="FindClose"/>
+    <functioncall functionName="FindFirstFileA"/>
+    <functioncall functionName="FindNextFileA"/>
+    <functioncall functionName="GetFileAttributes"/>
+    <functioncall functionName="MyFileExists"/>
+    <functioncall functionName="MyFindFirstFile"/>
+    <functioncall functionName="MyIsDirectory"/>
+    <functioncall functionName="PathFileExistsA"/>
+    <functioncall functionName="PathIsDirectoryA"/>
+    <functioncall functionName="TRUE"/>
+    <functioncall functionName="acceptFile"/>
+    <functioncall functionName="addFiles"/>
+    <functioncall functionName="addFiles2"/>
+    <functioncall functionName="ansiFfd"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="c"/>
+    <functioncall functionName="cAlternateFileName"/>
+    <functioncall functionName="cFileName"/>
+    <functioncall functionName="c_str"/>
+    <functioncall functionName="checkAllFilesInDir"/>
+    <functioncall functionName="cleanedPath"/>
+    <functioncall functionName="closedir"/>
+    <functioncall functionName="compare"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="continue"/>
+    <functioncall functionName="corrected_path"/>
+    <functioncall functionName="d_name"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="dir"/>
+    <functioncall functionName="dir_result"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="endlen"/>
+    <functioncall functionName="endsWith"/>
+    <functioncall functionName="entry"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="extra"/>
+    <functioncall functionName="ffd"/>
+    <functioncall functionName="file_stat"/>
+    <functioncall functionName="filename"/>
+    <functioncall functionName="files"/>
+    <functioncall functionName="findData"/>
+    <functioncall functionName="find_last_of"/>
+    <functioncall functionName="fname"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="fromNativeSeparators"/>
+    <functioncall functionName="hFind"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="ignored"/>
+    <functioncall functionName="isDirectory"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="match"/>
+    <functioncall functionName="nFileSizeHigh"/>
+    <functioncall functionName="nFileSizeLow"/>
+    <functioncall functionName="nativename"/>
+    <functioncall functionName="new_path"/>
+    <functioncall functionName="opendir"/>
+    <functioncall functionName="path"/>
+    <functioncall functionName="path_is_directory"/>
+    <functioncall functionName="readdir_r"/>
+    <functioncall functionName="recursive"/>
+    <functioncall functionName="recursiveAddFiles"/>
+    <functioncall functionName="reserve"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="searchPattern"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="st_size"/>
+    <functioncall functionName="stat"/>
+    <functioncall functionName="static_cast"/>
+    <functioncall functionName="strchr"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="substr"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="toNativeSeparators"/>
+    <functioncall functionName="toupper"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="while"/>
+  </FileInfo>
+</analyzerinfo>

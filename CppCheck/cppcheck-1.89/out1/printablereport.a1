@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1912886828">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="create" lineNumber="31"/>
+    <functiondecl functionName="writeHeader" lineNumber="36"/>
+    <functiondecl functionName="writeFooter" lineNumber="41"/>
+    <functiondecl functionName="writeError" lineNumber="46"/>
+    <functiondecl functionName="getFormattedReportText" lineNumber="56"/>
+    <functioncall functionName="AST"/>
+    <functioncall functionName="CSV"/>
+    <functioncall functionName="ErrorLogger"/>
+    <functioncall functionName="ErrorMessage"/>
+    <functioncall functionName="FileLocation"/>
+    <functioncall functionName="ID"/>
+    <functioncall functionName="INSTANTIATION"/>
+    <functioncall functionName="INTERNAL"/>
+    <functioncall functionName="InternalError"/>
+    <functioncall functionName="LIMIT"/>
+    <functioncall functionName="NO_LINE"/>
+    <functioncall functionName="PrintableReport"/>
+    <functioncall functionName="QString"/>
+    <functioncall functionName="Report"/>
+    <functioncall functionName="SYNTAX"/>
+    <functioncall functionName="Suppression"/>
+    <functioncall functionName="TXT"/>
+    <functioncall functionName="UNKNOWN_MACRO"/>
+    <functioncall functionName="XMLV2"/>
+    <functioncall functionName="arg"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="close"/>
+    <functioncall functionName="column"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="debug"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="emptyString"/>
+    <functioncall functionName="error"/>
+    <functioncall functionName="errorId"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="file"/>
+    <functioncall functionName="fileIndex"/>
+    <functioncall functionName="fileName"/>
+    <functioncall functionName="filename"/>
+    <functioncall functionName="find_first_of"/>
+    <functioncall functionName="fromStdString"/>
+    <functioncall functionName="fromString"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="info"/>
+    <functioncall functionName="information"/>
+    <functioncall functionName="is_open"/>
+    <functioncall functionName="line"/>
+    <functioncall functionName="lineNumber"/>
+    <functioncall functionName="mFileName"/>
+    <functioncall functionName="mInfo"/>
+    <functioncall functionName="mOrigFileName"/>
+    <functioncall functionName="matched"/>
+    <functioncall functionName="msg"/>
+    <functioncall functionName="none"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="other"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="performance"/>
+    <functioncall functionName="plistFooter"/>
+    <functioncall functionName="portability"/>
+    <functioncall functionName="reportErr"/>
+    <functioncall functionName="severity"/>
+    <functioncall functionName="stage"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="style"/>
+    <functioncall functionName="summary"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="symbolName"/>
+    <functioncall functionName="toNativeSeparators"/>
+    <functioncall functionName="toStdString"/>
+    <functioncall functionName="toString"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="warning"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1563781771">
+        <error id="missingOverride" severity="style" msg="The function &apos;reportOut&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;reportOut&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier.">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testtimer.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuite.h" line="85" column="18" info="Function in derived class"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testtimer.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\lib\errorlogger.h" line="374" column="18" info="Virtual function in base class"/>
+            <symbol>reportOut</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;reportErr&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;reportErr&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier.">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testtimer.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuite.h" line="86" column="18" info="Function in derived class"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testtimer.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\lib\errorlogger.h" line="382" column="18" info="Virtual function in base class"/>
+            <symbol>reportErr</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;AddResults&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;AddResults&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier.">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testtimer.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\lib\timer.h" line="64" column="10" info="Function in derived class"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testtimer.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\lib\timer.h" line="40" column="18" info="Virtual function in base class"/>
+            <symbol>AddResults</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;run&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;run&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier.">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testtimer.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\testtimer.cpp" line="32" column="10" info="Function in derived class"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testtimer.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuite.h" line="49" column="18" info="Virtual function in base class"/>
+            <symbol>run</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testtimer.cpp" linenr="33" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testtimer.cpp" linenr="33" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="run" lineNumber="32"/>
+    <functiondecl functionName="result" lineNumber="36"/>
+    <functiondecl functionName="run" lineNumber="32"/>
+    <functiondecl functionName="result" lineNumber="36"/>
+    <functioncall functionName="AST"/>
+    <functioncall functionName="CLOCKS_PER_SEC"/>
+    <functioncall functionName="ErrorLogger"/>
+    <functioncall functionName="ErrorMessage"/>
+    <functioncall functionName="FileLocation"/>
+    <functioncall functionName="ID"/>
+    <functioncall functionName="INSTANTIATION"/>
+    <functioncall functionName="INTERNAL"/>
+    <functioncall functionName="InternalError"/>
+    <functioncall functionName="LIMIT"/>
+    <functioncall functionName="NO_LINE"/>
+    <functioncall functionName="SHOWTIME_FILE"/>
+    <functioncall functionName="SHOWTIME_SUMMARY"/>
+    <functioncall functionName="SHOWTIME_TOP5"/>
+    <functioncall functionName="SYNTAX"/>
+    <functioncall functionName="Suppression"/>
+    <functioncall functionName="TestFixture"/>
+    <functioncall functionName="TimerResultsData"/>
+    <functioncall functionName="UNKNOWN_MACRO"/>
+    <functioncall functionName="assert_"/>
+    <functioncall functionName="clock_t"/>
+    <functioncall functionName="close"/>
+    <functioncall functionName="column"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="debug"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="emptyString"/>
+    <functioncall functionName="error"/>
+    <functioncall functionName="errorId"/>
+    <functioncall functionName="fabs"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="file"/>
+    <functioncall functionName="fileIndex"/>
+    <functioncall functionName="fileName"/>
+    <functioncall functionName="filename"/>
+    <functioncall functionName="find_first_of"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="info"/>
+    <functioncall functionName="information"/>
+    <functioncall functionName="is_open"/>
+    <functioncall functionName="line"/>
+    <functioncall functionName="lineNumber"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="mClocks"/>
+    <functioncall functionName="mFileName"/>
+    <functioncall functionName="mInfo"/>
+    <functioncall functionName="mNumberOfResults"/>
+    <functioncall functionName="mOrigFileName"/>
+    <functioncall functionName="matched"/>
+    <functioncall functionName="msg"/>
+    <functioncall functionName="none"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="other"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="performance"/>
+    <functioncall functionName="plistFooter"/>
+    <functioncall functionName="portability"/>
+    <functioncall functionName="prepareTest"/>
+    <functioncall functionName="reportErr"/>
+    <functioncall functionName="result"/>
+    <functioncall functionName="seconds"/>
+    <functioncall functionName="setVerbose"/>
+    <functioncall functionName="severity"/>
+    <functioncall functionName="stage"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="style"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="symbolName"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="v"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="warning"/>
+  </FileInfo>
+</analyzerinfo>

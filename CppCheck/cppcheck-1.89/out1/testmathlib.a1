@@ -1,0 +1,285 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="4088345263">
+        <error id="missingOverride" severity="style" msg="The function &apos;reportOut&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;reportOut&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier.">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testmathlib.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuite.h" line="85" column="18" info="Function in derived class"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testmathlib.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\lib\errorlogger.h" line="374" column="18" info="Virtual function in base class"/>
+            <symbol>reportOut</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;reportErr&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;reportErr&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier.">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testmathlib.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuite.h" line="86" column="18" info="Function in derived class"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testmathlib.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\lib\errorlogger.h" line="382" column="18" info="Virtual function in base class"/>
+            <symbol>reportErr</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;run&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;run&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier.">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testmathlib.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\testmathlib.cpp" line="33" column="10" info="Function in derived class"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testmathlib.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuite.h" line="49" column="18" info="Virtual function in base class"/>
+            <symbol>run</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="34" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="35" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="36" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="37" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="38" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="39" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="40" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="41" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="42" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="43" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="44" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="45" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="46" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="47" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="48" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="49" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="50" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="51" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="52" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="53" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="54" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="55" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="56" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="57" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="58" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="59" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="60" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="61" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="62" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="63" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="64" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="65" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="34" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="35" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="36" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="37" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="38" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="39" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="40" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="41" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="42" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="43" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="44" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="45" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="46" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="47" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="48" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="49" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="50" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="51" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="52" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="53" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="54" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="55" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="56" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="57" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="58" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="59" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="60" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="61" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="62" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="63" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="64" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="65" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="34" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="35" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="36" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="37" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="38" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="39" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="40" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="41" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="42" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="43" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="44" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="45" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="46" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="47" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="48" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="49" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="50" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="51" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="52" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="53" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="54" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="55" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="56" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="57" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="58" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="59" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="60" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="61" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="62" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="63" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="64" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="65" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="34" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="35" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="36" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="37" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="38" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="39" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="40" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="41" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="42" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="43" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="44" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="45" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="46" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="47" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="48" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="49" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="50" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="51" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="52" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="53" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="54" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="55" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="56" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="57" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="58" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="59" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="60" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="61" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="62" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="63" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="64" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testmathlib.cpp" linenr="65" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="run" lineNumber="33"/>
+    <functiondecl functionName="isGreater" lineNumber="68"/>
+    <functiondecl functionName="isGreaterEqual" lineNumber="73"/>
+    <functiondecl functionName="isEqual" lineNumber="80"/>
+    <functiondecl functionName="isNotEqual" lineNumber="86"/>
+    <functiondecl functionName="isLess" lineNumber="91"/>
+    <functiondecl functionName="isLessEqual" lineNumber="96"/>
+    <functiondecl functionName="calculate" lineNumber="103"/>
+    <functiondecl functionName="calculate1" lineNumber="162"/>
+    <functiondecl functionName="typesuffix" lineNumber="182"/>
+    <functiondecl functionName="toLongNumber" lineNumber="242"/>
+    <functiondecl functionName="toDoubleNumber" lineNumber="352"/>
+    <functiondecl functionName="isint" lineNumber="406"/>
+    <functiondecl functionName="isbin" lineNumber="495"/>
+    <functiondecl functionName="isnegative" lineNumber="535"/>
+    <functiondecl functionName="isoct" lineNumber="551"/>
+    <functiondecl functionName="isFloatHex" lineNumber="613"/>
+    <functiondecl functionName="isIntHex" lineNumber="644"/>
+    <functiondecl functionName="isValidIntegerSuffix" lineNumber="707"/>
+    <functiondecl functionName="ispositive" lineNumber="745"/>
+    <functiondecl functionName="isFloat" lineNumber="762"/>
+    <functiondecl functionName="isDecimalFloat" lineNumber="769"/>
+    <functiondecl functionName="naninf" lineNumber="876"/>
+    <functiondecl functionName="isdec" lineNumber="892"/>
+    <functiondecl functionName="isNullValue" lineNumber="910"/>
+    <functiondecl functionName="incdec" lineNumber="1079"/>
+    <functiondecl functionName="sin" lineNumber="1100"/>
+    <functiondecl functionName="cos" lineNumber="1103"/>
+    <functiondecl functionName="tan" lineNumber="1106"/>
+    <functiondecl functionName="abs" lineNumber="1109"/>
+    <functiondecl functionName="toString" lineNumber="1119"/>
+    <functiondecl functionName="characterLiteralsNormalization" lineNumber="1131"/>
+    <functiondecl functionName="CPP14DigitSeparators" lineNumber="1152"/>
+    <functiondecl functionName="run" lineNumber="33"/>
+    <functiondecl functionName="isGreater" lineNumber="68"/>
+    <functiondecl functionName="isGreaterEqual" lineNumber="73"/>
+    <functiondecl functionName="isEqual" lineNumber="80"/>
+    <functiondecl functionName="isNotEqual" lineNumber="86"/>
+    <functiondecl functionName="isLess" lineNumber="91"/>
+    <functiondecl functionName="isLessEqual" lineNumber="96"/>
+    <functiondecl functionName="calculate" lineNumber="103"/>
+    <functiondecl functionName="calculate1" lineNumber="162"/>
+    <functiondecl functionName="typesuffix" lineNumber="182"/>
+    <functiondecl functionName="toLongNumber" lineNumber="242"/>
+    <functiondecl functionName="toDoubleNumber" lineNumber="352"/>
+    <functiondecl functionName="isint" lineNumber="406"/>
+    <functiondecl functionName="isbin" lineNumber="495"/>
+    <functiondecl functionName="isnegative" lineNumber="535"/>
+    <functiondecl functionName="isoct" lineNumber="551"/>
+    <functiondecl functionName="isFloatHex" lineNumber="613"/>
+    <functiondecl functionName="isIntHex" lineNumber="644"/>
+    <functiondecl functionName="isValidIntegerSuffix" lineNumber="707"/>
+    <functiondecl functionName="ispositive" lineNumber="745"/>
+    <functiondecl functionName="isFloat" lineNumber="762"/>
+    <functiondecl functionName="isDecimalFloat" lineNumber="769"/>
+    <functiondecl functionName="naninf" lineNumber="876"/>
+    <functiondecl functionName="isdec" lineNumber="892"/>
+    <functiondecl functionName="isNullValue" lineNumber="910"/>
+    <functiondecl functionName="incdec" lineNumber="1079"/>
+    <functiondecl functionName="sin" lineNumber="1100"/>
+    <functiondecl functionName="cos" lineNumber="1103"/>
+    <functiondecl functionName="tan" lineNumber="1106"/>
+    <functiondecl functionName="abs" lineNumber="1109"/>
+    <functiondecl functionName="toString" lineNumber="1119"/>
+    <functiondecl functionName="characterLiteralsNormalization" lineNumber="1131"/>
+    <functiondecl functionName="CPP14DigitSeparators" lineNumber="1152"/>
+    <functiondecl functionName="run" lineNumber="33"/>
+    <functiondecl functionName="isGreater" lineNumber="68"/>
+    <functiondecl functionName="isGreaterEqual" lineNumber="73"/>
+    <functiondecl functionName="isEqual" lineNumber="80"/>
+    <functiondecl functionName="isNotEqual" lineNumber="86"/>
+    <functiondecl functionName="isLess" lineNumber="91"/>
+    <functiondecl functionName="isLessEqual" lineNumber="96"/>
+    <functiondecl functionName="calculate" lineNumber="103"/>
+    <functiondecl functionName="calculate1" lineNumber="162"/>
+    <functiondecl functionName="typesuffix" lineNumber="182"/>
+    <functiondecl functionName="toLongNumber" lineNumber="242"/>
+    <functiondecl functionName="toDoubleNumber" lineNumber="352"/>
+    <functiondecl functionName="isint" lineNumber="406"/>
+    <functiondecl functionName="isbin" lineNumber="495"/>
+    <functiondecl functionName="isnegative" lineNumber="535"/>
+    <functiondecl functionName="isoct" lineNumber="551"/>
+    <functiondecl functionName="isFloatHex" lineNumber="613"/>
+    <functiondecl functionName="isIntHex" lineNumber="644"/>
+    <functiondecl functionName="isValidIntegerSuffix" lineNumber="707"/>
+    <functiondecl functionName="ispositive" lineNumber="745"/>
+    <functiondecl functionName="isFloat" lineNumber="762"/>
+    <functiondecl functionName="isDecimalFloat" lineNumber="769"/>
+    <functiondecl functionName="naninf" lineNumber="876"/>
+    <functiondecl functionName="isdec" lineNumber="892"/>
+    <functiondecl functionName="isNullValue" lineNumber="910"/>
+    <functiondecl functionName="incdec" lineNumber="1079"/>
+    <functiondecl functionName="sin" lineNumber="1100"/>
+    <functiondecl functionName="cos" lineNumber="1103"/>
+    <functiondecl functionName="tan" lineNumber="1106"/>
+    <functiondecl functionName="abs" lineNumber="1109"/>
+    <functiondecl functionName="toString" lineNumber="1119"/>
+    <functiondecl functionName="characterLiteralsNormalization" lineNumber="1131"/>
+    <functiondecl functionName="CPP14DigitSeparators" lineNumber="1152"/>
+    <functiondecl functionName="run" lineNumber="33"/>
+    <functiondecl functionName="isGreater" lineNumber="68"/>
+    <functiondecl functionName="isGreaterEqual" lineNumber="73"/>
+    <functiondecl functionName="isEqual" lineNumber="80"/>
+    <functiondecl functionName="isNotEqual" lineNumber="86"/>
+    <functiondecl functionName="isLess" lineNumber="91"/>
+    <functiondecl functionName="isLessEqual" lineNumber="96"/>
+    <functiondecl functionName="calculate" lineNumber="103"/>
+    <functiondecl functionName="calculate1" lineNumber="162"/>
+    <functiondecl functionName="typesuffix" lineNumber="182"/>
+    <functiondecl functionName="toLongNumber" lineNumber="242"/>
+    <functiondecl functionName="toDoubleNumber" lineNumber="352"/>
+    <functiondecl functionName="isint" lineNumber="406"/>
+    <functiondecl functionName="isbin" lineNumber="495"/>
+    <functiondecl functionName="isnegative" lineNumber="535"/>
+    <functiondecl functionName="isoct" lineNumber="551"/>
+    <functiondecl functionName="isFloatHex" lineNumber="613"/>
+    <functiondecl functionName="isIntHex" lineNumber="644"/>
+    <functiondecl functionName="isValidIntegerSuffix" lineNumber="707"/>
+    <functiondecl functionName="ispositive" lineNumber="745"/>
+    <functiondecl functionName="isFloat" lineNumber="762"/>
+    <functiondecl functionName="isDecimalFloat" lineNumber="769"/>
+    <functiondecl functionName="naninf" lineNumber="876"/>
+    <functiondecl functionName="isdec" lineNumber="892"/>
+    <functiondecl functionName="isNullValue" lineNumber="910"/>
+    <functiondecl functionName="incdec" lineNumber="1079"/>
+    <functiondecl functionName="sin" lineNumber="1100"/>
+    <functiondecl functionName="cos" lineNumber="1103"/>
+    <functiondecl functionName="tan" lineNumber="1106"/>
+    <functiondecl functionName="abs" lineNumber="1109"/>
+    <functiondecl functionName="toString" lineNumber="1119"/>
+    <functiondecl functionName="characterLiteralsNormalization" lineNumber="1131"/>
+    <functiondecl functionName="CPP14DigitSeparators" lineNumber="1152"/>
+    <functioncall functionName="AST"/>
+    <functioncall functionName="CPP14DigitSeparators"/>
+    <functioncall functionName="ErrorLogger"/>
+    <functioncall functionName="ErrorMessage"/>
+    <functioncall functionName="FileLocation"/>
+    <functioncall functionName="ID"/>
+    <functioncall functionName="INSTANTIATION"/>
+    <functioncall functionName="INTERNAL"/>
+    <functioncall functionName="InternalError"/>
+    <functioncall functionName="LIMIT"/>
+    <functioncall functionName="NO_LINE"/>
+    <functioncall functionName="SYNTAX"/>
+    <functioncall functionName="Suppression"/>
+    <functioncall functionName="TestFixture"/>
+    <functioncall functionName="UNKNOWN_MACRO"/>
+    <functioncall functionName="abs"/>
+    <functioncall functionName="add"/>
+    <functioncall functionName="assertEquals"/>
+    <functioncall functionName="assertEqualsDouble"/>
+    <functioncall functionName="assertThrowFail"/>
+    <functioncall functionName="assert_"/>
+    <functioncall functionName="calculate"/>
+    <functioncall functionName="calculate1"/>
+    <functioncall functionName="catch"/>
+    <functioncall functionName="characterLiteralToLongNumber"/>
+    <functioncall functionName="characterLiteralsNormalization"/>
+    <functioncall functionName="close"/>
+    <functioncall functionName="column"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="cos"/>
+    <functioncall functionName="debug"/>
+    <functioncall functionName="decrementedNum"/>
+    <functioncall functionName="divide"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="emptyString"/>
+    <functioncall functionName="error"/>
+    <functioncall functionName="errorId"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="file"/>
+    <functioncall functionName="fileIndex"/>
+    <functioncall functionName="fileName"/>
+    <functioncall functionName="filename"/>
+    <functioncall functionName="find_first_of"/>
+    <functioncall functionName="float"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="incdec"/>
+    <functioncall functionName="incrementedNum"/>
+    <functioncall functionName="info"/>
+    <functioncall functionName="information"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="isBin"/>
+    <functioncall functionName="isDec"/>
+    <functioncall functionName="isDecimalFloat"/>
+    <functioncall functionName="isDigitSeparator"/>
+    <functioncall functionName="isEqual"/>
+    <functioncall functionName="isFloat"/>
+    <functioncall functionName="isFloatHex"/>
+    <functioncall functionName="isGreater"/>
+    <functioncall functionName="isGreaterEqual"/>
+    <functioncall functionName="isInt"/>
+    <functioncall functionName="isIntHex"/>
+    <functioncall functionName="isLess"/>
+    <functioncall functionName="isLessEqual"/>
+    <functioncall functionName="isNegative"/>
+    <functioncall functionName="isNotEqual"/>
+    <functioncall functionName="isNullValue"/>
+    <functioncall functionName="isOct"/>
+    <functioncall functionName="isPositive"/>
+    <functioncall functionName="isValidIntegerSuffix"/>
+    <functioncall functionName="is_open"/>
+    <functioncall functionName="isbin"/>
+    <functioncall functionName="isdec"/>
+    <functioncall functionName="isint"/>
+    <functioncall functionName="isnegative"/>
+    <functioncall functionName="isoct"/>
+    <functioncall functionName="ispositive"/>
+    <functioncall functionName="line"/>
+    <functioncall functionName="lineNumber"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="mDoubleValue"/>
+    <functioncall functionName="mFileName"/>
+    <functioncall functionName="mInfo"/>
+    <functioncall functionName="mIntValue"/>
+    <functioncall functionName="mOrigFileName"/>
+    <functioncall functionName="matched"/>
+    <functioncall functionName="msg"/>
+    <functioncall functionName="multiply"/>
+    <functioncall functionName="naninf"/>
+    <functioncall functionName="none"/>
+    <functioncall functionName="normalizeCharacterLiteral"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="num"/>
+    <functioncall functionName="op"/>
+    <functioncall functionName="other"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="performance"/>
+    <functioncall functionName="plistFooter"/>
+    <functioncall functionName="portability"/>
+    <functioncall functionName="prepareTest"/>
+    <functioncall functionName="reportErr"/>
+    <functioncall functionName="setVerbose"/>
+    <functioncall functionName="severity"/>
+    <functioncall functionName="sin"/>
+    <functioncall functionName="stage"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="strNum"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="style"/>
+    <functioncall functionName="subtract"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="symbolName"/>
+    <functioncall functionName="tan"/>
+    <functioncall functionName="toDoubleNumber"/>
+    <functioncall functionName="toLongNumber"/>
+    <functioncall functionName="toString"/>
+    <functioncall functionName="toULongNumber"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="typesuffix"/>
+    <functioncall functionName="v"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="warning"/>
+  </FileInfo>
+</analyzerinfo>

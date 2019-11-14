@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="197913375">
+        <error id="missingOverride" severity="style" msg="The function &apos;reportOut&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;reportOut&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier.">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testfilelister.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuite.h" line="85" column="18" info="Function in derived class"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testfilelister.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\lib\errorlogger.h" line="374" column="18" info="Virtual function in base class"/>
+            <symbol>reportOut</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;reportErr&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;reportErr&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier.">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testfilelister.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuite.h" line="86" column="18" info="Function in derived class"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testfilelister.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\lib\errorlogger.h" line="382" column="18" info="Virtual function in base class"/>
+            <symbol>reportErr</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;run&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;run&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier.">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testfilelister.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\testfilelister.cpp" line="40" column="10" info="Function in derived class"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testfilelister.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuite.h" line="49" column="18" info="Virtual function in base class"/>
+            <symbol>run</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testfilelister.cpp" linenr="48" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testfilelister.cpp" linenr="49" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testfilelister.cpp" linenr="48" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testfilelister.cpp" linenr="49" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="run" lineNumber="40"/>
+    <functiondecl functionName="isDirectory" lineNumber="52"/>
+    <functiondecl functionName="recursiveAddFiles" lineNumber="57"/>
+    <functiondecl functionName="run" lineNumber="40"/>
+    <functiondecl functionName="isDirectory" lineNumber="52"/>
+    <functiondecl functionName="recursiveAddFiles" lineNumber="57"/>
+    <functioncall functionName="AST"/>
+    <functioncall functionName="ErrorLogger"/>
+    <functioncall functionName="ErrorMessage"/>
+    <functioncall functionName="FileLocation"/>
+    <functioncall functionName="ID"/>
+    <functioncall functionName="INSTANTIATION"/>
+    <functioncall functionName="INTERNAL"/>
+    <functioncall functionName="InternalError"/>
+    <functioncall functionName="LIMIT"/>
+    <functioncall functionName="NO_LINE"/>
+    <functioncall functionName="SYNTAX"/>
+    <functioncall functionName="Suppression"/>
+    <functioncall functionName="TestFixture"/>
+    <functioncall functionName="UNKNOWN_MACRO"/>
+    <functioncall functionName="assertEquals"/>
+    <functioncall functionName="assert_"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="close"/>
+    <functioncall functionName="column"/>
+    <functioncall functionName="compare"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="debug"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="emptyString"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="error"/>
+    <functioncall functionName="errorId"/>
+    <functioncall functionName="extra"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="file"/>
+    <functioncall functionName="fileIndex"/>
+    <functioncall functionName="fileName"/>
+    <functioncall functionName="filename"/>
+    <functioncall functionName="files"/>
+    <functioncall functionName="fin"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="find_first_of"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="ignored"/>
+    <functioncall functionName="info"/>
+    <functioncall functionName="information"/>
+    <functioncall functionName="isDirectory"/>
+    <functioncall functionName="is_open"/>
+    <functioncall functionName="line"/>
+    <functioncall functionName="lineNumber"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="mFileName"/>
+    <functioncall functionName="mInfo"/>
+    <functioncall functionName="mOrigFileName"/>
+    <functioncall functionName="masks"/>
+    <functioncall functionName="matched"/>
+    <functioncall functionName="matcher"/>
+    <functioncall functionName="msg"/>
+    <functioncall functionName="none"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="other"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="path"/>
+    <functioncall functionName="performance"/>
+    <functioncall functionName="plistFooter"/>
+    <functioncall functionName="portability"/>
+    <functioncall functionName="prepareTest"/>
+    <functioncall functionName="recursiveAddFiles"/>
+    <functioncall functionName="reportErr"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="setVerbose"/>
+    <functioncall functionName="severity"/>
+    <functioncall functionName="stage"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="style"/>
+    <functioncall functionName="substr"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="symbolName"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="v"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="warning"/>
+  </FileInfo>
+</analyzerinfo>

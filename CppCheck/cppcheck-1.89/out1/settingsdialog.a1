@@ -1,0 +1,235 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="51284620">
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/gui/settingsdialog.h:178:17" my-argnr="1" my-argname="settings" filename="C:/Users/Sau/Desktop/cppcheck-1.89/gui/settingsdialog.cpp" linenr="194" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/gui/settingsdialog.h:178:17" my-argnr="2" my-argname="box" filename="C:/Users/Sau/Desktop/cppcheck-1.89/gui/settingsdialog.cpp" linenr="194" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/gui/settingsdialog.h:178:17" my-argnr="1" my-argname="settings" filename="C:/Users/Sau/Desktop/cppcheck-1.89/gui/settingsdialog.cpp" linenr="194" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/gui/settingsdialog.h:178:17" my-argnr="2" my-argname="box" filename="C:/Users/Sau/Desktop/cppcheck-1.89/gui/settingsdialog.cpp" linenr="194" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="initTranslationsList" lineNumber="111"/>
+    <functiondecl functionName="boolToCheckState" lineNumber="125"/>
+    <functiondecl functionName="checkStateToBool" lineNumber="133"/>
+    <functiondecl functionName="loadSettings" lineNumber="142"/>
+    <functiondecl functionName="saveSettings" lineNumber="149"/>
+    <functiondecl functionName="saveSettingValues" lineNumber="156"/>
+    <functiondecl functionName="saveCheckboxValue" lineNumber="191"/>
+    <functiondecl functionName="addApplication" lineNumber="197"/>
+    <functiondecl functionName="removeApplication" lineNumber="208"/>
+    <functiondecl functionName="editApplication" lineNumber="226"/>
+    <functiondecl functionName="defaultApplication" lineNumber="244"/>
+    <functiondecl functionName="populateApplicationList" lineNumber="255"/>
+    <functiondecl functionName="ok" lineNumber="280"/>
+    <functiondecl functionName="showFullPath" lineNumber="286"/>
+    <functiondecl functionName="saveFullPath" lineNumber="291"/>
+    <functiondecl functionName="saveAllErrors" lineNumber="296"/>
+    <functiondecl functionName="showNoErrorsMessage" lineNumber="301"/>
+    <functiondecl functionName="showErrorId" lineNumber="306"/>
+    <functiondecl functionName="showInconclusive" lineNumber="311"/>
+    <functiondecl functionName="browsePythonPath" lineNumber="316"/>
+    <functiondecl functionName="browseMisraFile" lineNumber="323"/>
+    <functiondecl functionName="setCodeEditorStyleDefault" lineNumber="331"/>
+    <functiondecl functionName="editCodeEditorStyle" lineNumber="343"/>
+    <functiondecl functionName="browseClangPath" lineNumber="353"/>
+    <functiondecl functionName="manageStyleControls" lineNumber="364"/>
+    <functiondecl functionName="initTranslationsList" lineNumber="111"/>
+    <functiondecl functionName="boolToCheckState" lineNumber="125"/>
+    <functiondecl functionName="checkStateToBool" lineNumber="133"/>
+    <functiondecl functionName="loadSettings" lineNumber="142"/>
+    <functiondecl functionName="saveSettings" lineNumber="149"/>
+    <functiondecl functionName="saveSettingValues" lineNumber="156"/>
+    <functiondecl functionName="saveCheckboxValue" lineNumber="191"/>
+    <functiondecl functionName="addApplication" lineNumber="197"/>
+    <functiondecl functionName="removeApplication" lineNumber="208"/>
+    <functiondecl functionName="editApplication" lineNumber="226"/>
+    <functiondecl functionName="defaultApplication" lineNumber="244"/>
+    <functiondecl functionName="populateApplicationList" lineNumber="255"/>
+    <functiondecl functionName="ok" lineNumber="280"/>
+    <functiondecl functionName="showFullPath" lineNumber="286"/>
+    <functiondecl functionName="saveFullPath" lineNumber="291"/>
+    <functiondecl functionName="saveAllErrors" lineNumber="296"/>
+    <functiondecl functionName="showNoErrorsMessage" lineNumber="301"/>
+    <functiondecl functionName="showErrorId" lineNumber="306"/>
+    <functiondecl functionName="showInconclusive" lineNumber="311"/>
+    <functiondecl functionName="browsePythonPath" lineNumber="316"/>
+    <functiondecl functionName="browseMisraFile" lineNumber="323"/>
+    <functiondecl functionName="setCodeEditorStyleDefault" lineNumber="331"/>
+    <functiondecl functionName="editCodeEditorStyle" lineNumber="343"/>
+    <functiondecl functionName="browseClangPath" lineNumber="353"/>
+    <functiondecl functionName="manageStyleControls" lineNumber="364"/>
+    <functioncall functionName="Application"/>
+    <functioncall functionName="Bold"/>
+    <functioncall functionName="CaseInsensitive"/>
+    <functioncall functionName="CodeEditor"/>
+    <functioncall functionName="CodeEditorStyle"/>
+    <functioncall functionName="Normal"/>
+    <functioncall functionName="QColor"/>
+    <functioncall functionName="QDialog"/>
+    <functioncall functionName="QSize"/>
+    <functioncall functionName="QString"/>
+    <functioncall functionName="QVariant"/>
+    <functioncall functionName="QWidget"/>
+    <functioncall functionName="SIGNAL"/>
+    <functioncall functionName="SLOT"/>
+    <functioncall functionName="SettingsDialog"/>
+    <functioncall functionName="UserRole"/>
+    <functioncall functionName="accept"/>
+    <functioncall functionName="accepted"/>
+    <functioncall functionName="addApplication"/>
+    <functioncall functionName="addItem"/>
+    <functioncall functionName="app"/>
+    <functioncall functionName="black"/>
+    <functioncall functionName="bool"/>
+    <functioncall functionName="boolToCheckState"/>
+    <functioncall functionName="browseClangPath"/>
+    <functioncall functionName="browseMisraFile"/>
+    <functioncall functionName="browsePythonPath"/>
+    <functioncall functionName="checkState"/>
+    <functioncall functionName="checkStateToBool"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="clicked"/>
+    <functioncall functionName="connect"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="contains"/>
+    <functioncall functionName="copy"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="currentItem"/>
+    <functioncall functionName="currentLang"/>
+    <functioncall functionName="darkBlue"/>
+    <functioncall functionName="darkGreen"/>
+    <functioncall functionName="darkMagenta"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="defapp"/>
+    <functioncall functionName="defaultApplication"/>
+    <functioncall functionName="defaultStyleDark"/>
+    <functioncall functionName="defaultStyleLight"/>
+    <functioncall functionName="delete"/>
+    <functioncall functionName="dialog"/>
+    <functioncall functionName="dlg"/>
+    <functioncall functionName="editApplication"/>
+    <functioncall functionName="editCodeEditorStyle"/>
+    <functioncall functionName="editor"/>
+    <functioncall functionName="event"/>
+    <functioncall functionName="exec"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="fileName"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="foreach"/>
+    <functioncall functionName="getApplication"/>
+    <functioncall functionName="getApplicationCount"/>
+    <functioncall functionName="getCurrentLanguage"/>
+    <functioncall functionName="getDefaultApplication"/>
+    <functioncall functionName="getExistingDirectory"/>
+    <functioncall functionName="getName"/>
+    <functioncall functionName="getOpenFileName"/>
+    <functioncall functionName="getStyle"/>
+    <functioncall functionName="getSystemTheme"/>
+    <functioncall functionName="getTranslations"/>
+    <functioncall functionName="gray"/>
+    <functioncall functionName="height"/>
+    <functioncall functionName="homePath"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="idealThreadCount"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="index"/>
+    <functioncall functionName="initTranslationsList"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="isChecked"/>
+    <functioncall functionName="isDefaultDark"/>
+    <functioncall functionName="isEmpty"/>
+    <functioncall functionName="isSystemTheme"/>
+    <functioncall functionName="item"/>
+    <functioncall functionName="itemDoubleClicked"/>
+    <functioncall functionName="jobs"/>
+    <functioncall functionName="langcode"/>
+    <functioncall functionName="lineNumberAreaPaintEvent"/>
+    <functioncall functionName="lineNumberAreaWidth"/>
+    <functioncall functionName="list"/>
+    <functioncall functionName="loadSettings"/>
+    <functioncall functionName="mApplications"/>
+    <functioncall functionName="mBtnAddApplication"/>
+    <functioncall functionName="mBtnBrowseClangPath"/>
+    <functioncall functionName="mBtnBrowseMisraFile"/>
+    <functioncall functionName="mBtnBrowsePythonPath"/>
+    <functioncall functionName="mBtnDefaultApplication"/>
+    <functioncall functionName="mBtnEditApplication"/>
+    <functioncall functionName="mBtnEditTheme"/>
+    <functioncall functionName="mBtnRemoveApplication"/>
+    <functioncall functionName="mButtons"/>
+    <functioncall functionName="mCode"/>
+    <functioncall functionName="mEnableInconclusive"/>
+    <functioncall functionName="mForce"/>
+    <functioncall functionName="mInlineSuppressions"/>
+    <functioncall functionName="mLangCodeRole"/>
+    <functioncall functionName="mListWidget"/>
+    <functioncall functionName="mName"/>
+    <functioncall functionName="mSaveAllErrors"/>
+    <functioncall functionName="mSaveFullPath"/>
+    <functioncall functionName="mShowDebugWarnings"/>
+    <functioncall functionName="mShowErrorId"/>
+    <functioncall functionName="mShowFullPath"/>
+    <functioncall functionName="mShowNoErrorsMessage"/>
+    <functioncall functionName="mShowStatistics"/>
+    <functioncall functionName="mTempApplications"/>
+    <functioncall functionName="mThemeCustom"/>
+    <functioncall functionName="mThemeDark"/>
+    <functioncall functionName="mThemeLight"/>
+    <functioncall functionName="mThemeSystem"/>
+    <functioncall functionName="mTranslator"/>
+    <functioncall functionName="manageStyleControls"/>
+    <functioncall functionName="mid"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="number"/>
+    <functioncall functionName="ok"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="parameters"/>
+    <functioncall functionName="parent"/>
+    <functioncall functionName="path"/>
+    <functioncall functionName="populateApplicationList"/>
+    <functioncall functionName="red"/>
+    <functioncall functionName="reject"/>
+    <functioncall functionName="rejected"/>
+    <functioncall functionName="released"/>
+    <functioncall functionName="removeApplication"/>
+    <functioncall functionName="removeIndex"/>
+    <functioncall functionName="resize"/>
+    <functioncall functionName="rootPath"/>
+    <functioncall functionName="row"/>
+    <functioncall functionName="saveCheckboxValue"/>
+    <functioncall functionName="saveSettings"/>
+    <functioncall functionName="selected"/>
+    <functioncall functionName="selectedDir"/>
+    <functioncall functionName="selectedItems"/>
+    <functioncall functionName="setCheckState"/>
+    <functioncall functionName="setChecked"/>
+    <functioncall functionName="setCodeEditorStyleDefault"/>
+    <functioncall functionName="setCurrentItem"/>
+    <functioncall functionName="setCurrentRow"/>
+    <functioncall functionName="setData"/>
+    <functioncall functionName="setDefault"/>
+    <functioncall functionName="setEnabled"/>
+    <functioncall functionName="setSortingEnabled"/>
+    <functioncall functionName="setText"/>
+    <functioncall functionName="setValue"/>
+    <functioncall functionName="setVisible"/>
+    <functioncall functionName="settings"/>
+    <functioncall functionName="setupUi"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="text"/>
+    <functioncall functionName="this"/>
+    <functioncall functionName="toBool"/>
+    <functioncall functionName="toInt"/>
+    <functioncall functionName="toString"/>
+    <functioncall functionName="toggled"/>
+    <functioncall functionName="tr"/>
+    <functioncall functionName="translations"/>
+    <functioncall functionName="translator"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="width"/>
+    <functioncall functionName="yes"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1042581010">
+        <error id="missingOverride" severity="style" msg="The function &apos;reportOut&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;reportOut&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier.">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuite.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuite.h" line="85" column="18" info="Function in derived class"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuite.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\lib\errorlogger.h" line="374" column="18" info="Virtual function in base class"/>
+            <symbol>reportOut</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;reportErr&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;reportErr&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier.">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuite.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuite.h" line="86" column="18" info="Function in derived class"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuite.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\lib\errorlogger.h" line="382" column="18" info="Virtual function in base class"/>
+            <symbol>reportErr</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:52:17" call-funcname="getLocationStr" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp" linenr="141" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:54:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:52:17" call-funcname="getLocationStr" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp" linenr="149" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:56:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:56:10" call-funcname="assertEquals" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp" linenr="186" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:57:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:56:10" call-funcname="assertEquals" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp" linenr="209" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:61:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:56:10" call-funcname="assertEquals" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp" linenr="220" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:62:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:52:17" call-funcname="getLocationStr" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp" linenr="230" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:64:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:64:10" call-funcname="todoAssertEquals" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp" linenr="246" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:66:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:52:17" call-funcname="getLocationStr" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp" linenr="252" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:68:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:52:17" call-funcname="getLocationStr" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp" linenr="260" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:69:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:52:17" call-funcname="getLocationStr" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp" linenr="268" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:70:10" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp:36:10" my-argnr="1" my-argname="lhs" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp" linenr="37" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp:36:10" my-argnr="2" my-argname="rhs" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp" linenr="37" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:52:17" my-argnr="1" my-argname="filename" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp" linenr="109" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp:36:10" my-argnr="1" my-argname="lhs" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp" linenr="37" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp:36:10" my-argnr="2" my-argname="rhs" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp" linenr="37" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:52:17" my-argnr="1" my-argname="filename" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp" linenr="109" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:52:17" call-funcname="getLocationStr" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp" linenr="141" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:54:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:52:17" call-funcname="getLocationStr" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp" linenr="149" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:56:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:56:10" call-funcname="assertEquals" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp" linenr="186" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:57:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:56:10" call-funcname="assertEquals" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp" linenr="209" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:61:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:56:10" call-funcname="assertEquals" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp" linenr="220" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:62:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:52:17" call-funcname="getLocationStr" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp" linenr="230" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:64:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:64:10" call-funcname="todoAssertEquals" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp" linenr="246" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:66:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:52:17" call-funcname="getLocationStr" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp" linenr="252" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:68:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:52:17" call-funcname="getLocationStr" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp" linenr="260" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:69:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:52:17" call-funcname="getLocationStr" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp" linenr="268" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:70:10" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp:36:10" my-argnr="1" my-argname="lhs" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp" linenr="37" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp:36:10" my-argnr="2" my-argname="rhs" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp" linenr="37" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:52:17" my-argnr="1" my-argname="filename" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp" linenr="109" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp:36:10" my-argnr="1" my-argname="lhs" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp" linenr="37" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp:36:10" my-argnr="2" my-argname="rhs" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp" linenr="37" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:52:17" my-argnr="1" my-argname="filename" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.cpp" linenr="109" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="theInstance" lineNumber="46"/>
+    <functiondecl functionName="addTest" lineNumber="51"/>
+    <functiondecl functionName="tests" lineNumber="55"/>
+    <functiondecl functionName="prepareTest" lineNumber="84"/>
+    <functiondecl functionName="getLocationStr" lineNumber="106"/>
+    <functiondecl functionName="writestr" lineNumber="113"/>
+    <functiondecl functionName="assert_" lineNumber="137"/>
+    <functiondecl functionName="assertEquals" lineNumber="145"/>
+    <functiondecl functionName="deleteLineNumber" lineNumber="160"/>
+    <functiondecl functionName="assertEqualsWithoutLineNumbers" lineNumber="184"/>
+    <functiondecl functionName="assertEquals" lineNumber="189"/>
+    <functiondecl functionName="assertEquals" lineNumber="193"/>
+    <functiondecl functionName="assertEquals" lineNumber="197"/>
+    <functiondecl functionName="assertEquals" lineNumber="202"/>
+    <functiondecl functionName="assertEqualsDouble" lineNumber="213"/>
+    <functiondecl functionName="todoAssertEquals" lineNumber="224"/>
+    <functiondecl functionName="todoAssertEquals" lineNumber="240"/>
+    <functiondecl functionName="assertThrow" lineNumber="249"/>
+    <functiondecl functionName="assertThrowFail" lineNumber="257"/>
+    <functiondecl functionName="assertNoThrowFail" lineNumber="265"/>
+    <functiondecl functionName="complainMissingLib" lineNumber="273"/>
+    <functiondecl functionName="printHelp" lineNumber="278"/>
+    <functiondecl functionName="run" lineNumber="298"/>
+    <functiondecl functionName="processOptions" lineNumber="309"/>
+    <functiondecl functionName="runTests" lineNumber="314"/>
+    <functiondecl functionName="reportOut" lineNumber="355"/>
+    <functiondecl functionName="reportErr" lineNumber="360"/>
+    <functiondecl functionName="theInstance" lineNumber="46"/>
+    <functiondecl functionName="addTest" lineNumber="51"/>
+    <functiondecl functionName="tests" lineNumber="55"/>
+    <functiondecl functionName="prepareTest" lineNumber="84"/>
+    <functiondecl functionName="getLocationStr" lineNumber="106"/>
+    <functiondecl functionName="writestr" lineNumber="113"/>
+    <functiondecl functionName="assert_" lineNumber="137"/>
+    <functiondecl functionName="assertEquals" lineNumber="145"/>
+    <functiondecl functionName="deleteLineNumber" lineNumber="160"/>
+    <functiondecl functionName="assertEqualsWithoutLineNumbers" lineNumber="184"/>
+    <functiondecl functionName="assertEquals" lineNumber="189"/>
+    <functiondecl functionName="assertEquals" lineNumber="193"/>
+    <functiondecl functionName="assertEquals" lineNumber="197"/>
+    <functiondecl functionName="assertEquals" lineNumber="202"/>
+    <functiondecl functionName="assertEqualsDouble" lineNumber="213"/>
+    <functiondecl functionName="todoAssertEquals" lineNumber="224"/>
+    <functiondecl functionName="todoAssertEquals" lineNumber="240"/>
+    <functiondecl functionName="assertThrow" lineNumber="249"/>
+    <functiondecl functionName="assertThrowFail" lineNumber="257"/>
+    <functiondecl functionName="assertNoThrowFail" lineNumber="265"/>
+    <functiondecl functionName="complainMissingLib" lineNumber="273"/>
+    <functiondecl functionName="printHelp" lineNumber="278"/>
+    <functiondecl functionName="run" lineNumber="298"/>
+    <functiondecl functionName="processOptions" lineNumber="309"/>
+    <functiondecl functionName="runTests" lineNumber="314"/>
+    <functiondecl functionName="reportOut" lineNumber="355"/>
+    <functiondecl functionName="reportErr" lineNumber="360"/>
+    <functioncall functionName="AST"/>
+    <functioncall functionName="CompareFixtures"/>
+    <functioncall functionName="ErrorLogger"/>
+    <functioncall functionName="ErrorMessage"/>
+    <functioncall functionName="FileLocation"/>
+    <functioncall functionName="ID"/>
+    <functioncall functionName="INSTANTIATION"/>
+    <functioncall functionName="INTERNAL"/>
+    <functioncall functionName="InternalError"/>
+    <functioncall functionName="LIMIT"/>
+    <functioncall functionName="NO_LINE"/>
+    <functioncall functionName="SYNTAX"/>
+    <functioncall functionName="Suppression"/>
+    <functioncall functionName="TestFixture"/>
+    <functioncall functionName="UNKNOWN_MACRO"/>
+    <functioncall functionName="_name"/>
+    <functioncall functionName="_oldCerr"/>
+    <functioncall functionName="_oldCout"/>
+    <functioncall functionName="actual"/>
+    <functioncall functionName="addTest"/>
+    <functioncall functionName="after"/>
+    <functioncall functionName="args"/>
+    <functioncall functionName="assertEquals"/>
+    <functioncall functionName="at"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="classname"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="close"/>
+    <functioncall functionName="column"/>
+    <functioncall functionName="condition"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="current"/>
+    <functioncall functionName="debug"/>
+    <functioncall functionName="deleteLineNumber"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="emptyString"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="error"/>
+    <functioncall functionName="errorId"/>
+    <functioncall functionName="errormessage"/>
+    <functioncall functionName="expected"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="fflush"/>
+    <functioncall functionName="file"/>
+    <functioncall functionName="fileIndex"/>
+    <functioncall functionName="fileName"/>
+    <functioncall functionName="filename"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="find_first_not_of"/>
+    <functioncall functionName="find_first_of"/>
+    <functioncall functionName="flush"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="gccStyle"/>
+    <functioncall functionName="getLocationStr"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="info"/>
+    <functioncall functionName="information"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="is_open"/>
+    <functioncall functionName="libname"/>
+    <functioncall functionName="line"/>
+    <functioncall functionName="lineNumber"/>
+    <functioncall functionName="linenr"/>
+    <functioncall functionName="mFileName"/>
+    <functioncall functionName="mInfo"/>
+    <functioncall functionName="mOrigFileName"/>
+    <functioncall functionName="mTemplateFormat"/>
+    <functioncall functionName="mTemplateLocation"/>
+    <functioncall functionName="mVerbose"/>
+    <functioncall functionName="matched"/>
+    <functioncall functionName="message"/>
+    <functioncall functionName="msg"/>
+    <functioncall functionName="none"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="options"/>
+    <functioncall functionName="other"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="performance"/>
+    <functioncall functionName="plistFooter"/>
+    <functioncall functionName="portability"/>
+    <functioncall functionName="pos"/>
+    <functioncall functionName="processOptions"/>
+    <functioncall functionName="putchar"/>
+    <functioncall functionName="quiet"/>
+    <functioncall functionName="quiet_tests"/>
+    <functioncall functionName="rdbuf"/>
+    <functioncall functionName="reportErr"/>
+    <functioncall functionName="result"/>
+    <functioncall functionName="run"/>
+    <functioncall functionName="severity"/>
+    <functioncall functionName="stage"/>
+    <functioncall functionName="stdout"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="style"/>
+    <functioncall functionName="substr"/>
+    <functioncall functionName="succeeded_todos_counter"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="symbolName"/>
+    <functioncall functionName="t"/>
+    <functioncall functionName="testname"/>
+    <functioncall functionName="tests"/>
+    <functioncall functionName="theInstance"/>
+    <functioncall functionName="this"/>
+    <functioncall functionName="toString"/>
+    <functioncall functionName="todoAssertEquals"/>
+    <functioncall functionName="tolerance"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="v"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="wanted"/>
+    <functioncall functionName="warning"/>
+    <functioncall functionName="which_test"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="writestr"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2153060670">
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;TestData[100]&apos; accessed at index 1000, which is out of bounds." verbose="Array &apos;TestData[100]&apos; accessed at index 1000, which is out of bounds." cwe="788">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\functions.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\functions.c" line="6" column="11" info="Array index out of bounds"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\functions.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\functions.c" line="13" column="21" info="Calling function &apos;par_not_dependant&apos;, 1st argument &apos;1000&apos; value is 1000"/>
+        </error>
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;TestData[100]&apos; accessed at index 1000, which is out of bounds." verbose="Array &apos;TestData[100]&apos; accessed at index 1000, which is out of bounds." cwe="788">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\functions.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\functions.c" line="19" column="11" info="Array index out of bounds"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/synthetic/functions.c:8:6" call-funcname="par_dependant" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/synthetic/functions.c" linenr="14" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="par_not_dependant" lineNumber="5"/>
+    <functiondecl functionName="par_dependant" lineNumber="8"/>
+    <functiondecl functionName="call" lineNumber="12"/>
+    <functiondecl functionName="getLargeIndex" lineNumber="17"/>
+    <functiondecl functionName="return_value" lineNumber="18"/>
+    <functioncall functionName="getLargeIndex"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="par"/>
+    <functioncall functionName="par_dependant"/>
+    <functioncall functionName="par_not_dependant"/>
+    <functioncall functionName="y"/>
+  </FileInfo>
+</analyzerinfo>

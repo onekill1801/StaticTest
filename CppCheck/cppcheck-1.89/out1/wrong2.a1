@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2756389951">
+        <error id="mismatchAllocDealloc" severity="error" msg="Mismatching allocation and deallocation: pI" verbose="Mismatching allocation and deallocation: pI" cwe="762">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuites\duma\wrong2.cc" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuites\duma\wrong2.cc" line="13" column="3"/>
+            <symbol>pI</symbol>
+        </error>
+        <error id="doubleFree" severity="error" msg="Memory pointed to by &apos;pI&apos; is freed twice." verbose="Memory pointed to by &apos;pI&apos; is freed twice." cwe="415">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuites\duma\wrong2.cc" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuites\duma\wrong2.cc" line="20" column="10"/>
+            <symbol>pI</symbol>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="main" lineNumber="7"/>
+    <functioncall functionName="delete"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="pI"/>
+  </FileInfo>
+</analyzerinfo>

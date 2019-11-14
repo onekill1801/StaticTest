@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2577660700">
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="AboutDialog"/>
+    <functioncall functionName="QDialog"/>
+    <functioncall functionName="accept"/>
+    <functioncall functionName="accepted"/>
+    <functioncall functionName="arg"/>
+    <functioncall functionName="connect"/>
+    <functioncall functionName="fmtVersion"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="isEmpty"/>
+    <functioncall functionName="mButtons"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="parent"/>
+    <functioncall functionName="setText"/>
+    <functioncall functionName="setupUi"/>
+    <functioncall functionName="text"/>
+    <functioncall functionName="this"/>
+    <functioncall functionName="url"/>
+    <functioncall functionName="version"/>
+  </FileInfo>
+</analyzerinfo>

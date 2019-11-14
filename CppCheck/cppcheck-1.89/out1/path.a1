@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1320307072">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="caseInsensitiveFilesystem" lineNumber="44"/>
+    <functiondecl functionName="toNativeSeparators" lineNumber="54"/>
+    <functiondecl functionName="fromNativeSeparators" lineNumber="67"/>
+    <functiondecl functionName="simplifyPath" lineNumber="75"/>
+    <functiondecl functionName="getPathFromFilename" lineNumber="80"/>
+    <functiondecl functionName="sameFileName" lineNumber="90"/>
+    <functiondecl functionName="tolowerWrapper" lineNumber="97"/>
+    <functiondecl functionName="removeQuotationMarks" lineNumber="102"/>
+    <functiondecl functionName="getFilenameExtension" lineNumber="108"/>
+    <functiondecl functionName="getFilenameExtensionInLowerCase" lineNumber="123"/>
+    <functiondecl functionName="getCurrentPath" lineNumber="130"/>
+    <functiondecl functionName="isAbsolute" lineNumber="144"/>
+    <functiondecl functionName="getRelativePath" lineNumber="163"/>
+    <functiondecl functionName="isC" lineNumber="180"/>
+    <functiondecl functionName="isCPP" lineNumber="188"/>
+    <functiondecl functionName="acceptFile" lineNumber="203"/>
+    <functiondecl functionName="isHeader" lineNumber="208"/>
+    <functiondecl functionName="getAbsoluteFilePath" lineNumber="214"/>
+    <functiondecl functionName="stripDirectoryPart" lineNumber="232"/>
+    <functiondecl functionName="fileExists" lineNumber="247"/>
+    <functiondecl functionName="caseInsensitiveFilesystem" lineNumber="44"/>
+    <functiondecl functionName="toNativeSeparators" lineNumber="54"/>
+    <functiondecl functionName="fromNativeSeparators" lineNumber="67"/>
+    <functiondecl functionName="simplifyPath" lineNumber="75"/>
+    <functiondecl functionName="getPathFromFilename" lineNumber="80"/>
+    <functiondecl functionName="sameFileName" lineNumber="90"/>
+    <functiondecl functionName="tolowerWrapper" lineNumber="97"/>
+    <functiondecl functionName="removeQuotationMarks" lineNumber="102"/>
+    <functiondecl functionName="getFilenameExtension" lineNumber="108"/>
+    <functiondecl functionName="getFilenameExtensionInLowerCase" lineNumber="123"/>
+    <functiondecl functionName="getCurrentPath" lineNumber="130"/>
+    <functiondecl functionName="isAbsolute" lineNumber="144"/>
+    <functiondecl functionName="getRelativePath" lineNumber="163"/>
+    <functiondecl functionName="isC" lineNumber="180"/>
+    <functiondecl functionName="isCPP" lineNumber="188"/>
+    <functiondecl functionName="acceptFile" lineNumber="203"/>
+    <functiondecl functionName="isHeader" lineNumber="208"/>
+    <functiondecl functionName="getAbsoluteFilePath" lineNumber="214"/>
+    <functiondecl functionName="stripDirectoryPart" lineNumber="232"/>
+    <functiondecl functionName="fileExists" lineNumber="247"/>
+    <functiondecl functionName="caseInsensitiveFilesystem" lineNumber="44"/>
+    <functiondecl functionName="toNativeSeparators" lineNumber="54"/>
+    <functiondecl functionName="fromNativeSeparators" lineNumber="67"/>
+    <functiondecl functionName="simplifyPath" lineNumber="75"/>
+    <functiondecl functionName="getPathFromFilename" lineNumber="80"/>
+    <functiondecl functionName="sameFileName" lineNumber="90"/>
+    <functiondecl functionName="tolowerWrapper" lineNumber="97"/>
+    <functiondecl functionName="removeQuotationMarks" lineNumber="102"/>
+    <functiondecl functionName="getFilenameExtension" lineNumber="108"/>
+    <functiondecl functionName="getFilenameExtensionInLowerCase" lineNumber="123"/>
+    <functiondecl functionName="getCurrentPath" lineNumber="130"/>
+    <functiondecl functionName="isAbsolute" lineNumber="144"/>
+    <functiondecl functionName="getRelativePath" lineNumber="163"/>
+    <functiondecl functionName="isC" lineNumber="180"/>
+    <functiondecl functionName="isCPP" lineNumber="188"/>
+    <functiondecl functionName="acceptFile" lineNumber="203"/>
+    <functiondecl functionName="isHeader" lineNumber="208"/>
+    <functiondecl functionName="getAbsoluteFilePath" lineNumber="214"/>
+    <functiondecl functionName="stripDirectoryPart" lineNumber="232"/>
+    <functiondecl functionName="fileExists" lineNumber="247"/>
+    <functioncall functionName="_MAX_PATH"/>
+    <functioncall functionName="_fullpath"/>
+    <functioncall functionName="_getcwd"/>
+    <functioncall functionName="absolute"/>
+    <functioncall functionName="acceptFile"/>
+    <functioncall functionName="basePaths"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="bp"/>
+    <functioncall functionName="c"/>
+    <functioncall functionName="c_str"/>
+    <functioncall functionName="caseInsensitiveFilesystem"/>
+    <functioncall functionName="caseInsensitiveStringCompare"/>
+    <functioncall functionName="compare"/>
+    <functioncall functionName="continue"/>
+    <functioncall functionName="currentPath"/>
+    <functioncall functionName="dotLocation"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="endlen"/>
+    <functioncall functionName="endsWith"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="extra"/>
+    <functioncall functionName="f"/>
+    <functioncall functionName="filename"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="find_last_of"/>
+    <functioncall functionName="fname1"/>
+    <functioncall functionName="fname2"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="getFilenameExtension"/>
+    <functioncall functionName="getFilenameExtensionInLowerCase"/>
+    <functioncall functionName="getcwd"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="isC"/>
+    <functioncall functionName="isCPP"/>
+    <functioncall functionName="isHeader"/>
+    <functioncall functionName="is_open"/>
+    <functioncall functionName="isalpha"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="native"/>
+    <functioncall functionName="newsepar"/>
+    <functioncall functionName="nonnative"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="originalPath"/>
+    <functioncall functionName="path"/>
+    <functioncall functionName="pos"/>
+    <functioncall functionName="realpath"/>
+    <functioncall functionName="remove"/>
+    <functioncall functionName="replace"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="rfind"/>
+    <functioncall functionName="separ"/>
+    <functioncall functionName="simplifyPath"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="substr"/>
+    <functioncall functionName="toNativeSeparators"/>
+    <functioncall functionName="tolower"/>
+    <functioncall functionName="tolowerWrapper"/>
+    <functioncall functionName="toupper"/>
+    <functioncall functionName="transform"/>
+  </FileInfo>
+</analyzerinfo>

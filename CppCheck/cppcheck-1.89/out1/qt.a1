@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3800673258">
+        <error id="iterators2" severity="error" msg="Same iterator is used with different containers &apos;qstring1&apos; and &apos;qstring2&apos;." verbose="Same iterator is used with different containers &apos;qstring1&apos; and &apos;qstring2&apos;." cwe="664">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\qt.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\qt.cpp" line="43" column="33"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\qt.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\qt.cpp" line="43" column="54"/>
+            <symbol>qstring1</symbol>
+            <symbol>qstring2</symbol>
+        </error>
+        <error id="iterators2" severity="error" msg="Same iterator is used with different containers &apos;qlist1&apos; and &apos;qlist2&apos;." verbose="Same iterator is used with different containers &apos;qlist1&apos; and &apos;qlist2&apos;." cwe="664">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\qt.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\qt.cpp" line="129" column="36"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\qt.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\qt.cpp" line="129" column="55"/>
+            <symbol>qlist1</symbol>
+            <symbol>qlist2</symbol>
+        </error>
+        <error id="iterators2" severity="error" msg="Same iterator is used with different containers &apos;intQLinkedList1&apos; and &apos;intQLinkedList2&apos;." verbose="Same iterator is used with different containers &apos;intQLinkedList1&apos; and &apos;intQLinkedList2&apos;." cwe="664">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\qt.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\qt.cpp" line="165" column="42"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\qt.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\qt.cpp" line="165" column="70"/>
+            <symbol>intQLinkedList1</symbol>
+            <symbol>intQLinkedList2</symbol>
+        </error>
+        <error id="iterators2" severity="error" msg="Same iterator is used with different containers &apos;qstringlist1&apos; and &apos;qstringlist2&apos;." verbose="Same iterator is used with different containers &apos;qstringlist1&apos; and &apos;qstringlist2&apos;." cwe="664">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\qt.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\qt.cpp" line="222" column="37"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\qt.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\qt.cpp" line="222" column="62"/>
+            <symbol>qstringlist1</symbol>
+            <symbol>qstringlist2</symbol>
+        </error>
+        <error id="iterators2" severity="error" msg="Same iterator is used with different containers &apos;qvector1&apos; and &apos;qvector2&apos;." verbose="Same iterator is used with different containers &apos;qvector1&apos; and &apos;qvector2&apos;." cwe="664">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\qt.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\qt.cpp" line="276" column="38"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\qt.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\qt.cpp" line="276" column="59"/>
+            <symbol>qvector1</symbol>
+            <symbol>qvector2</symbol>
+        </error>
+        <error id="iterators2" severity="error" msg="Same iterator is used with different containers &apos;qstack1&apos; and &apos;qstack2&apos;." verbose="Same iterator is used with different containers &apos;qstack1&apos; and &apos;qstack2&apos;." cwe="664">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\qt.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\qt.cpp" line="329" column="37"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\qt.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\qt.cpp" line="329" column="57"/>
+            <symbol>qstack1</symbol>
+            <symbol>qstack2</symbol>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="QString1" lineNumber="23"/>
+    <functiondecl functionName="QString2" lineNumber="31"/>
+    <functiondecl functionName="QString3" lineNumber="38"/>
+    <functiondecl functionName="QByteArray1" lineNumber="51"/>
+    <functiondecl functionName="QList1" lineNumber="71"/>
+    <functiondecl functionName="QList3" lineNumber="124"/>
+    <functiondecl functionName="QLinkedList1" lineNumber="137"/>
+    <functiondecl functionName="QLinkedList3" lineNumber="160"/>
+    <functiondecl functionName="QStringList1" lineNumber="173"/>
+    <functiondecl functionName="QStringList2" lineNumber="217"/>
+    <functiondecl functionName="QVector1" lineNumber="230"/>
+    <functiondecl functionName="QVector2" lineNumber="271"/>
+    <functiondecl functionName="QStack1" lineNumber="284"/>
+    <functiondecl functionName="QStack2" lineNumber="324"/>
+    <functiondecl functionName="QStack3" lineNumber="337"/>
+    <functiondecl functionName="MacroTest2_test" lineNumber="364"/>
+    <functiondecl functionName="validCode" lineNumber="381"/>
+    <functiondecl functionName="ignoredReturnValue" lineNumber="404"/>
+    <functiondecl functionName="nullPointer" lineNumber="413"/>
+    <functioncall functionName="MacroTest2"/>
+    <functioncall functionName="QT_TR_NOOP"/>
+    <functioncall functionName="Q_DECLARE_TR_FUNCTIONS"/>
+    <functioncall functionName="Q_LIKELY"/>
+    <functioncall functionName="Q_NULLPTR"/>
+    <functioncall functionName="Q_PLUGIN_METADATA"/>
+    <functioncall functionName="Q_UNLIKELY"/>
+    <functioncall functionName="append"/>
+    <functioncall functionName="at"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="endsWith"/>
+    <functioncall functionName="exists"/>
+    <functioncall functionName="file1"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="pIntPtr"/>
+    <functioncall functionName="pop"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="push"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="startsWith"/>
+    <functioncall functionName="toLatin1"/>
+    <functioncall functionName="top"/>
+    <functioncall functionName="tr"/>
+    <functioncall functionName="trUtf8"/>
+    <functioncall functionName="void"/>
+  </FileInfo>
+</analyzerinfo>

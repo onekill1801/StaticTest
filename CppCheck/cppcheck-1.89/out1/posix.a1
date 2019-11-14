@@ -1,0 +1,240 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1068556080">
+        <error id="bufferAccessOutOfBounds" severity="error" msg="Buffer is accessed out of bounds: a" verbose="Buffer is accessed out of bounds: a" cwe="788">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" line="74" column="13" info="Buffer overrun"/>
+        </error>
+        <error id="bufferAccessOutOfBounds" severity="error" msg="Buffer is accessed out of bounds: a" verbose="Buffer is accessed out of bounds: a" cwe="788">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" line="80" column="13" info="Buffer overrun"/>
+        </error>
+        <error id="bufferAccessOutOfBounds" severity="error" msg="Buffer is accessed out of bounds: a" verbose="Buffer is accessed out of bounds: a" cwe="788">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" line="83" column="15" info="Buffer overrun"/>
+        </error>
+        <error id="resourceLeak" severity="error" msg="Resource leak: s" verbose="Resource leak: s" cwe="775">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" line="206" column="1"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="nullPointer" severity="error" msg="Null pointer dereference" verbose="Null pointer dereference" cwe="476">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" line="131" column="15" info="Null pointer dereference"/>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;lib&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;lib&apos;. The initialized value is overwritten before it is read." cwe="563">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" line="404" column="15"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" line="406" column="9"/>
+            <symbol>lib</symbol>
+        </error>
+        <error id="constStatement" severity="warning" msg="Redundant code: Found a statement that begins with numeric constant." verbose="Redundant code: Found a statement that begins with numeric constant." cwe="398">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" line="85" column="5"/>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: strtok_arg1" verbose="Uninitialized variable: strtok_arg1" cwe="908">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" line="342" column="12"/>
+            <symbol>strtok_arg1</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: b" verbose="Uninitialized variable: b" cwe="908">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" line="371" column="5"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;ret&apos; is assigned a value that is never used." verbose="Variable &apos;ret&apos; is assigned a value that is never used." cwe="563">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" line="124" column="13"/>
+            <symbol>ret</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;addr&apos; is assigned a value that is never used." verbose="Variable &apos;addr&apos; is assigned a value that is never used." cwe="563">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" line="158" column="16"/>
+            <symbol>addr</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;f&apos; is assigned a value that is never used." verbose="Variable &apos;f&apos; is assigned a value that is never used." cwe="563">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" line="165" column="13"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;fp&apos; is assigned a value that is never used." verbose="Variable &apos;fp&apos; is assigned a value that is never used." cwe="563">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" line="172" column="12"/>
+            <symbol>fp</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;leak1&apos; is assigned a value that is never used." verbose="Variable &apos;leak1&apos; is assigned a value that is never used." cwe="563">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" line="190" column="16"/>
+            <symbol>leak1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;leak1&apos; is assigned a value that is never used." verbose="Variable &apos;leak1&apos; is assigned a value that is never used." cwe="563">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" line="197" column="16"/>
+            <symbol>leak1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;s&apos; is assigned a value that is never used." verbose="Variable &apos;s&apos; is assigned a value that is never used." cwe="563">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" line="204" column="11"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;fd&apos; is assigned a value that is never used." verbose="Variable &apos;fd&apos; is assigned a value that is never used." cwe="563">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" line="211" column="12"/>
+            <symbol>fd</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;fd&apos; is assigned a value that is never used." verbose="Variable &apos;fd&apos; is assigned a value that is never used." cwe="563">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" line="218" column="12"/>
+            <symbol>fd</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;buffer&apos; is assigned a value that is never used." verbose="Variable &apos;buffer&apos; is assigned a value that is never used." cwe="563">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" line="315" column="18"/>
+            <symbol>buffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;access_ret&apos; is assigned a value that is never used." verbose="Variable &apos;access_ret&apos; is assigned a value that is never used." cwe="563">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" line="332" column="20"/>
+            <symbol>access_ret</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;b&apos; is not assigned a value." verbose="Variable &apos;b&apos; is not assigned a value." cwe="665">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" line="369" column="14"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;sym&apos; is assigned a value that is never used." verbose="Variable &apos;sym&apos; is assigned a value that is never used." cwe="563">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\posix.c" line="410" column="15"/>
+            <symbol>sym</symbol>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="memleak_scandir" lineNumber="24"/>
+    <functiondecl functionName="no_memleak_scandir" lineNumber="43"/>
+    <functiondecl functionName="validCode" lineNumber="56"/>
+    <functiondecl functionName="bufferAccessOutOfBounds" lineNumber="63"/>
+    <functiondecl functionName="nullPointer" lineNumber="98"/>
+    <functiondecl functionName="memleak_getaddrinfo" lineNumber="147"/>
+    <functiondecl functionName="memleak_mmap" lineNumber="155"/>
+    <functiondecl functionName="resourceLeak_fdopen" lineNumber="162"/>
+    <functiondecl functionName="resourceLeak_mkstemp" lineNumber="169"/>
+    <functiondecl functionName="no_resourceLeak_mkstemp_01" lineNumber="176"/>
+    <functiondecl functionName="no_resourceLeak_mkstemp_02" lineNumber="182"/>
+    <functiondecl functionName="resourceLeak_fdopendir" lineNumber="187"/>
+    <functiondecl functionName="resourceLeak_opendir" lineNumber="194"/>
+    <functiondecl functionName="resourceLeak_socket" lineNumber="201"/>
+    <functiondecl functionName="resourceLeak_open1" lineNumber="208"/>
+    <functiondecl functionName="resourceLeak_open2" lineNumber="215"/>
+    <functiondecl functionName="noleak" lineNumber="222"/>
+    <functiondecl functionName="ignoredReturnValue" lineNumber="245"/>
+    <functiondecl functionName="invalidFunctionArg" lineNumber="261"/>
+    <functiondecl functionName="invalidFunctionArg_close" lineNumber="275"/>
+    <functiondecl functionName="uninitvar" lineNumber="283"/>
+    <functiondecl functionName="uninitvar_getcwd" lineNumber="357"/>
+    <functiondecl functionName="uninitvar_types" lineNumber="366"/>
+    <functiondecl functionName="timet_h" lineNumber="378"/>
+    <functiondecl functionName="dl" lineNumber="401"/>
+    <functiondecl functionName="asctime_r_test" lineNumber="419"/>
+    <functiondecl functionName="ctime_r_test" lineNumber="450"/>
+    <functioncall functionName="AF_INET"/>
+    <functioncall functionName="CLOCK_REALTIME"/>
+    <functioncall functionName="MAP_PRIVATE"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="O_CREAT"/>
+    <functioncall functionName="PROT_NONE"/>
+    <functioncall functionName="RTLD_LAZY"/>
+    <functioncall functionName="RTLD_NOW"/>
+    <functioncall functionName="SOCK_STREAM"/>
+    <functioncall functionName="S_IWUSR"/>
+    <functioncall functionName="a"/>
+    <functioncall functionName="access"/>
+    <functioncall functionName="addr"/>
+    <functioncall functionName="alphasort"/>
+    <functioncall functionName="asctime_r"/>
+    <functioncall functionName="buf"/>
+    <functioncall functionName="bufSize100"/>
+    <functioncall functionName="bufSize25"/>
+    <functioncall functionName="bufSize26"/>
+    <functioncall functionName="bufSize5"/>
+    <functioncall functionName="bufSizeUnknown"/>
+    <functioncall functionName="cflags1"/>
+    <functioncall functionName="cflags2"/>
+    <functioncall functionName="clk_id1"/>
+    <functioncall functionName="clk_id2"/>
+    <functioncall functionName="clk_id3"/>
+    <functioncall functionName="clock"/>
+    <functioncall functionName="clock_settime"/>
+    <functioncall functionName="close"/>
+    <functioncall functionName="closedir"/>
+    <functioncall functionName="ctime_r"/>
+    <functioncall functionName="d"/>
+    <functioncall functionName="decimal"/>
+    <functioncall functionName="dlclose"/>
+    <functioncall functionName="dlopen"/>
+    <functioncall functionName="dlsym"/>
+    <functioncall functionName="ecvt"/>
+    <functioncall functionName="fd"/>
+    <functioncall functionName="fd1"/>
+    <functioncall functionName="fd2"/>
+    <functioncall functionName="fdopen"/>
+    <functioncall functionName="fdopendir"/>
+    <functioncall functionName="filename"/>
+    <functioncall functionName="fp"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="freeaddrinfo"/>
+    <functioncall functionName="funcname"/>
+    <functioncall functionName="gcvt"/>
+    <functioncall functionName="getaddrinfo"/>
+    <functioncall functionName="getcwd"/>
+    <functioncall functionName="gethostname"/>
+    <functioncall functionName="getuid"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="isatty"/>
+    <functioncall functionName="lib"/>
+    <functioncall functionName="libname"/>
+    <functioncall functionName="mkdir"/>
+    <functioncall functionName="mkstemp"/>
+    <functioncall functionName="mmap"/>
+    <functioncall functionName="mutex"/>
+    <functioncall functionName="mutex1"/>
+    <functioncall functionName="mutex2"/>
+    <functioncall functionName="mutex3"/>
+    <functioncall functionName="n"/>
+    <functioncall functionName="namelist"/>
+    <functioncall functionName="open"/>
+    <functioncall functionName="opendir"/>
+    <functioncall functionName="p"/>
+    <functioncall functionName="p1"/>
+    <functioncall functionName="p2"/>
+    <functioncall functionName="pattern"/>
+    <functioncall functionName="posix_memalign"/>
+    <functioncall functionName="pthread_mutex_destroy"/>
+    <functioncall functionName="pthread_mutex_init"/>
+    <functioncall functionName="pthread_mutex_lock"/>
+    <functioncall functionName="pthread_mutex_trylock"/>
+    <functioncall functionName="pthread_mutex_unlock"/>
+    <functioncall functionName="ptp"/>
+    <functioncall functionName="ptp1"/>
+    <functioncall functionName="ptr"/>
+    <functioncall functionName="read"/>
+    <functioncall functionName="readdir"/>
+    <functioncall functionName="readlink"/>
+    <functioncall functionName="readlinkat"/>
+    <functioncall functionName="recv"/>
+    <functioncall functionName="recvfrom"/>
+    <functioncall functionName="reg"/>
+    <functioncall functionName="regcomp"/>
+    <functioncall functionName="regerror"/>
+    <functioncall functionName="res"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="s"/>
+    <functioncall functionName="scandir"/>
+    <functioncall functionName="send"/>
+    <functioncall functionName="sendto"/>
+    <functioncall functionName="setuid"/>
+    <functioncall functionName="sign"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="socket"/>
+    <functioncall functionName="strtok"/>
+    <functioncall functionName="strtok_arg1"/>
+    <functioncall functionName="template"/>
+    <functioncall functionName="time"/>
+    <functioncall functionName="time_t_uninit_data"/>
+    <functioncall functionName="time_t_uninit_pointer"/>
+    <functioncall functionName="timep"/>
+    <functioncall functionName="times"/>
+    <functioncall functionName="times1"/>
+    <functioncall functionName="tm"/>
+    <functioncall functionName="tm_uninit_data"/>
+    <functioncall functionName="tm_uninit_pointer"/>
+    <functioncall functionName="tp"/>
+    <functioncall functionName="uninit"/>
+    <functioncall functionName="usleep"/>
+    <functioncall functionName="utime"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="write"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="x1"/>
+    <functioncall functionName="x2"/>
+    <functioncall functionName="x3"/>
+    <functioncall functionName="x4"/>
+  </FileInfo>
+</analyzerinfo>

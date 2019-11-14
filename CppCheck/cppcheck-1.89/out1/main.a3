@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="414621658">
+        <error id="zerodiv" severity="error" msg="Division by zero." verbose="Division by zero." cwe="369">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cli\helloworld\main.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cli\helloworld\main.c" line="5" column="11" info="Division by zero"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="main" lineNumber="3"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="void"/>
+  </FileInfo>
+</analyzerinfo>

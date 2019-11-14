@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2583893027">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="validCode" lineNumber="13"/>
+    <functiondecl functionName="nullPointer" lineNumber="28"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="PyErr_NewException"/>
+    <functioncall functionName="Py_CLEAR"/>
+    <functioncall functionName="Py_DECREF"/>
+    <functioncall functionName="Py_INCREF"/>
+    <functioncall functionName="Py_Initialize"/>
+    <functioncall functionName="Py_XDECREF"/>
+    <functioncall functionName="Py_XINCREF"/>
+    <functioncall functionName="pPyObjArg"/>
+    <functioncall functionName="pPyObjNULL"/>
+    <functioncall functionName="void"/>
+  </FileInfo>
+</analyzerinfo>

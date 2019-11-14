@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1303386787">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="validCode" lineNumber="13"/>
+    <functiondecl functionName="memleak_omp_target_alloc" lineNumber="26"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="omp_target_alloc"/>
+    <functioncall functionName="omp_target_free"/>
+    <functioncall functionName="pChars"/>
+    <functioncall functionName="printf"/>
+  </FileInfo>
+</analyzerinfo>

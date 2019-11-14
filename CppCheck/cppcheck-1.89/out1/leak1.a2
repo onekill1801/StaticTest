@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2174541672">
+        <error id="memleak" severity="error" msg="Memory leak: pI" verbose="Memory leak: pI" cwe="401">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuites\duma\leak1.cc" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuites\duma\leak1.cc" line="14" column="3"/>
+            <symbol>pI</symbol>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="main" lineNumber="7"/>
+  </FileInfo>
+</analyzerinfo>

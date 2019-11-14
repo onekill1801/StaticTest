@@ -1,0 +1,861 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3463099872">
+        <error id="missingOverride" severity="style" msg="The function &apos;AddResults&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;AddResults&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier.">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testunusedprivfunc.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\lib\timer.h" line="64" column="10" info="Function in derived class"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testunusedprivfunc.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\lib\timer.h" line="40" column="18" info="Virtual function in base class"/>
+            <symbol>AddResults</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;runChecks&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;runChecks&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier.">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testunusedprivfunc.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\lib\checkclass.h" line="56" column="10" info="Function in derived class"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testunusedprivfunc.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\lib\check.h" line="71" column="18" info="Virtual function in base class"/>
+            <symbol>runChecks</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;getErrorMessages&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;getErrorMessages&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier.">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testunusedprivfunc.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\lib\checkclass.h" line="192" column="10" info="Function in derived class"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testunusedprivfunc.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\lib\check.h" line="74" column="18" info="Virtual function in base class"/>
+            <symbol>getErrorMessages</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;classInfo&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;classInfo&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier.">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testunusedprivfunc.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\lib\checkclass.h" line="235" column="17" info="Function in derived class"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testunusedprivfunc.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\lib\check.h" line="82" column="25" info="Virtual function in base class"/>
+            <symbol>classInfo</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;reportOut&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;reportOut&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier.">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testunusedprivfunc.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuite.h" line="85" column="18" info="Function in derived class"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testunusedprivfunc.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\lib\errorlogger.h" line="374" column="18" info="Virtual function in base class"/>
+            <symbol>reportOut</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;reportErr&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;reportErr&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier.">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testunusedprivfunc.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuite.h" line="86" column="18" info="Function in derived class"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testunusedprivfunc.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\lib\errorlogger.h" line="382" column="18" info="Virtual function in base class"/>
+            <symbol>reportErr</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;run&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;run&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier.">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testunusedprivfunc.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\testunusedprivfunc.cpp" line="37" column="10" info="Function in derived class"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testunusedprivfunc.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuite.h" line="49" column="18" info="Virtual function in base class"/>
+            <symbol>run</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:1131:10" call-funcname="setFlag" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="455" call-argexpr="b" call-argvaluetype="0" call-argvalue="0">
+  <path filename="C:\Users\Sau\Desktop\cppcheck-1.89\lib\token.h" linenr="707" info="Calling function 'isStandardType', 1st argument 'false' value is 0"/>
+</function-call><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:619:25" call-funcname="findmatch" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="628" call-argexpr="varId" call-argvaluetype="0" call-argvalue="0" warning="true"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:620:25" call-funcname="findmatch" call-argnr="4" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="631" call-argexpr="varId" call-argvaluetype="0" call-argvalue="0" warning="true"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:349:10" call-funcname="tokType" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="706" call-argexpr="eVariable" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:454:10" call-funcname="isStandardType" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="707" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:349:10" call-funcname="tokType" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="833" call-argexpr="eVariable" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="40" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="41" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="42" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="43" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="44" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="45" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="48" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="49" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="50" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="51" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="52" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="53" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="55" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="56" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="58" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="59" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="60" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="62" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="64" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="66" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="67" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="70" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="73" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="74" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="75" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="76" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="78" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="79" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="80" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="82" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="84" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="316" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:315:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="324" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:323:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="329" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:328:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="337" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:336:24" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="342" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:341:41" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="349" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:348:49" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="354" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:353:31" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:618:25" call-funcname="findsimplematch" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="625" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:624:19" my-argnr="3"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:620:25" call-funcname="findmatch" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="631" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:630:19" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:149:17" my-argnr="1" my-argname="func" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="150" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:157:17" my-argnr="1" my-argname="func" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="158" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:505:14" my-argnr="1" my-argname="s" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="506" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:508:14" my-argnr="1" my-argname="e" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="509" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:1204:17" my-argnr="1" my-argname="sep" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="1210" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:149:17" my-argnr="1" my-argname="func" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="150" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:157:17" my-argnr="1" my-argname="func" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="158" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/checkclass.h:56:10" my-argnr="1" my-argname="tokenizer" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/checkclass.h" linenr="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:1131:10" call-funcname="setFlag" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="455" call-argexpr="b" call-argvaluetype="0" call-argvalue="0">
+  <path filename="C:\Users\Sau\Desktop\cppcheck-1.89\lib\token.h" linenr="707" info="Calling function 'isStandardType', 1st argument 'false' value is 0"/>
+</function-call><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:619:25" call-funcname="findmatch" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="628" call-argexpr="varId" call-argvaluetype="0" call-argvalue="0" warning="true"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:620:25" call-funcname="findmatch" call-argnr="4" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="631" call-argexpr="varId" call-argvaluetype="0" call-argvalue="0" warning="true"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:349:10" call-funcname="tokType" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="706" call-argexpr="eVariable" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:454:10" call-funcname="isStandardType" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="707" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:349:10" call-funcname="tokType" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="833" call-argexpr="eVariable" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="40" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="41" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="42" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="43" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="44" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="45" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="48" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="49" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="50" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="51" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="52" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="53" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="55" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="56" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="58" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="59" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="60" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="62" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="64" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="66" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="67" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="70" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="73" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="74" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="75" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="76" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="78" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="79" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="80" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="82" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="84" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="316" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:315:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="324" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:323:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="329" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:328:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="337" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:336:24" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="342" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:341:41" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="349" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:348:49" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="354" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:353:31" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:618:25" call-funcname="findsimplematch" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="625" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:624:19" my-argnr="3"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:620:25" call-funcname="findmatch" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="631" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:630:19" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:149:17" my-argnr="1" my-argname="func" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="150" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:157:17" my-argnr="1" my-argname="func" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="158" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:505:14" my-argnr="1" my-argname="s" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="506" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:508:14" my-argnr="1" my-argname="e" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="509" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:1204:17" my-argnr="1" my-argname="sep" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="1210" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:149:17" my-argnr="1" my-argname="func" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="150" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:157:17" my-argnr="1" my-argname="func" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="158" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/checkclass.h:56:10" my-argnr="1" my-argname="tokenizer" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/checkclass.h" linenr="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:1131:10" call-funcname="setFlag" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="455" call-argexpr="b" call-argvaluetype="0" call-argvalue="0">
+  <path filename="C:\Users\Sau\Desktop\cppcheck-1.89\lib\token.h" linenr="707" info="Calling function 'isStandardType', 1st argument 'false' value is 0"/>
+</function-call><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:619:25" call-funcname="findmatch" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="628" call-argexpr="varId" call-argvaluetype="0" call-argvalue="0" warning="true"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:620:25" call-funcname="findmatch" call-argnr="4" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="631" call-argexpr="varId" call-argvaluetype="0" call-argvalue="0" warning="true"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:349:10" call-funcname="tokType" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="706" call-argexpr="eVariable" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:454:10" call-funcname="isStandardType" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="707" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:349:10" call-funcname="tokType" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="833" call-argexpr="eVariable" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="40" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="41" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="42" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="43" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="44" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="45" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="48" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="49" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="50" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="51" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="52" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="53" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="55" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="56" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="58" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="59" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="60" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="62" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="64" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="66" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="67" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="70" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="73" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="74" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="75" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="76" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="78" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="79" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="80" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="82" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="84" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="316" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:315:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="324" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:323:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="329" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:328:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="337" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:336:24" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="342" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:341:41" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="349" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:348:49" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="354" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:353:31" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:618:25" call-funcname="findsimplematch" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="625" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:624:19" my-argnr="3"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:620:25" call-funcname="findmatch" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="631" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:630:19" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:149:17" my-argnr="1" my-argname="func" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="150" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:157:17" my-argnr="1" my-argname="func" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="158" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:505:14" my-argnr="1" my-argname="s" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="506" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:508:14" my-argnr="1" my-argname="e" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="509" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:1204:17" my-argnr="1" my-argname="sep" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="1210" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:149:17" my-argnr="1" my-argname="func" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="150" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:157:17" my-argnr="1" my-argname="func" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="158" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/checkclass.h:56:10" my-argnr="1" my-argname="tokenizer" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/checkclass.h" linenr="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:1131:10" call-funcname="setFlag" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="455" call-argexpr="b" call-argvaluetype="0" call-argvalue="0">
+  <path filename="C:\Users\Sau\Desktop\cppcheck-1.89\lib\token.h" linenr="707" info="Calling function 'isStandardType', 1st argument 'false' value is 0"/>
+</function-call><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:619:25" call-funcname="findmatch" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="628" call-argexpr="varId" call-argvaluetype="0" call-argvalue="0" warning="true"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:620:25" call-funcname="findmatch" call-argnr="4" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="631" call-argexpr="varId" call-argvaluetype="0" call-argvalue="0" warning="true"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:349:10" call-funcname="tokType" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="706" call-argexpr="eVariable" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:454:10" call-funcname="isStandardType" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="707" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:349:10" call-funcname="tokType" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="833" call-argexpr="eVariable" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="40" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="41" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="42" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="43" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="44" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="45" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="48" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="49" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="50" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="51" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="52" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="53" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="55" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="56" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="58" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="59" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="60" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="62" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="64" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="66" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="67" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="70" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="73" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="74" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="75" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="76" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="78" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="79" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="80" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="82" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testunusedprivfunc.cpp" linenr="84" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="316" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:315:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="324" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:323:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="329" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:328:10" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="337" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:336:24" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="342" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:341:41" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="349" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:348:49" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:558:28" call-funcname="getarg" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="354" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:353:31" my-argnr="1"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:618:25" call-funcname="findsimplematch" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="625" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:624:19" my-argnr="3"/>
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:620:25" call-funcname="findmatch" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="631" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:630:19" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:149:17" my-argnr="1" my-argname="func" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="150" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:157:17" my-argnr="1" my-argname="func" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="158" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:505:14" my-argnr="1" my-argname="s" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="506" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:508:14" my-argnr="1" my-argname="e" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="509" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h:1204:17" my-argnr="1" my-argname="sep" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/token.h" linenr="1210" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:149:17" my-argnr="1" my-argname="func" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="150" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h:157:17" my-argnr="1" my-argname="func" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/library.h" linenr="158" value="0"/>
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/checkclass.h:56:10" my-argnr="1" my-argname="tokenizer" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/checkclass.h" linenr="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="run" lineNumber="37"/>
+    <functiondecl functionName="check" lineNumber="88"/>
+    <functiondecl functionName="test1" lineNumber="116"/>
+    <functiondecl functionName="test2" lineNumber="184"/>
+    <functiondecl functionName="test3" lineNumber="202"/>
+    <functiondecl functionName="test4" lineNumber="217"/>
+    <functiondecl functionName="test5" lineNumber="232"/>
+    <functiondecl functionName="test6" lineNumber="242"/>
+    <functiondecl functionName="func_pointer1" lineNumber="253"/>
+    <functiondecl functionName="func_pointer2" lineNumber="279"/>
+    <functiondecl functionName="func_pointer3" lineNumber="296"/>
+    <functiondecl functionName="func_pointer4" lineNumber="310"/>
+    <functiondecl functionName="func_pointer5" lineNumber="324"/>
+    <functiondecl functionName="func_pointer6" lineNumber="336"/>
+    <functiondecl functionName="ctor" lineNumber="349"/>
+    <functiondecl functionName="ctor2" lineNumber="364"/>
+    <functiondecl functionName="classInClass" lineNumber="377"/>
+    <functiondecl functionName="sameFunctionNames" lineNumber="424"/>
+    <functiondecl functionName="incompleteImplementation" lineNumber="440"/>
+    <functiondecl functionName="derivedClass" lineNumber="458"/>
+    <functiondecl functionName="friendClass" lineNumber="519"/>
+    <functiondecl functionName="borland1" lineNumber="557"/>
+    <functiondecl functionName="borland2" lineNumber="571"/>
+    <functiondecl functionName="template1" lineNumber="584"/>
+    <functiondecl functionName="fp_operator" lineNumber="602"/>
+    <functiondecl functionName="testDoesNotIdentifyMethodAsFirstFunctionArgument" lineNumber="643"/>
+    <functiondecl functionName="testDoesNotIdentifyMethodAsMiddleFunctionArgument" lineNumber="670"/>
+    <functiondecl functionName="testDoesNotIdentifyMethodAsLastFunctionArgument" lineNumber="697"/>
+    <functiondecl functionName="multiFile" lineNumber="724"/>
+    <functiondecl functionName="unknownBaseTemplate" lineNumber="743"/>
+    <functiondecl functionName="hierarchie_loop" lineNumber="755"/>
+    <functiondecl functionName="staticVariable" lineNumber="774"/>
+    <functiondecl functionName="templateSimplification" lineNumber="799"/>
+    <functiondecl functionName="run" lineNumber="37"/>
+    <functiondecl functionName="check" lineNumber="88"/>
+    <functiondecl functionName="test1" lineNumber="116"/>
+    <functiondecl functionName="test2" lineNumber="184"/>
+    <functiondecl functionName="test3" lineNumber="202"/>
+    <functiondecl functionName="test4" lineNumber="217"/>
+    <functiondecl functionName="test5" lineNumber="232"/>
+    <functiondecl functionName="test6" lineNumber="242"/>
+    <functiondecl functionName="func_pointer1" lineNumber="253"/>
+    <functiondecl functionName="func_pointer2" lineNumber="279"/>
+    <functiondecl functionName="func_pointer3" lineNumber="296"/>
+    <functiondecl functionName="func_pointer4" lineNumber="310"/>
+    <functiondecl functionName="func_pointer5" lineNumber="324"/>
+    <functiondecl functionName="func_pointer6" lineNumber="336"/>
+    <functiondecl functionName="ctor" lineNumber="349"/>
+    <functiondecl functionName="ctor2" lineNumber="364"/>
+    <functiondecl functionName="classInClass" lineNumber="377"/>
+    <functiondecl functionName="sameFunctionNames" lineNumber="424"/>
+    <functiondecl functionName="incompleteImplementation" lineNumber="440"/>
+    <functiondecl functionName="derivedClass" lineNumber="458"/>
+    <functiondecl functionName="friendClass" lineNumber="519"/>
+    <functiondecl functionName="borland1" lineNumber="557"/>
+    <functiondecl functionName="borland2" lineNumber="571"/>
+    <functiondecl functionName="template1" lineNumber="584"/>
+    <functiondecl functionName="fp_operator" lineNumber="602"/>
+    <functiondecl functionName="testDoesNotIdentifyMethodAsFirstFunctionArgument" lineNumber="643"/>
+    <functiondecl functionName="testDoesNotIdentifyMethodAsMiddleFunctionArgument" lineNumber="670"/>
+    <functiondecl functionName="testDoesNotIdentifyMethodAsLastFunctionArgument" lineNumber="697"/>
+    <functiondecl functionName="multiFile" lineNumber="724"/>
+    <functiondecl functionName="unknownBaseTemplate" lineNumber="743"/>
+    <functiondecl functionName="hierarchie_loop" lineNumber="755"/>
+    <functiondecl functionName="staticVariable" lineNumber="774"/>
+    <functiondecl functionName="templateSimplification" lineNumber="799"/>
+    <functiondecl functionName="run" lineNumber="37"/>
+    <functiondecl functionName="check" lineNumber="88"/>
+    <functiondecl functionName="test1" lineNumber="116"/>
+    <functiondecl functionName="test2" lineNumber="184"/>
+    <functiondecl functionName="test3" lineNumber="202"/>
+    <functiondecl functionName="test4" lineNumber="217"/>
+    <functiondecl functionName="test5" lineNumber="232"/>
+    <functiondecl functionName="test6" lineNumber="242"/>
+    <functiondecl functionName="func_pointer1" lineNumber="253"/>
+    <functiondecl functionName="func_pointer2" lineNumber="279"/>
+    <functiondecl functionName="func_pointer3" lineNumber="296"/>
+    <functiondecl functionName="func_pointer4" lineNumber="310"/>
+    <functiondecl functionName="func_pointer5" lineNumber="324"/>
+    <functiondecl functionName="func_pointer6" lineNumber="336"/>
+    <functiondecl functionName="ctor" lineNumber="349"/>
+    <functiondecl functionName="ctor2" lineNumber="364"/>
+    <functiondecl functionName="classInClass" lineNumber="377"/>
+    <functiondecl functionName="sameFunctionNames" lineNumber="424"/>
+    <functiondecl functionName="incompleteImplementation" lineNumber="440"/>
+    <functiondecl functionName="derivedClass" lineNumber="458"/>
+    <functiondecl functionName="friendClass" lineNumber="519"/>
+    <functiondecl functionName="borland1" lineNumber="557"/>
+    <functiondecl functionName="borland2" lineNumber="571"/>
+    <functiondecl functionName="template1" lineNumber="584"/>
+    <functiondecl functionName="fp_operator" lineNumber="602"/>
+    <functiondecl functionName="testDoesNotIdentifyMethodAsFirstFunctionArgument" lineNumber="643"/>
+    <functiondecl functionName="testDoesNotIdentifyMethodAsMiddleFunctionArgument" lineNumber="670"/>
+    <functiondecl functionName="testDoesNotIdentifyMethodAsLastFunctionArgument" lineNumber="697"/>
+    <functiondecl functionName="multiFile" lineNumber="724"/>
+    <functiondecl functionName="unknownBaseTemplate" lineNumber="743"/>
+    <functiondecl functionName="hierarchie_loop" lineNumber="755"/>
+    <functiondecl functionName="staticVariable" lineNumber="774"/>
+    <functiondecl functionName="templateSimplification" lineNumber="799"/>
+    <functiondecl functionName="run" lineNumber="37"/>
+    <functiondecl functionName="check" lineNumber="88"/>
+    <functiondecl functionName="test1" lineNumber="116"/>
+    <functiondecl functionName="test2" lineNumber="184"/>
+    <functiondecl functionName="test3" lineNumber="202"/>
+    <functiondecl functionName="test4" lineNumber="217"/>
+    <functiondecl functionName="test5" lineNumber="232"/>
+    <functiondecl functionName="test6" lineNumber="242"/>
+    <functiondecl functionName="func_pointer1" lineNumber="253"/>
+    <functiondecl functionName="func_pointer2" lineNumber="279"/>
+    <functiondecl functionName="func_pointer3" lineNumber="296"/>
+    <functiondecl functionName="func_pointer4" lineNumber="310"/>
+    <functiondecl functionName="func_pointer5" lineNumber="324"/>
+    <functiondecl functionName="func_pointer6" lineNumber="336"/>
+    <functiondecl functionName="ctor" lineNumber="349"/>
+    <functiondecl functionName="ctor2" lineNumber="364"/>
+    <functiondecl functionName="classInClass" lineNumber="377"/>
+    <functiondecl functionName="sameFunctionNames" lineNumber="424"/>
+    <functiondecl functionName="incompleteImplementation" lineNumber="440"/>
+    <functiondecl functionName="derivedClass" lineNumber="458"/>
+    <functiondecl functionName="friendClass" lineNumber="519"/>
+    <functiondecl functionName="borland1" lineNumber="557"/>
+    <functiondecl functionName="borland2" lineNumber="571"/>
+    <functiondecl functionName="template1" lineNumber="584"/>
+    <functiondecl functionName="fp_operator" lineNumber="602"/>
+    <functiondecl functionName="testDoesNotIdentifyMethodAsFirstFunctionArgument" lineNumber="643"/>
+    <functiondecl functionName="testDoesNotIdentifyMethodAsMiddleFunctionArgument" lineNumber="670"/>
+    <functiondecl functionName="testDoesNotIdentifyMethodAsLastFunctionArgument" lineNumber="697"/>
+    <functiondecl functionName="multiFile" lineNumber="724"/>
+    <functiondecl functionName="unknownBaseTemplate" lineNumber="743"/>
+    <functiondecl functionName="hierarchie_loop" lineNumber="755"/>
+    <functiondecl functionName="staticVariable" lineNumber="774"/>
+    <functiondecl functionName="templateSimplification" lineNumber="799"/>
+    <functioncall functionName="ARGVALUE"/>
+    <functioncall functionName="AST"/>
+    <functioncall functionName="AT_INDEX"/>
+    <functioncall functionName="Address"/>
+    <functioncall functionName="AllocFunc"/>
+    <functioncall functionName="Argument"/>
+    <functioncall functionName="ArgumentChecks"/>
+    <functioncall functionName="BAD_ATTRIBUTE_VALUE"/>
+    <functioncall functionName="BAD_XML"/>
+    <functioncall functionName="BORLAND"/>
+    <functioncall functionName="BUFFER"/>
+    <functioncall functionName="BUFFER_NT"/>
+    <functioncall functionName="BUFFER_SIZE"/>
+    <functioncall functionName="C"/>
+    <functioncall functionName="C11"/>
+    <functioncall functionName="C89"/>
+    <functioncall functionName="C99"/>
+    <functioncall functionName="CHANGE"/>
+    <functioncall functionName="CHANGE_CONTENT"/>
+    <functioncall functionName="CHANGE_INTERNAL"/>
+    <functioncall functionName="CLEAR"/>
+    <functioncall functionName="CLOCKS_PER_SEC"/>
+    <functioncall functionName="COMPILE_DB"/>
+    <functioncall functionName="CONTAINER_SIZE"/>
+    <functioncall functionName="CPP"/>
+    <functioncall functionName="CPP03"/>
+    <functioncall functionName="CPP11"/>
+    <functioncall functionName="CPP14"/>
+    <functioncall functionName="CPP17"/>
+    <functioncall functionName="CPP20"/>
+    <functioncall functionName="CPPCHECK_GUI"/>
+    <functioncall functionName="CPPLatest"/>
+    <functioncall functionName="Check"/>
+    <functioncall functionName="CheckClass"/>
+    <functioncall functionName="CodeBlock"/>
+    <functioncall functionName="Container"/>
+    <functioncall functionName="DIR_IN"/>
+    <functioncall functionName="DIR_INOUT"/>
+    <functioncall functionName="DIR_OUT"/>
+    <functioncall functionName="DIR_UNKNOWN"/>
+    <functioncall functionName="DUI"/>
+    <functioncall functionName="DUPLICATE_PLATFORM_TYPE"/>
+    <functioncall functionName="EMPTY"/>
+    <functioncall functionName="END_ITERATOR"/>
+    <functioncall functionName="ERASE"/>
+    <functioncall functionName="ErrorLogger"/>
+    <functioncall functionName="ErrorMessage"/>
+    <functioncall functionName="ExportedFunctions"/>
+    <functioncall functionName="FILE_NOT_FOUND"/>
+    <functioncall functionName="FIND"/>
+    <functioncall functionName="FileLocation"/>
+    <functioncall functionName="FileSettings"/>
+    <functioncall functionName="ForwardedVariable"/>
+    <functioncall functionName="Function"/>
+    <functioncall functionName="HIGH"/>
+    <functioncall functionName="ID"/>
+    <functioncall functionName="INSERT"/>
+    <functioncall functionName="INSTANTIATION"/>
+    <functioncall functionName="INT"/>
+    <functioncall functionName="INTERNAL"/>
+    <functioncall functionName="ITEM"/>
+    <functioncall functionName="ITERATOR"/>
+    <functioncall functionName="Inconclusive"/>
+    <functioncall functionName="InternalError"/>
+    <functioncall functionName="Iterator"/>
+    <functioncall functionName="Known"/>
+    <functioncall functionName="LIFETIME"/>
+    <functioncall functionName="LIMIT"/>
+    <functioncall functionName="LOW"/>
+    <functioncall functionName="Lambda"/>
+    <functioncall functionName="Local"/>
+    <functioncall functionName="MISSING"/>
+    <functioncall functionName="MISSING_ATTRIBUTE"/>
+    <functioncall functionName="MOVED"/>
+    <functioncall functionName="MUL"/>
+    <functioncall functionName="Match"/>
+    <functioncall functionName="MinSize"/>
+    <functioncall functionName="MovedVariable"/>
+    <functioncall functionName="NONE"/>
+    <functioncall functionName="NO_ACTION"/>
+    <functioncall functionName="NO_LINE"/>
+    <functioncall functionName="NO_YIELD"/>
+    <functioncall functionName="Native"/>
+    <functioncall functionName="NonMovedVariable"/>
+    <functioncall functionName="None"/>
+    <functioncall functionName="OK"/>
+    <functioncall functionName="Object"/>
+    <functioncall functionName="PLATFORM_TYPE_REDEFINED"/>
+    <functioncall functionName="POP"/>
+    <functioncall functionName="PUSH"/>
+    <functioncall functionName="Platform"/>
+    <functioncall functionName="PlatformFile"/>
+    <functioncall functionName="PlatformType"/>
+    <functioncall functionName="PodType"/>
+    <functioncall functionName="Possible"/>
+    <functioncall functionName="RESIZE"/>
+    <functioncall functionName="SHOWTIME_FILE"/>
+    <functioncall functionName="SHOWTIME_SUMMARY"/>
+    <functioncall functionName="SHOWTIME_TOP5"/>
+    <functioncall functionName="SIZE"/>
+    <functioncall functionName="SIZEOF"/>
+    <functioncall functionName="START_ITERATOR"/>
+    <functioncall functionName="STRLEN"/>
+    <functioncall functionName="SYNTAX"/>
+    <functioncall functionName="ScopeInfo2"/>
+    <functioncall functionName="Standards"/>
+    <functioncall functionName="Suppression"/>
+    <functioncall functionName="TOK"/>
+    <functioncall functionName="TestFixture"/>
+    <functioncall functionName="TimerResultsData"/>
+    <functioncall functionName="Token"/>
+    <functioncall functionName="TokenAndName"/>
+    <functioncall functionName="TokenImpl"/>
+    <functioncall functionName="Tokenizer"/>
+    <functioncall functionName="UNINIT"/>
+    <functioncall functionName="UNKNOWN"/>
+    <functioncall functionName="UNKNOWN_ELEMENT"/>
+    <functioncall functionName="UNKNOWN_MACRO"/>
+    <functioncall functionName="UNSUPPORTED_FORMAT"/>
+    <functioncall functionName="Unix32"/>
+    <functioncall functionName="Unix64"/>
+    <functioncall functionName="Unspecified"/>
+    <functioncall functionName="Usage"/>
+    <functioncall functionName="VALUE"/>
+    <functioncall functionName="VS_SLN"/>
+    <functioncall functionName="VS_VCXPROJ"/>
+    <functioncall functionName="Value"/>
+    <functioncall functionName="WarnInfo"/>
+    <functioncall functionName="Win32A"/>
+    <functioncall functionName="Win32W"/>
+    <functioncall functionName="Win64"/>
+    <functioncall functionName="_const_ptr"/>
+    <functioncall functionName="_long"/>
+    <functioncall functionName="_pointer"/>
+    <functioncall functionName="_ptr_ptr"/>
+    <functioncall functionName="_signed"/>
+    <functioncall functionName="_unsigned"/>
+    <functioncall functionName="a"/>
+    <functioncall functionName="ac"/>
+    <functioncall functionName="action"/>
+    <functioncall functionName="addEnabled"/>
+    <functioncall functionName="aname"/>
+    <functioncall functionName="any_of"/>
+    <functioncall functionName="arg"/>
+    <functioncall functionName="arg2"/>
+    <functioncall functionName="argnr"/>
+    <functioncall functionName="arrayLike_indexOp"/>
+    <functioncall functionName="assertEquals"/>
+    <functioncall functionName="assign"/>
+    <functioncall functionName="astOperand1"/>
+    <functioncall functionName="astOperand2"/>
+    <functioncall functionName="astParent"/>
+    <functioncall functionName="astString"/>
+    <functioncall functionName="b"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="blockName"/>
+    <functioncall functionName="bodyEnd"/>
+    <functioncall functionName="bodyEnd_"/>
+    <functioncall functionName="bool"/>
+    <functioncall functionName="borland1"/>
+    <functioncall functionName="borland2"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="bug"/>
+    <functioncall functionName="c"/>
+    <functioncall functionName="calloc"/>
+    <functioncall functionName="callstack"/>
+    <functioncall functionName="caseInsensitiveStringCompare"/>
+    <functioncall functionName="char_bit"/>
+    <functioncall functionName="check"/>
+    <functioncall functionName="checkClass"/>
+    <functioncall functionName="checkConst"/>
+    <functioncall functionName="checkConstError"/>
+    <functioncall functionName="checkCopyCtorAndEqOperator"/>
+    <functioncall functionName="checkDuplInheritedMembers"/>
+    <functioncall functionName="checkExplicitConstructors"/>
+    <functioncall functionName="checkMemset"/>
+    <functioncall functionName="checkOverride"/>
+    <functioncall functionName="checkSelfInitialization"/>
+    <functioncall functionName="checkUnsafeClassDivZero"/>
+    <functioncall functionName="checkUnsafeClassRefMember"/>
+    <functioncall functionName="checkVirtualFunctionCallInConstructor"/>
+    <functioncall functionName="classInClass"/>
+    <functioncall functionName="classes"/>
+    <functioncall functionName="close"/>
+    <functioncall functionName="code"/>
+    <functioncall functionName="column"/>
+    <functioncall functionName="compare"/>
+    <functioncall functionName="condition"/>
+    <functioncall functionName="conditional"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="const_cast"/>
+    <functioncall functionName="constructors"/>
+    <functioncall functionName="container"/>
+    <functioncall functionName="continue"/>
+    <functioncall functionName="copyConstructorShallowCopyError"/>
+    <functioncall functionName="copyCtorAndEqOperatorError"/>
+    <functioncall functionName="copyconstructors"/>
+    <functioncall functionName="cpp"/>
+    <functioncall functionName="createTokens"/>
+    <functioncall functionName="ctor"/>
+    <functioncall functionName="ctor2"/>
+    <functioncall functionName="ctu"/>
+    <functioncall functionName="cwe"/>
+    <functioncall functionName="debug"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="defaultArg"/>
+    <functioncall functionName="delete"/>
+    <functioncall functionName="derivedClass"/>
+    <functioncall functionName="direction"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="duplInheritedMembersError"/>
+    <functioncall functionName="e"/>
+    <functioncall functionName="eArithmeticalOp"/>
+    <functioncall functionName="eAssignmentOp"/>
+    <functioncall functionName="eBitOp"/>
+    <functioncall functionName="eBoolean"/>
+    <functioncall functionName="eBracket"/>
+    <functioncall functionName="eChar"/>
+    <functioncall functionName="eComparisonOp"/>
+    <functioncall functionName="eEnumerator"/>
+    <functioncall functionName="eExtendedOp"/>
+    <functioncall functionName="eFunction"/>
+    <functioncall functionName="eIncDecOp"/>
+    <functioncall functionName="eKeyword"/>
+    <functioncall functionName="eLambda"/>
+    <functioncall functionName="eLiteral"/>
+    <functioncall functionName="eLogicalOp"/>
+    <functioncall functionName="eName"/>
+    <functioncall functionName="eNone"/>
+    <functioncall functionName="eNumber"/>
+    <functioncall functionName="eOther"/>
+    <functioncall functionName="eString"/>
+    <functioncall functionName="eType"/>
+    <functioncall functionName="eVariable"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="emptyString"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="endlen"/>
+    <functioncall functionName="errmsg"/>
+    <functioncall functionName="error"/>
+    <functioncall functionName="errorId"/>
+    <functioncall functionName="errorLogger"/>
+    <functioncall functionName="errorPath"/>
+    <functioncall functionName="errorcode"/>
+    <functioncall functionName="errtok"/>
+    <functioncall functionName="expressionString"/>
+    <functioncall functionName="externalFunctions"/>
+    <functioncall functionName="externalVariables"/>
+    <functioncall functionName="fAtAddress"/>
+    <functioncall functionName="fConstexpr"/>
+    <functioncall functionName="fFamilyMask"/>
+    <functioncall functionName="fIncompleteVar"/>
+    <functioncall functionName="fIsAlias"/>
+    <functioncall functionName="fIsAttributeConst"/>
+    <functioncall functionName="fIsAttributeConstructor"/>
+    <functioncall functionName="fIsAttributeDestructor"/>
+    <functioncall functionName="fIsAttributeNodiscard"/>
+    <functioncall functionName="fIsAttributeNoreturn"/>
+    <functioncall functionName="fIsAttributeNothrow"/>
+    <functioncall functionName="fIsAttributePacked"/>
+    <functioncall functionName="fIsAttributePure"/>
+    <functioncall functionName="fIsAttributeUnused"/>
+    <functioncall functionName="fIsAttributeUsed"/>
+    <functioncall functionName="fIsCast"/>
+    <functioncall functionName="fIsClass"/>
+    <functioncall functionName="fIsComplex"/>
+    <functioncall functionName="fIsControlFlowKeyword"/>
+    <functioncall functionName="fIsEnumType"/>
+    <functioncall functionName="fIsExpandedMacro"/>
+    <functioncall functionName="fIsForwardDeclaration"/>
+    <functioncall functionName="fIsFriend"/>
+    <functioncall functionName="fIsFunction"/>
+    <functioncall functionName="fIsLiteral"/>
+    <functioncall functionName="fIsLong"/>
+    <functioncall functionName="fIsName"/>
+    <functioncall functionName="fIsOperatorKeyword"/>
+    <functioncall functionName="fIsPartialSpecialization"/>
+    <functioncall functionName="fIsPointerCompare"/>
+    <functioncall functionName="fIsSigned"/>
+    <functioncall functionName="fIsSpecialization"/>
+    <functioncall functionName="fIsStandardType"/>
+    <functioncall functionName="fIsTemplateArg"/>
+    <functioncall functionName="fIsUnsigned"/>
+    <functioncall functionName="fIsVariable"/>
+    <functioncall functionName="fIsVariadic"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="file"/>
+    <functioncall functionName="fileIndex"/>
+    <functioncall functionName="fileInfo"/>
+    <functioncall functionName="fileName"/>
+    <functioncall functionName="filedata"/>
+    <functioncall functionName="filename"/>
+    <functioncall functionName="files"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="find_first_of"/>
+    <functioncall functionName="find_if"/>
+    <functioncall functionName="findmatch"/>
+    <functioncall functionName="findsimplematch"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="flag"/>
+    <functioncall functionName="flag_"/>
+    <functioncall functionName="flags_"/>
+    <functioncall functionName="float"/>
+    <functioncall functionName="floatValue"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="formatstr"/>
+    <functioncall functionName="formatstr_scan"/>
+    <functioncall functionName="formatstr_secure"/>
+    <functioncall functionName="fp_operator"/>
+    <functioncall functionName="friendClass"/>
+    <functioncall functionName="front"/>
+    <functioncall functionName="ftok"/>
+    <functioncall functionName="func_pointer1"/>
+    <functioncall functionName="func_pointer2"/>
+    <functioncall functionName="func_pointer3"/>
+    <functioncall functionName="func_pointer4"/>
+    <functioncall functionName="func_pointer5"/>
+    <functioncall functionName="func_pointer6"/>
+    <functioncall functionName="funcname"/>
+    <functioncall functionName="function"/>
+    <functioncall functionName="functionname"/>
+    <functioncall functionName="getAllocDealloc"/>
+    <functioncall functionName="getCppcheckAttribute"/>
+    <functioncall functionName="getFlag"/>
+    <functioncall functionName="getarg"/>
+    <functioncall functionName="groupId"/>
+    <functioncall functionName="hierarchie_loop"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="ignore"/>
+    <functioncall functionName="incompleteImplementation"/>
+    <functioncall functionName="inconclusive"/>
+    <functioncall functionName="index"/>
+    <functioncall functionName="indexOfFile"/>
+    <functioncall functionName="indirect"/>
+    <functioncall functionName="info"/>
+    <functioncall functionName="information"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="initializationListUsage"/>
+    <functioncall functionName="initializerListError"/>
+    <functioncall functionName="initializerListOrder"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="instances"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="int_bit"/>
+    <functioncall functionName="internalFunctions"/>
+    <functioncall functionName="intvalue"/>
+    <functioncall functionName="isArithmeticalOp"/>
+    <functioncall functionName="isAssignmentOp"/>
+    <functioncall functionName="isC"/>
+    <functioncall functionName="isCPP"/>
+    <functioncall functionName="isConstOp"/>
+    <functioncall functionName="isContainerSizeValue"/>
+    <functioncall functionName="isFloat"/>
+    <functioncall functionName="isIntValue"/>
+    <functioncall functionName="isKnown"/>
+    <functioncall functionName="isLifetimeValue"/>
+    <functioncall functionName="isMovedValue"/>
+    <functioncall functionName="isPrefix"/>
+    <functioncall functionName="isStandardType"/>
+    <functioncall functionName="isSuffix"/>
+    <functioncall functionName="isUninitValue"/>
+    <functioncall functionName="is_open"/>
+    <functioncall functionName="isconst"/>
+    <functioncall functionName="ispure"/>
+    <functioncall functionName="istr"/>
+    <functioncall functionName="it"/>
+    <functioncall functionName="iteratorInfo"/>
+    <functioncall functionName="kwd"/>
+    <functioncall functionName="last"/>
+    <functioncall functionName="leakignore"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="lhs"/>
+    <functioncall functionName="lifetimeKind"/>
+    <functioncall functionName="lifetimeScope"/>
+    <functioncall functionName="line"/>
+    <functioncall functionName="lineNumber"/>
+    <functioncall functionName="linkAt"/>
+    <functioncall functionName="linkToToken"/>
+    <functioncall functionName="list"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="long_bit"/>
+    <functioncall functionName="m"/>
+    <functioncall functionName="mAlloc"/>
+    <functioncall functionName="mAstOperand1"/>
+    <functioncall functionName="mAstOperand2"/>
+    <functioncall functionName="mAstParent"/>
+    <functioncall functionName="mBits"/>
+    <functioncall functionName="mClocks"/>
+    <functioncall functionName="mColumn"/>
+    <functioncall functionName="mCppcheckAttributes"/>
+    <functioncall functionName="mDealloc"/>
+    <functioncall functionName="mDoubleValue"/>
+    <functioncall functionName="mEmptyValueList"/>
+    <functioncall functionName="mEnumerator"/>
+    <functioncall functionName="mErrorLogger"/>
+    <functioncall functionName="mFileIndex"/>
+    <functioncall functionName="mFileName"/>
+    <functioncall functionName="mFlags"/>
+    <functioncall functionName="mFunction"/>
+    <functioncall functionName="mIndex"/>
+    <functioncall functionName="mInfo"/>
+    <functioncall functionName="mIntValue"/>
+    <functioncall functionName="mLineNumber"/>
+    <functioncall functionName="mName"/>
+    <functioncall functionName="mNumberOfResults"/>
+    <functioncall functionName="mOffset"/>
+    <functioncall functionName="mOrigFileName"/>
+    <functioncall functionName="mOriginalName"/>
+    <functioncall functionName="mProgressValue"/>
+    <functioncall functionName="mScope"/>
+    <functioncall functionName="mScopeInfo"/>
+    <functioncall functionName="mSettings"/>
+    <functioncall functionName="mStr"/>
+    <functioncall functionName="mSymbolDatabase"/>
+    <functioncall functionName="mTemplateSimplifierPointers"/>
+    <functioncall functionName="mTokenizer"/>
+    <functioncall functionName="mType"/>
+    <functioncall functionName="mValueType"/>
+    <functioncall functionName="mValues"/>
+    <functioncall functionName="mVarId"/>
+    <functioncall functionName="mVariable"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="mallocOnClassError"/>
+    <functioncall functionName="mallocOnClassWarning"/>
+    <functioncall functionName="matched"/>
+    <functioncall functionName="max_value"/>
+    <functioncall functionName="mem_fn"/>
+    <functioncall functionName="memoizedIsLiteral"/>
+    <functioncall functionName="memoizedIsName"/>
+    <functioncall functionName="memsetError"/>
+    <functioncall functionName="memsetErrorFloat"/>
+    <functioncall functionName="memsetErrorReference"/>
+    <functioncall functionName="min_value"/>
+    <functioncall functionName="minsizes"/>
+    <functioncall functionName="moveKind"/>
+    <functioncall functionName="msc"/>
+    <functioncall functionName="msg"/>
+    <functioncall functionName="multiFile"/>
+    <functioncall functionName="myName"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="name_"/>
+    <functioncall functionName="nextToken"/>
+    <functioncall functionName="noConstructorError"/>
+    <functioncall functionName="noCopyConstructorError"/>
+    <functioncall functionName="noDestructorError"/>
+    <functioncall functionName="noExplicitConstructorError"/>
+    <functioncall functionName="noOperatorEqError"/>
+    <functioncall functionName="none"/>
+    <functioncall functionName="noreturn"/>
+    <functioncall functionName="notbool"/>
+    <functioncall functionName="notnull"/>
+    <functioncall functionName="notuninit"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="o"/>
+    <functioncall functionName="opLessAllowed"/>
+    <functioncall functionName="operatorEq"/>
+    <functioncall functionName="operatorEqMissingReturnStatementError"/>
+    <functioncall functionName="operatorEqRetRefThis"/>
+    <functioncall functionName="operatorEqRetRefThisError"/>
+    <functioncall functionName="operatorEqReturnError"/>
+    <functioncall functionName="operatorEqShouldBeLeftUnimplementedError"/>
+    <functioncall functionName="operatorEqToSelf"/>
+    <functioncall functionName="operatorEqToSelfError"/>
+    <functioncall functionName="operatorEqVarError"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="other"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="overrideError"/>
+    <functioncall functionName="pattern"/>
+    <functioncall functionName="performance"/>
+    <functioncall functionName="platform"/>
+    <functioncall functionName="platformString"/>
+    <functioncall functionName="platformType"/>
+    <functioncall functionName="platform_type"/>
+    <functioncall functionName="plistFooter"/>
+    <functioncall functionName="portability"/>
+    <functioncall functionName="prefix"/>
+    <functioncall functionName="prepareTest"/>
+    <functioncall functionName="preprocess"/>
+    <functioncall functionName="previousToken"/>
+    <functioncall functionName="privateFunctions"/>
+    <functioncall functionName="pt"/>
+    <functioncall functionName="pureVirtualFunctionCallInConstructorError"/>
+    <functioncall functionName="r"/>
+    <functioncall functionName="reallocArg"/>
+    <functioncall functionName="reason"/>
+    <functioncall functionName="remove"/>
+    <functioncall functionName="reportErr"/>
+    <functioncall functionName="reportError"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="rhs"/>
+    <functioncall functionName="s"/>
+    <functioncall functionName="safe"/>
+    <functioncall functionName="sameFunctionNames"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="selfInitializationError"/>
+    <functioncall functionName="sep"/>
+    <functioncall functionName="setCppcheckAttribute"/>
+    <functioncall functionName="setFlag"/>
+    <functioncall functionName="setSettings"/>
+    <functioncall functionName="setVerbose"/>
+    <functioncall functionName="settings"/>
+    <functioncall functionName="severity"/>
+    <functioncall functionName="sign"/>
+    <functioncall functionName="simplifyTokens1"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="size_templateArgNo"/>
+    <functioncall functionName="stage"/>
+    <functioncall functionName="startTok"/>
+    <functioncall functionName="state"/>
+    <functioncall functionName="staticVariable"/>
+    <functioncall functionName="stdAssociativeLike"/>
+    <functioncall functionName="stdStringLike"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="strdup"/>
+    <functioncall functionName="stricmp"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="strz"/>
+    <functioncall functionName="style"/>
+    <functioncall functionName="suffix"/>
+    <functioncall functionName="suggestInitializationList"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="symbolName"/>
+    <functioncall functionName="t"/>
+    <functioncall functionName="template1"/>
+    <functioncall functionName="templateSimplification"/>
+    <functioncall functionName="test1"/>
+    <functioncall functionName="test2"/>
+    <functioncall functionName="test3"/>
+    <functioncall functionName="test4"/>
+    <functioncall functionName="test5"/>
+    <functioncall functionName="test6"/>
+    <functioncall functionName="testDoesNotIdentifyMethodAsFirstFunctionArgument"/>
+    <functioncall functionName="testDoesNotIdentifyMethodAsLastFunctionArgument"/>
+    <functioncall functionName="testDoesNotIdentifyMethodAsMiddleFunctionArgument"/>
+    <functioncall functionName="this"/>
+    <functioncall functionName="thisSubtraction"/>
+    <functioncall functionName="thisSubtractionError"/>
+    <functioncall functionName="time"/>
+    <functioncall functionName="todoAssertEquals"/>
+    <functioncall functionName="tok"/>
+    <functioncall functionName="tokAt"/>
+    <functioncall functionName="tokType"/>
+    <functioncall functionName="token"/>
+    <functioncall functionName="tokenAndName"/>
+    <functioncall functionName="tokenizer"/>
+    <functioncall functionName="tokenlist"/>
+    <functioncall functionName="tokens1"/>
+    <functioncall functionName="tokens2"/>
+    <functioncall functionName="tokvalue"/>
+    <functioncall functionName="toupper"/>
+    <functioncall functionName="tr"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="type"/>
+    <functioncall functionName="type_templateArgNo"/>
+    <functioncall functionName="uninitVarError"/>
+    <functioncall functionName="unknownBaseTemplate"/>
+    <functioncall functionName="unsafeClassDivZeroError"/>
+    <functioncall functionName="unsafeClassRefMemberError"/>
+    <functioncall functionName="unused"/>
+    <functioncall functionName="unusedPrivateFunctionError"/>
+    <functioncall functionName="update_property_info"/>
+    <functioncall functionName="use"/>
+    <functioncall functionName="useMfc"/>
+    <functioncall functionName="useretval"/>
+    <functioncall functionName="usingNamespaces"/>
+    <functioncall functionName="usingNamespaces_"/>
+    <functioncall functionName="v"/>
+    <functioncall functionName="val"/>
+    <functioncall functionName="valid"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="valueKind"/>
+    <functioncall functionName="valueType"/>
+    <functioncall functionName="varId"/>
+    <functioncall functionName="variadic"/>
+    <functioncall functionName="varname"/>
+    <functioncall functionName="varvalue"/>
+    <functioncall functionName="virtualDestructor"/>
+    <functioncall functionName="virtualDestructorError"/>
+    <functioncall functionName="virtualFunctionCallInConstructorError"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="warning"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="xmlElement"/>
+    <functioncall functionName="yield"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3073115933">
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/analyzerinfo.cpp:72:13" call-funcname="skipAnalysis" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/analyzerinfo.cpp" linenr="133" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/analyzerinfo.h:56:10" my-argnr="5"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/analyzerinfo.cpp:72:13" call-funcname="skipAnalysis" call-argnr="3" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/analyzerinfo.cpp" linenr="133" my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/analyzerinfo.h:56:10" my-argnr="5"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="getFilename" lineNumber="34"/>
+    <functiondecl functionName="writeFilesTxt" lineNumber="46"/>
+    <functiondecl functionName="close" lineNumber="63"/>
+    <functiondecl functionName="skipAnalysis" lineNumber="72"/>
+    <functiondecl functionName="getAnalyzerInfoFile" lineNumber="95"/>
+    <functiondecl functionName="analyzeFile" lineNumber="125"/>
+    <functiondecl functionName="reportErr" lineNumber="147"/>
+    <functiondecl functionName="setFileInfo" lineNumber="153"/>
+    <functiondecl functionName="getFilename" lineNumber="34"/>
+    <functiondecl functionName="writeFilesTxt" lineNumber="46"/>
+    <functiondecl functionName="close" lineNumber="63"/>
+    <functiondecl functionName="skipAnalysis" lineNumber="72"/>
+    <functiondecl functionName="getAnalyzerInfoFile" lineNumber="95"/>
+    <functiondecl functionName="analyzeFile" lineNumber="125"/>
+    <functiondecl functionName="reportErr" lineNumber="147"/>
+    <functiondecl functionName="setFileInfo" lineNumber="153"/>
+    <functioncall functionName="AST"/>
+    <functioncall functionName="Attribute"/>
+    <functioncall functionName="BORLAND"/>
+    <functioncall functionName="COMPILE_DB"/>
+    <functioncall functionName="CPPCHECK_GUI"/>
+    <functioncall functionName="ErrorLogger"/>
+    <functioncall functionName="ErrorMessage"/>
+    <functioncall functionName="FileLocation"/>
+    <functioncall functionName="FileSettings"/>
+    <functioncall functionName="FirstChildElement"/>
+    <functioncall functionName="ID"/>
+    <functioncall functionName="INSTANTIATION"/>
+    <functioncall functionName="INTERNAL"/>
+    <functioncall functionName="InternalError"/>
+    <functioncall functionName="LIMIT"/>
+    <functioncall functionName="LoadFile"/>
+    <functioncall functionName="MISSING"/>
+    <functioncall functionName="NO_LINE"/>
+    <functioncall functionName="Name"/>
+    <functioncall functionName="Native"/>
+    <functioncall functionName="NextSiblingElement"/>
+    <functioncall functionName="PlatformFile"/>
+    <functioncall functionName="SYNTAX"/>
+    <functioncall functionName="Suppression"/>
+    <functioncall functionName="UNKNOWN"/>
+    <functioncall functionName="UNKNOWN_MACRO"/>
+    <functioncall functionName="Unix32"/>
+    <functioncall functionName="Unix64"/>
+    <functioncall functionName="Unspecified"/>
+    <functioncall functionName="VS_SLN"/>
+    <functioncall functionName="VS_VCXPROJ"/>
+    <functioncall functionName="Win32A"/>
+    <functioncall functionName="Win32W"/>
+    <functioncall functionName="Win64"/>
+    <functioncall functionName="acceptFile"/>
+    <functioncall functionName="afile"/>
+    <functioncall functionName="bool"/>
+    <functioncall functionName="buildDir"/>
+    <functioncall functionName="c_str"/>
+    <functioncall functionName="caseInsensitiveStringCompare"/>
+    <functioncall functionName="cfg"/>
+    <functioncall functionName="char_bit"/>
+    <functioncall functionName="checksum"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="close"/>
+    <functioncall functionName="column"/>
+    <functioncall functionName="compare"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="continue"/>
+    <functioncall functionName="debug"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="e"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="emptyString"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="endlen"/>
+    <functioncall functionName="endsWith"/>
+    <functioncall functionName="error"/>
+    <functioncall functionName="errorId"/>
+    <functioncall functionName="errors"/>
+    <functioncall functionName="extra"/>
+    <functioncall functionName="f"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="file"/>
+    <functioncall functionName="fileIndex"/>
+    <functioncall functionName="fileName"/>
+    <functioncall functionName="fileSettings"/>
+    <functioncall functionName="filename"/>
+    <functioncall functionName="files"/>
+    <functioncall functionName="filesTxt"/>
+    <functioncall functionName="fin"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="find_first_of"/>
+    <functioncall functionName="find_last_of"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="fout"/>
+    <functioncall functionName="fromNativeSeparators"/>
+    <functioncall functionName="getAnalyzerInfoFile"/>
+    <functioncall functionName="getFilename"/>
+    <functioncall functionName="getline"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="info"/>
+    <functioncall functionName="information"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="int_bit"/>
+    <functioncall functionName="is_open"/>
+    <functioncall functionName="lhs"/>
+    <functioncall functionName="line"/>
+    <functioncall functionName="lineNumber"/>
+    <functioncall functionName="long_bit"/>
+    <functioncall functionName="mAnalyzerInfoFile"/>
+    <functioncall functionName="mFileName"/>
+    <functioncall functionName="mInfo"/>
+    <functioncall functionName="mOrigFileName"/>
+    <functioncall functionName="matched"/>
+    <functioncall functionName="max_value"/>
+    <functioncall functionName="min_value"/>
+    <functioncall functionName="msc"/>
+    <functioncall functionName="msg"/>
+    <functioncall functionName="none"/>
+    <functioncall functionName="npos"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="open"/>
+    <functioncall functionName="other"/>
+    <functioncall functionName="performance"/>
+    <functioncall functionName="platformString"/>
+    <functioncall functionName="platformType"/>
+    <functioncall functionName="plistFooter"/>
+    <functioncall functionName="portability"/>
+    <functioncall functionName="pos1"/>
+    <functioncall functionName="pos2"/>
+    <functioncall functionName="pt"/>
+    <functioncall functionName="reportErr"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="rfind"/>
+    <functioncall functionName="rhs"/>
+    <functioncall functionName="severity"/>
+    <functioncall functionName="simplifyPath"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="skipAnalysis"/>
+    <functioncall functionName="sourcefile"/>
+    <functioncall functionName="sourcefiles"/>
+    <functioncall functionName="stage"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="stricmp"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="style"/>
+    <functioncall functionName="substr"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="symbolName"/>
+    <functioncall functionName="toXML"/>
+    <functioncall functionName="to_string"/>
+    <functioncall functionName="toupper"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="useMfc"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="warning"/>
+    <functioncall functionName="while"/>
+  </FileInfo>
+</analyzerinfo>

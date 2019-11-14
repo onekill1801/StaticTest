@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1331008398">
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/platform.h:114:14" my-argnr="1" my-argname="doc" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/platform.cpp" linenr="191" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/platform.h:114:14" my-argnr="1" my-argname="doc" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/platform.cpp" linenr="191" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/platform.h:114:14" my-argnr="1" my-argname="doc" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/platform.cpp" linenr="191" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/Sau/Desktop/cppcheck-1.89/lib/platform.h:114:14" my-argnr="1" my-argname="doc" filename="C:/Users/Sau/Desktop/cppcheck-1.89/lib/platform.cpp" linenr="191" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="platform" lineNumber="40"/>
+    <functiondecl functionName="loadPlatformFile" lineNumber="157"/>
+    <functiondecl functionName="loadFromXmlDocument" lineNumber="189"/>
+    <functiondecl functionName="platform" lineNumber="40"/>
+    <functiondecl functionName="loadPlatformFile" lineNumber="157"/>
+    <functiondecl functionName="loadFromXmlDocument" lineNumber="189"/>
+    <functiondecl functionName="platform" lineNumber="40"/>
+    <functiondecl functionName="loadPlatformFile" lineNumber="157"/>
+    <functiondecl functionName="loadFromXmlDocument" lineNumber="189"/>
+    <functiondecl functionName="platform" lineNumber="40"/>
+    <functiondecl functionName="loadPlatformFile" lineNumber="157"/>
+    <functiondecl functionName="loadFromXmlDocument" lineNumber="189"/>
+    <functioncall functionName="FirstChildElement"/>
+    <functioncall functionName="GetText"/>
+    <functioncall functionName="LoadFile"/>
+    <functioncall functionName="Name"/>
+    <functioncall functionName="Native"/>
+    <functioncall functionName="NextSiblingElement"/>
+    <functioncall functionName="Platform"/>
+    <functioncall functionName="PlatformFile"/>
+    <functioncall functionName="Unix32"/>
+    <functioncall functionName="Unix64"/>
+    <functioncall functionName="Unspecified"/>
+    <functioncall functionName="Win32A"/>
+    <functioncall functionName="Win32W"/>
+    <functioncall functionName="Win64"/>
+    <functioncall functionName="acceptFile"/>
+    <functioncall functionName="atoi"/>
+    <functioncall functionName="bool"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="c_str"/>
+    <functioncall functionName="char_bit"/>
+    <functioncall functionName="compare"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="doc"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="endlen"/>
+    <functioncall functionName="exename"/>
+    <functioncall functionName="extra"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="filename"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="float"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="fromNativeSeparators"/>
+    <functioncall functionName="getPathFromFilename"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="int_bit"/>
+    <functioncall functionName="loadFromXmlDocument"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="long_bit"/>
+    <functioncall functionName="max_value"/>
+    <functioncall functionName="min_value"/>
+    <functioncall functionName="node"/>
+    <functioncall functionName="platform"/>
+    <functioncall functionName="platformString"/>
+    <functioncall functionName="platformType"/>
+    <functioncall functionName="pt"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="short"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="sz"/>
+    <functioncall functionName="toupper"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="type"/>
+    <functioncall functionName="wchar_t"/>
+  </FileInfo>
+</analyzerinfo>

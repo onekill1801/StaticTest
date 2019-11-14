@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1294750289">
+        <error id="uninitdata" severity="error" msg="Memory is allocated but not initialized: pI" verbose="Memory is allocated but not initialized: pI" cwe="908">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuites\duma\wrong3.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuites\duma\wrong3.c" line="9" column="8"/>
+            <symbol>pI</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: pJ" verbose="Uninitialized variable: pJ" cwe="908">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuites\duma\wrong3.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuites\duma\wrong3.c" line="16" column="4"/>
+            <symbol>pJ</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;pJ&apos; is not assigned a value." verbose="Variable &apos;pJ&apos; is not assigned a value." cwe="665">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuites\duma\wrong3.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuites\duma\wrong3.c" line="14" column="8"/>
+            <symbol>pJ</symbol>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="main" lineNumber="3"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="j"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="pI"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="sizeof"/>
+  </FileInfo>
+</analyzerinfo>

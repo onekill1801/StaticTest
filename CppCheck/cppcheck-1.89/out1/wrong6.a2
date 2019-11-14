@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="223805483">
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;ar[10]&apos; accessed at index 10, which is out of bounds." verbose="Array &apos;ar[10]&apos; accessed at index 10, which is out of bounds." cwe="788">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuites\duma\wrong6.cc" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuites\duma\wrong6.cc" line="30" column="5" info="Array index out of bounds"/>
+        </error>
+        <error id="useInitializationList" severity="performance" msg="Variable &apos;stdstr&apos; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&apos;t explicitly write them to the initialization list. You could avoid assigning &apos;stdstr&apos; a value by passing the value to the constructor in the initialization list." cwe="398">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuites\duma\wrong6.cc" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuites\duma\wrong6.cc" line="15" column="5"/>
+            <symbol>stdstr</symbol>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="doNothing" lineNumber="18"/>
+    <functiondecl functionName="main" lineNumber="24"/>
+    <functioncall functionName="Test"/>
+    <functioncall functionName="doNothing"/>
+  </FileInfo>
+</analyzerinfo>

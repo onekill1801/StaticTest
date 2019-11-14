@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2993223750">
+        <error id="invalidLifetime" severity="error" msg="Using pointer to local variable &apos;x&apos; that is out of scope." verbose="Using pointer to local variable &apos;x&apos; that is out of scope." cwe="562">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" line="3" column="74"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" line="3" column="51" info="Variable created here."/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" line="3" column="60" info="Address of variable taken here."/>
+        </error>
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;x[10]&apos; accessed at index 100, which is out of bounds." verbose="Array &apos;x[10]&apos; accessed at index 100, which is out of bounds." cwe="788">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" line="2" column="48" info="Array index out of bounds"/>
+        </error>
+        <error id="pointerOutOfBounds" severity="portability" msg="Undefined behaviour, pointer arithmetic &apos;buf+100&apos; is out of bounds." verbose="Undefined behaviour, pointer arithmetic &apos;buf+100&apos; is out of bounds." cwe="758">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" line="9" column="60" info="Pointer arithmetic overflow"/>
+        </error>
+        <error id="nullPointer" severity="error" msg="Null pointer dereference: p" verbose="Null pointer dereference: p" cwe="476">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" line="8" column="42" info="Null pointer dereference"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" line="8" column="31" info="Assignment &apos;p=0&apos;, assigned value is 0"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="invalidPointerCast" severity="portability" msg="Casting between integer* and float* which have an incompatible binary data representation." verbose="Casting between integer* and float* which have an incompatible binary data representation." cwe="704">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" line="1" column="47"/>
+        </error>
+        <error id="zerodiv" severity="error" msg="Division by zero." verbose="Division by zero." cwe="369">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" line="4" column="37" info="Division by zero"/>
+        </error>
+        <error id="shiftNegativeLHS" severity="portability" msg="Shifting a negative value is technically undefined behaviour" verbose="Shifting a negative value is technically undefined behaviour" cwe="758">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" line="14" column="34"/>
+        </error>
+        <error id="comparePointers" severity="error" msg="Subtracting pointers that point to different objects" verbose="Subtracting pointers that point to different objects" cwe="570">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" line="11" column="61"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" line="11" column="62" info="Array decayed to pointer here."/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" line="11" column="34" info="Variable declared here."/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" line="11" column="60" info="Array decayed to pointer here."/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" line="11" column="46" info="Variable declared here."/>
+        </error>
+        <error id="comparePointers" severity="error" msg="Comparing pointers that point to different objects" verbose="Comparing pointers that point to different objects" cwe="570">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" line="12" column="60"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" line="12" column="61" info="Array decayed to pointer here."/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" line="12" column="33" info="Variable declared here."/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" line="12" column="59" info="Array decayed to pointer here."/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" line="12" column="45" info="Variable declared here."/>
+        </error>
+        <error id="shiftTooManyBitsSigned" severity="portability" msg="Shifting signed 32-bit value by 123 bits is implementation-defined behaviour" verbose="Shifting signed 32-bit value by 123 bits is implementation-defined behaviour" cwe="758">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" line="13" column="37" info="Shift"/>
+        </error>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;intmax*2&apos;." verbose="Signed integer overflow for expression &apos;intmax*2&apos;." cwe="190">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" line="15" column="61" info="Integer overflow"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" line="15" column="41" info="Assignment &apos;intmax=(~0U)&gt;&gt;1&apos;, assigned value is 2147483647"/>
+        </error>
+        <error id="floatConversionOverflow" severity="error" msg="Undefined behaviour: float (1e+100) to integer conversion overflow." verbose="Undefined behaviour: float (1e+100) to integer conversion overflow." cwe="190">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" line="5" column="45" info="float to integer conversion"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" line="5" column="31" info="Assignment &apos;d=1E100&apos;, assigned value is 1e+100.0"/>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: x" verbose="Uninitialized variable: x" cwe="908">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" line="17" column="30"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="deadpointer" severity="error" msg="Dead pointer usage. Pointer &apos;p&apos; is dead if it has been assigned &apos;&amp;x&apos; at line 3." verbose="Dead pointer usage. Pointer &apos;p&apos; is dead if it has been assigned &apos;&amp;x&apos; at line 3." cwe="825">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" line="3" column="74"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;fp&apos; is assigned a value that is never used." verbose="Variable &apos;fp&apos; is assigned a value that is never used." cwe="563">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" line="1" column="45"/>
+            <symbol>fp</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x" verbose="Unused variable: x" cwe="563">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" line="1" column="20"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: buf" verbose="Unused variable: buf" cwe="563">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" line="6" column="48"/>
+            <symbol>buf</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;a&apos; is not assigned a value." verbose="Variable &apos;a&apos; is not assigned a value." cwe="665">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" line="11" column="34"/>
+            <symbol>a</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;b&apos; is not assigned a value." verbose="Variable &apos;b&apos; is not assigned a value." cwe="665">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" line="11" column="46"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;a&apos; is not assigned a value." verbose="Variable &apos;a&apos; is not assigned a value." cwe="665">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" line="12" column="33"/>
+            <symbol>a</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;b&apos; is not assigned a value." verbose="Variable &apos;b&apos; is not assigned a value." cwe="665">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" line="12" column="45"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;x&apos; is not assigned a value." verbose="Variable &apos;x&apos; is not assigned a value." cwe="665">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\synthetic\ub.c" line="17" column="20"/>
+            <symbol>x</symbol>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="alias" lineNumber="1"/>
+    <functiondecl functionName="buffer_overflow" lineNumber="2"/>
+    <functiondecl functionName="dead_pointer" lineNumber="3"/>
+    <functiondecl functionName="division_by_zero" lineNumber="4"/>
+    <functiondecl functionName="float_to_int" lineNumber="5"/>
+    <functiondecl functionName="negative_size" lineNumber="6"/>
+    <functiondecl functionName="no_return" lineNumber="7"/>
+    <functiondecl functionName="null_pointer" lineNumber="8"/>
+    <functiondecl functionName="pointer_arithmetic" lineNumber="9"/>
+    <functiondecl functionName="pointer_to_u8" lineNumber="10"/>
+    <functiondecl functionName="pointer_subtraction" lineNumber="11"/>
+    <functiondecl functionName="pointer_comparison" lineNumber="12"/>
+    <functiondecl functionName="shift_overrun" lineNumber="13"/>
+    <functiondecl functionName="shift_negative" lineNumber="14"/>
+    <functiondecl functionName="int_overflow" lineNumber="15"/>
+    <functiondecl functionName="string_literal" lineNumber="16"/>
+    <functiondecl functionName="uninit" lineNumber="17"/>
+    <functioncall functionName="a"/>
+    <functioncall functionName="buf"/>
+    <functioncall functionName="d"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="ip"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="sz"/>
+    <functioncall functionName="x"/>
+  </FileInfo>
+</analyzerinfo>

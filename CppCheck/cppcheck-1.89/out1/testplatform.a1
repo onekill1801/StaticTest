@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1148176166">
+        <error id="missingOverride" severity="style" msg="The function &apos;reportOut&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;reportOut&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier.">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testplatform.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuite.h" line="85" column="18" info="Function in derived class"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testplatform.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\lib\errorlogger.h" line="374" column="18" info="Virtual function in base class"/>
+            <symbol>reportOut</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;reportErr&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;reportErr&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier.">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testplatform.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuite.h" line="86" column="18" info="Function in derived class"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testplatform.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\lib\errorlogger.h" line="382" column="18" info="Virtual function in base class"/>
+            <symbol>reportErr</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;run&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;run&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier.">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testplatform.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\testplatform.cpp" line="31" column="10" info="Function in derived class"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\testplatform.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\testsuite.h" line="49" column="18" info="Virtual function in base class"/>
+            <symbol>run</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="32" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="33" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="34" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="35" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="36" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="37" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="38" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="39" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp:43:17" call-funcname="readPlatform" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="54" call-argexpr="xmldata" call-argvaluetype="7" call-argvalue="34"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp:43:17" call-funcname="readPlatform" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="121" call-argexpr="xmldata" call-argvaluetype="7" call-argvalue="389"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp:43:17" call-funcname="readPlatform" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="165" call-argexpr="xmldata" call-argvaluetype="7" call-argvalue="390"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp:43:17" call-funcname="readPlatform" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="210" call-argexpr="xmldata" call-argvaluetype="7" call-argvalue="419"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp:43:17" call-funcname="readPlatform" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="244" call-argexpr="xmldata" call-argvaluetype="7" call-argvalue="382"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp:43:17" call-funcname="readPlatform" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="287" call-argexpr="xmldata" call-argvaluetype="7" call-argvalue="390"/>  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="32" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="33" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="34" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="35" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="36" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="37" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="38" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="39" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp:43:17" call-funcname="readPlatform" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="54" call-argexpr="xmldata" call-argvaluetype="7" call-argvalue="34"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp:43:17" call-funcname="readPlatform" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="121" call-argexpr="xmldata" call-argvaluetype="7" call-argvalue="389"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp:43:17" call-funcname="readPlatform" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="165" call-argexpr="xmldata" call-argvaluetype="7" call-argvalue="390"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp:43:17" call-funcname="readPlatform" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="210" call-argexpr="xmldata" call-argvaluetype="7" call-argvalue="419"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp:43:17" call-funcname="readPlatform" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="244" call-argexpr="xmldata" call-argvaluetype="7" call-argvalue="382"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp:43:17" call-funcname="readPlatform" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="287" call-argexpr="xmldata" call-argvaluetype="7" call-argvalue="390"/>  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="32" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="33" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="34" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="35" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="36" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="37" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="38" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testsuite.h:74:10" call-funcname="setVerbose" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="39" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp:43:17" call-funcname="readPlatform" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="54" call-argexpr="xmldata" call-argvaluetype="7" call-argvalue="34"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp:43:17" call-funcname="readPlatform" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="121" call-argexpr="xmldata" call-argvaluetype="7" call-argvalue="389"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp:43:17" call-funcname="readPlatform" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="165" call-argexpr="xmldata" call-argvaluetype="7" call-argvalue="390"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp:43:17" call-funcname="readPlatform" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="210" call-argexpr="xmldata" call-argvaluetype="7" call-argvalue="419"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp:43:17" call-funcname="readPlatform" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="244" call-argexpr="xmldata" call-argvaluetype="7" call-argvalue="382"/><function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp:43:17" call-funcname="readPlatform" call-argnr="2" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/testplatform.cpp" linenr="287" call-argexpr="xmldata" call-argvaluetype="7" call-argvalue="390"/>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="run" lineNumber="31"/>
+    <functiondecl functionName="readPlatform" lineNumber="43"/>
+    <functiondecl functionName="empty" lineNumber="49"/>
+    <functiondecl functionName="valid_config_native_1" lineNumber="66"/>
+    <functiondecl functionName="valid_config_native_2" lineNumber="85"/>
+    <functiondecl functionName="valid_config_file_1" lineNumber="99"/>
+    <functiondecl functionName="valid_config_file_2" lineNumber="143"/>
+    <functiondecl functionName="valid_config_file_3" lineNumber="187"/>
+    <functiondecl functionName="valid_config_file_4" lineNumber="222"/>
+    <functiondecl functionName="invalid_config_file_1" lineNumber="266"/>
+    <functiondecl functionName="run" lineNumber="31"/>
+    <functiondecl functionName="readPlatform" lineNumber="43"/>
+    <functiondecl functionName="empty" lineNumber="49"/>
+    <functiondecl functionName="valid_config_native_1" lineNumber="66"/>
+    <functiondecl functionName="valid_config_native_2" lineNumber="85"/>
+    <functiondecl functionName="valid_config_file_1" lineNumber="99"/>
+    <functiondecl functionName="valid_config_file_2" lineNumber="143"/>
+    <functiondecl functionName="valid_config_file_3" lineNumber="187"/>
+    <functiondecl functionName="valid_config_file_4" lineNumber="222"/>
+    <functiondecl functionName="invalid_config_file_1" lineNumber="266"/>
+    <functiondecl functionName="run" lineNumber="31"/>
+    <functiondecl functionName="readPlatform" lineNumber="43"/>
+    <functiondecl functionName="empty" lineNumber="49"/>
+    <functiondecl functionName="valid_config_native_1" lineNumber="66"/>
+    <functiondecl functionName="valid_config_native_2" lineNumber="85"/>
+    <functiondecl functionName="valid_config_file_1" lineNumber="99"/>
+    <functiondecl functionName="valid_config_file_2" lineNumber="143"/>
+    <functiondecl functionName="valid_config_file_3" lineNumber="187"/>
+    <functiondecl functionName="valid_config_file_4" lineNumber="222"/>
+    <functiondecl functionName="invalid_config_file_1" lineNumber="266"/>
+    <functioncall functionName="AST"/>
+    <functioncall functionName="ErrorLogger"/>
+    <functioncall functionName="ErrorMessage"/>
+    <functioncall functionName="FileLocation"/>
+    <functioncall functionName="ID"/>
+    <functioncall functionName="INSTANTIATION"/>
+    <functioncall functionName="INTERNAL"/>
+    <functioncall functionName="InternalError"/>
+    <functioncall functionName="LIMIT"/>
+    <functioncall functionName="NO_LINE"/>
+    <functioncall functionName="Native"/>
+    <functioncall functionName="Parse"/>
+    <functioncall functionName="PlatformFile"/>
+    <functioncall functionName="SYNTAX"/>
+    <functioncall functionName="Suppression"/>
+    <functioncall functionName="TestFixture"/>
+    <functioncall functionName="UNKNOWN_MACRO"/>
+    <functioncall functionName="Unix32"/>
+    <functioncall functionName="Unix64"/>
+    <functioncall functionName="Unspecified"/>
+    <functioncall functionName="Win32A"/>
+    <functioncall functionName="Win32W"/>
+    <functioncall functionName="Win64"/>
+    <functioncall functionName="assertEquals"/>
+    <functioncall functionName="assert_"/>
+    <functioncall functionName="char_bit"/>
+    <functioncall functionName="close"/>
+    <functioncall functionName="column"/>
+    <functioncall functionName="compare"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="debug"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="defaultSign"/>
+    <functioncall functionName="doc"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="emptyString"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="endlen"/>
+    <functioncall functionName="error"/>
+    <functioncall functionName="errorId"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="file"/>
+    <functioncall functionName="fileIndex"/>
+    <functioncall functionName="fileName"/>
+    <functioncall functionName="filename"/>
+    <functioncall functionName="find_first_of"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="info"/>
+    <functioncall functionName="information"/>
+    <functioncall functionName="int_bit"/>
+    <functioncall functionName="invalid_config_file_1"/>
+    <functioncall functionName="isWindowsPlatform"/>
+    <functioncall functionName="is_open"/>
+    <functioncall functionName="line"/>
+    <functioncall functionName="lineNumber"/>
+    <functioncall functionName="loadFromXmlDocument"/>
+    <functioncall functionName="long_bit"/>
+    <functioncall functionName="long_long_bit"/>
+    <functioncall functionName="mFileName"/>
+    <functioncall functionName="mInfo"/>
+    <functioncall functionName="mOrigFileName"/>
+    <functioncall functionName="matched"/>
+    <functioncall functionName="max_value"/>
+    <functioncall functionName="min_value"/>
+    <functioncall functionName="msg"/>
+    <functioncall functionName="none"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="other"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="performance"/>
+    <functioncall functionName="platform"/>
+    <functioncall functionName="platformString"/>
+    <functioncall functionName="platformType"/>
+    <functioncall functionName="plistFooter"/>
+    <functioncall functionName="portability"/>
+    <functioncall functionName="prepareTest"/>
+    <functioncall functionName="pt"/>
+    <functioncall functionName="readPlatform"/>
+    <functioncall functionName="reportErr"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="setVerbose"/>
+    <functioncall functionName="severity"/>
+    <functioncall functionName="short_bit"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sizeof_bool"/>
+    <functioncall functionName="sizeof_double"/>
+    <functioncall functionName="sizeof_float"/>
+    <functioncall functionName="sizeof_int"/>
+    <functioncall functionName="sizeof_long"/>
+    <functioncall functionName="sizeof_long_double"/>
+    <functioncall functionName="sizeof_long_long"/>
+    <functioncall functionName="sizeof_pointer"/>
+    <functioncall functionName="sizeof_short"/>
+    <functioncall functionName="sizeof_size_t"/>
+    <functioncall functionName="sizeof_wchar_t"/>
+    <functioncall functionName="stage"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="style"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="symbolName"/>
+    <functioncall functionName="toupper"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="v"/>
+    <functioncall functionName="valid_config_file_1"/>
+    <functioncall functionName="valid_config_file_2"/>
+    <functioncall functionName="valid_config_file_3"/>
+    <functioncall functionName="valid_config_file_4"/>
+    <functioncall functionName="valid_config_native_1"/>
+    <functioncall functionName="valid_config_native_2"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="warning"/>
+    <functioncall functionName="xmldata"/>
+  </FileInfo>
+</analyzerinfo>

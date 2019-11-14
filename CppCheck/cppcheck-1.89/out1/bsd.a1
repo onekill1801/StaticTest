@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3557399777">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="uninitvar_strlcat" lineNumber="14"/>
+    <functiondecl functionName="bufferAccessOutOfBounds" lineNumber="32"/>
+    <functiondecl functionName="ignoredReturnValue" lineNumber="41"/>
+    <functiondecl functionName="invalidFunctionArg" lineNumber="49"/>
+    <functiondecl functionName="nullPointer" lineNumber="57"/>
+    <functiondecl functionName="uninitvar" lineNumber="63"/>
+    <functioncall functionName="Ct"/>
+    <functioncall functionName="N"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="S"/>
+    <functioncall functionName="arc4random"/>
+    <functioncall functionName="arc4random_buf"/>
+    <functioncall functionName="arc4random_uniform"/>
+    <functioncall functionName="ct"/>
+    <functioncall functionName="n1"/>
+    <functioncall functionName="n2"/>
+    <functioncall functionName="s"/>
+    <functioncall functionName="strlcat"/>
+    <functioncall functionName="uint16Buf"/>
+    <functioncall functionName="uint32Uninit"/>
+    <functioncall functionName="void"/>
+  </FileInfo>
+</analyzerinfo>

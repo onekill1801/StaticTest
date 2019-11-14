@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1157432730">
+        <error id="missingOverride" severity="style" msg="The function &apos;AddResults&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;AddResults&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier.">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\lib\timer.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\lib\timer.h" line="64" column="10" info="Function in derived class"/>
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\lib\timer.cpp" file="C:\Users\Sau\Desktop\cppcheck-1.89\lib\timer.h" line="40" column="18" info="Virtual function in base class"/>
+            <symbol>AddResults</symbol>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="more_second_sec" lineNumber="36"/>
+    <functiondecl functionName="ShowResults" lineNumber="42"/>
+    <functiondecl functionName="AddResults" lineNumber="68"/>
+    <functiondecl functionName="Stop" lineNumber="90"/>
+    <functiondecl functionName="more_second_sec" lineNumber="36"/>
+    <functiondecl functionName="ShowResults" lineNumber="42"/>
+    <functiondecl functionName="AddResults" lineNumber="68"/>
+    <functiondecl functionName="Stop" lineNumber="90"/>
+    <functioncall functionName="AddResults"/>
+    <functioncall functionName="CLOCKS_PER_SEC"/>
+    <functioncall functionName="SHOWTIME_FILE"/>
+    <functioncall functionName="SHOWTIME_SUMMARY"/>
+    <functioncall functionName="SHOWTIME_TOP5"/>
+    <functioncall functionName="Stop"/>
+    <functioncall functionName="Timer"/>
+    <functioncall functionName="TimerResultsData"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="clock"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="diff"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="mClocks"/>
+    <functioncall functionName="mNumberOfResults"/>
+    <functioncall functionName="mShowTimeMode"/>
+    <functioncall functionName="mStart"/>
+    <functioncall functionName="mStopped"/>
+    <functioncall functionName="mStr"/>
+    <functioncall functionName="mTimerResults"/>
+    <functioncall functionName="more_second_sec"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="seconds"/>
+    <functioncall functionName="showtimeMode"/>
+    <functioncall functionName="sort"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="timerResults"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

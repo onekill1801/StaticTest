@@ -1,0 +1,479 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="779928362">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="str" lineNumber="78"/>
+    <functiondecl functionName="promote" lineNumber="112"/>
+    <functiondecl functionName="calc" lineNumber="129"/>
+    <functiondecl functionName="compare" lineNumber="230"/>
+    <functiondecl functionName="add" lineNumber="258"/>
+    <functiondecl functionName="shiftLeft" lineNumber="268"/>
+    <functiondecl functionName="shiftRight" lineNumber="280"/>
+    <functiondecl functionName="toULongNumber" lineNumber="293"/>
+    <functiondecl functionName="encodeMultiChar" lineNumber="347"/>
+    <functiondecl functionName="isoctal" lineNumber="356"/>
+    <functiondecl functionName="characterLiteralToLongNumber" lineNumber="361"/>
+    <functiondecl functionName="normalizeCharacterLiteral" lineNumber="385"/>
+    <functiondecl functionName="toLongNumber" lineNumber="484"/>
+    <functiondecl functionName="myStod" lineNumber="552"/>
+    <functiondecl functionName="FloatHexToDoubleNumber" lineNumber="591"/>
+    <functiondecl functionName="toDoubleNumber" lineNumber="601"/>
+    <functiondecl functionName="isFloat" lineNumber="637"/>
+    <functiondecl functionName="isDecimalFloat" lineNumber="642"/>
+    <functiondecl functionName="isNegative" lineNumber="729"/>
+    <functiondecl functionName="isPositive" lineNumber="736"/>
+    <functiondecl functionName="_isValidIntegerSuffix" lineNumber="743"/>
+    <functiondecl functionName="isValidIntegerSuffix" lineNumber="827"/>
+    <functiondecl functionName="isOct" lineNumber="843"/>
+    <functiondecl functionName="isIntHex" lineNumber="878"/>
+    <functiondecl functionName="isFloatHex" lineNumber="919"/>
+    <functiondecl functionName="isBin" lineNumber="1009"/>
+    <functiondecl functionName="isDec" lineNumber="1050"/>
+    <functiondecl functionName="isInt" lineNumber="1079"/>
+    <functiondecl functionName="getSuffix" lineNumber="1084"/>
+    <functiondecl functionName="intsuffix" lineNumber="1110"/>
+    <functiondecl functionName="add" lineNumber="1128"/>
+    <functiondecl functionName="subtract" lineNumber="1150"/>
+    <functiondecl functionName="incdec" lineNumber="1175"/>
+    <functiondecl functionName="divide" lineNumber="1192"/>
+    <functiondecl functionName="multiply" lineNumber="1214"/>
+    <functiondecl functionName="mod" lineNumber="1226"/>
+    <functiondecl functionName="calculate" lineNumber="1241"/>
+    <functiondecl functionName="sin" lineNumber="1273"/>
+    <functiondecl functionName="cos" lineNumber="1279"/>
+    <functiondecl functionName="tan" lineNumber="1284"/>
+    <functiondecl functionName="abs" lineNumber="1290"/>
+    <functiondecl functionName="isEqual" lineNumber="1295"/>
+    <functiondecl functionName="isNotEqual" lineNumber="1302"/>
+    <functiondecl functionName="isGreater" lineNumber="1307"/>
+    <functiondecl functionName="isGreaterEqual" lineNumber="1312"/>
+    <functiondecl functionName="isLess" lineNumber="1317"/>
+    <functiondecl functionName="isLessEqual" lineNumber="1322"/>
+    <functiondecl functionName="isNullValue" lineNumber="1336"/>
+    <functiondecl functionName="isOctalDigit" lineNumber="1350"/>
+    <functiondecl functionName="isDigitSeparator" lineNumber="1355"/>
+    <functiondecl functionName="str" lineNumber="78"/>
+    <functiondecl functionName="promote" lineNumber="112"/>
+    <functiondecl functionName="calc" lineNumber="129"/>
+    <functiondecl functionName="compare" lineNumber="230"/>
+    <functiondecl functionName="add" lineNumber="258"/>
+    <functiondecl functionName="shiftLeft" lineNumber="268"/>
+    <functiondecl functionName="shiftRight" lineNumber="280"/>
+    <functiondecl functionName="toULongNumber" lineNumber="293"/>
+    <functiondecl functionName="encodeMultiChar" lineNumber="347"/>
+    <functiondecl functionName="isoctal" lineNumber="356"/>
+    <functiondecl functionName="characterLiteralToLongNumber" lineNumber="361"/>
+    <functiondecl functionName="normalizeCharacterLiteral" lineNumber="385"/>
+    <functiondecl functionName="toLongNumber" lineNumber="484"/>
+    <functiondecl functionName="myStod" lineNumber="552"/>
+    <functiondecl functionName="FloatHexToDoubleNumber" lineNumber="591"/>
+    <functiondecl functionName="toDoubleNumber" lineNumber="601"/>
+    <functiondecl functionName="isFloat" lineNumber="637"/>
+    <functiondecl functionName="isDecimalFloat" lineNumber="642"/>
+    <functiondecl functionName="isNegative" lineNumber="729"/>
+    <functiondecl functionName="isPositive" lineNumber="736"/>
+    <functiondecl functionName="_isValidIntegerSuffix" lineNumber="743"/>
+    <functiondecl functionName="isValidIntegerSuffix" lineNumber="827"/>
+    <functiondecl functionName="isOct" lineNumber="843"/>
+    <functiondecl functionName="isIntHex" lineNumber="878"/>
+    <functiondecl functionName="isFloatHex" lineNumber="919"/>
+    <functiondecl functionName="isBin" lineNumber="1009"/>
+    <functiondecl functionName="isDec" lineNumber="1050"/>
+    <functiondecl functionName="isInt" lineNumber="1079"/>
+    <functiondecl functionName="getSuffix" lineNumber="1084"/>
+    <functiondecl functionName="intsuffix" lineNumber="1110"/>
+    <functiondecl functionName="add" lineNumber="1128"/>
+    <functiondecl functionName="subtract" lineNumber="1150"/>
+    <functiondecl functionName="incdec" lineNumber="1175"/>
+    <functiondecl functionName="divide" lineNumber="1192"/>
+    <functiondecl functionName="multiply" lineNumber="1214"/>
+    <functiondecl functionName="mod" lineNumber="1226"/>
+    <functiondecl functionName="calculate" lineNumber="1241"/>
+    <functiondecl functionName="sin" lineNumber="1273"/>
+    <functiondecl functionName="cos" lineNumber="1279"/>
+    <functiondecl functionName="tan" lineNumber="1284"/>
+    <functiondecl functionName="abs" lineNumber="1290"/>
+    <functiondecl functionName="isEqual" lineNumber="1295"/>
+    <functiondecl functionName="isNotEqual" lineNumber="1302"/>
+    <functiondecl functionName="isGreater" lineNumber="1307"/>
+    <functiondecl functionName="isGreaterEqual" lineNumber="1312"/>
+    <functiondecl functionName="isLess" lineNumber="1317"/>
+    <functiondecl functionName="isLessEqual" lineNumber="1322"/>
+    <functiondecl functionName="isNullValue" lineNumber="1336"/>
+    <functiondecl functionName="isOctalDigit" lineNumber="1350"/>
+    <functiondecl functionName="isDigitSeparator" lineNumber="1355"/>
+    <functiondecl functionName="str" lineNumber="78"/>
+    <functiondecl functionName="promote" lineNumber="112"/>
+    <functiondecl functionName="calc" lineNumber="129"/>
+    <functiondecl functionName="compare" lineNumber="230"/>
+    <functiondecl functionName="add" lineNumber="258"/>
+    <functiondecl functionName="shiftLeft" lineNumber="268"/>
+    <functiondecl functionName="shiftRight" lineNumber="280"/>
+    <functiondecl functionName="toULongNumber" lineNumber="293"/>
+    <functiondecl functionName="encodeMultiChar" lineNumber="347"/>
+    <functiondecl functionName="isoctal" lineNumber="356"/>
+    <functiondecl functionName="characterLiteralToLongNumber" lineNumber="361"/>
+    <functiondecl functionName="normalizeCharacterLiteral" lineNumber="385"/>
+    <functiondecl functionName="toLongNumber" lineNumber="484"/>
+    <functiondecl functionName="myStod" lineNumber="552"/>
+    <functiondecl functionName="FloatHexToDoubleNumber" lineNumber="591"/>
+    <functiondecl functionName="toDoubleNumber" lineNumber="601"/>
+    <functiondecl functionName="isFloat" lineNumber="637"/>
+    <functiondecl functionName="isDecimalFloat" lineNumber="642"/>
+    <functiondecl functionName="isNegative" lineNumber="729"/>
+    <functiondecl functionName="isPositive" lineNumber="736"/>
+    <functiondecl functionName="_isValidIntegerSuffix" lineNumber="743"/>
+    <functiondecl functionName="isValidIntegerSuffix" lineNumber="827"/>
+    <functiondecl functionName="isOct" lineNumber="843"/>
+    <functiondecl functionName="isIntHex" lineNumber="878"/>
+    <functiondecl functionName="isFloatHex" lineNumber="919"/>
+    <functiondecl functionName="isBin" lineNumber="1009"/>
+    <functiondecl functionName="isDec" lineNumber="1050"/>
+    <functiondecl functionName="isInt" lineNumber="1079"/>
+    <functiondecl functionName="getSuffix" lineNumber="1084"/>
+    <functiondecl functionName="intsuffix" lineNumber="1110"/>
+    <functiondecl functionName="add" lineNumber="1128"/>
+    <functiondecl functionName="subtract" lineNumber="1150"/>
+    <functiondecl functionName="incdec" lineNumber="1175"/>
+    <functiondecl functionName="divide" lineNumber="1192"/>
+    <functiondecl functionName="multiply" lineNumber="1214"/>
+    <functiondecl functionName="mod" lineNumber="1226"/>
+    <functiondecl functionName="calculate" lineNumber="1241"/>
+    <functiondecl functionName="sin" lineNumber="1273"/>
+    <functiondecl functionName="cos" lineNumber="1279"/>
+    <functiondecl functionName="tan" lineNumber="1284"/>
+    <functiondecl functionName="abs" lineNumber="1290"/>
+    <functiondecl functionName="isEqual" lineNumber="1295"/>
+    <functiondecl functionName="isNotEqual" lineNumber="1302"/>
+    <functiondecl functionName="isGreater" lineNumber="1307"/>
+    <functiondecl functionName="isGreaterEqual" lineNumber="1312"/>
+    <functiondecl functionName="isLess" lineNumber="1317"/>
+    <functiondecl functionName="isLessEqual" lineNumber="1322"/>
+    <functiondecl functionName="isNullValue" lineNumber="1336"/>
+    <functiondecl functionName="isOctalDigit" lineNumber="1350"/>
+    <functiondecl functionName="isDigitSeparator" lineNumber="1355"/>
+    <functiondecl functionName="str" lineNumber="78"/>
+    <functiondecl functionName="promote" lineNumber="112"/>
+    <functiondecl functionName="calc" lineNumber="129"/>
+    <functiondecl functionName="compare" lineNumber="230"/>
+    <functiondecl functionName="add" lineNumber="258"/>
+    <functiondecl functionName="shiftLeft" lineNumber="268"/>
+    <functiondecl functionName="shiftRight" lineNumber="280"/>
+    <functiondecl functionName="toULongNumber" lineNumber="293"/>
+    <functiondecl functionName="encodeMultiChar" lineNumber="347"/>
+    <functiondecl functionName="isoctal" lineNumber="356"/>
+    <functiondecl functionName="characterLiteralToLongNumber" lineNumber="361"/>
+    <functiondecl functionName="normalizeCharacterLiteral" lineNumber="385"/>
+    <functiondecl functionName="toLongNumber" lineNumber="484"/>
+    <functiondecl functionName="myStod" lineNumber="552"/>
+    <functiondecl functionName="FloatHexToDoubleNumber" lineNumber="591"/>
+    <functiondecl functionName="toDoubleNumber" lineNumber="601"/>
+    <functiondecl functionName="isFloat" lineNumber="637"/>
+    <functiondecl functionName="isDecimalFloat" lineNumber="642"/>
+    <functiondecl functionName="isNegative" lineNumber="729"/>
+    <functiondecl functionName="isPositive" lineNumber="736"/>
+    <functiondecl functionName="_isValidIntegerSuffix" lineNumber="743"/>
+    <functiondecl functionName="isValidIntegerSuffix" lineNumber="827"/>
+    <functiondecl functionName="isOct" lineNumber="843"/>
+    <functiondecl functionName="isIntHex" lineNumber="878"/>
+    <functiondecl functionName="isFloatHex" lineNumber="919"/>
+    <functiondecl functionName="isBin" lineNumber="1009"/>
+    <functiondecl functionName="isDec" lineNumber="1050"/>
+    <functiondecl functionName="isInt" lineNumber="1079"/>
+    <functiondecl functionName="getSuffix" lineNumber="1084"/>
+    <functiondecl functionName="intsuffix" lineNumber="1110"/>
+    <functiondecl functionName="add" lineNumber="1128"/>
+    <functiondecl functionName="subtract" lineNumber="1150"/>
+    <functiondecl functionName="incdec" lineNumber="1175"/>
+    <functiondecl functionName="divide" lineNumber="1192"/>
+    <functiondecl functionName="multiply" lineNumber="1214"/>
+    <functiondecl functionName="mod" lineNumber="1226"/>
+    <functiondecl functionName="calculate" lineNumber="1241"/>
+    <functiondecl functionName="sin" lineNumber="1273"/>
+    <functiondecl functionName="cos" lineNumber="1279"/>
+    <functiondecl functionName="tan" lineNumber="1284"/>
+    <functiondecl functionName="abs" lineNumber="1290"/>
+    <functiondecl functionName="isEqual" lineNumber="1295"/>
+    <functiondecl functionName="isNotEqual" lineNumber="1302"/>
+    <functiondecl functionName="isGreater" lineNumber="1307"/>
+    <functiondecl functionName="isGreaterEqual" lineNumber="1312"/>
+    <functiondecl functionName="isLess" lineNumber="1317"/>
+    <functiondecl functionName="isLessEqual" lineNumber="1322"/>
+    <functiondecl functionName="isNullValue" lineNumber="1336"/>
+    <functiondecl functionName="isOctalDigit" lineNumber="1350"/>
+    <functiondecl functionName="isDigitSeparator" lineNumber="1355"/>
+    <functiondecl functionName="str" lineNumber="78"/>
+    <functiondecl functionName="promote" lineNumber="112"/>
+    <functiondecl functionName="calc" lineNumber="129"/>
+    <functiondecl functionName="compare" lineNumber="230"/>
+    <functiondecl functionName="add" lineNumber="258"/>
+    <functiondecl functionName="shiftLeft" lineNumber="268"/>
+    <functiondecl functionName="shiftRight" lineNumber="280"/>
+    <functiondecl functionName="toULongNumber" lineNumber="293"/>
+    <functiondecl functionName="encodeMultiChar" lineNumber="347"/>
+    <functiondecl functionName="isoctal" lineNumber="356"/>
+    <functiondecl functionName="characterLiteralToLongNumber" lineNumber="361"/>
+    <functiondecl functionName="normalizeCharacterLiteral" lineNumber="385"/>
+    <functiondecl functionName="toLongNumber" lineNumber="484"/>
+    <functiondecl functionName="myStod" lineNumber="552"/>
+    <functiondecl functionName="FloatHexToDoubleNumber" lineNumber="591"/>
+    <functiondecl functionName="toDoubleNumber" lineNumber="601"/>
+    <functiondecl functionName="isFloat" lineNumber="637"/>
+    <functiondecl functionName="isDecimalFloat" lineNumber="642"/>
+    <functiondecl functionName="isNegative" lineNumber="729"/>
+    <functiondecl functionName="isPositive" lineNumber="736"/>
+    <functiondecl functionName="_isValidIntegerSuffix" lineNumber="743"/>
+    <functiondecl functionName="isValidIntegerSuffix" lineNumber="827"/>
+    <functiondecl functionName="isOct" lineNumber="843"/>
+    <functiondecl functionName="isIntHex" lineNumber="878"/>
+    <functiondecl functionName="isFloatHex" lineNumber="919"/>
+    <functiondecl functionName="isBin" lineNumber="1009"/>
+    <functiondecl functionName="isDec" lineNumber="1050"/>
+    <functiondecl functionName="isInt" lineNumber="1079"/>
+    <functiondecl functionName="getSuffix" lineNumber="1084"/>
+    <functiondecl functionName="intsuffix" lineNumber="1110"/>
+    <functiondecl functionName="add" lineNumber="1128"/>
+    <functiondecl functionName="subtract" lineNumber="1150"/>
+    <functiondecl functionName="incdec" lineNumber="1175"/>
+    <functiondecl functionName="divide" lineNumber="1192"/>
+    <functiondecl functionName="multiply" lineNumber="1214"/>
+    <functiondecl functionName="mod" lineNumber="1226"/>
+    <functiondecl functionName="calculate" lineNumber="1241"/>
+    <functiondecl functionName="sin" lineNumber="1273"/>
+    <functiondecl functionName="cos" lineNumber="1279"/>
+    <functiondecl functionName="tan" lineNumber="1284"/>
+    <functiondecl functionName="abs" lineNumber="1290"/>
+    <functiondecl functionName="isEqual" lineNumber="1295"/>
+    <functiondecl functionName="isNotEqual" lineNumber="1302"/>
+    <functiondecl functionName="isGreater" lineNumber="1307"/>
+    <functiondecl functionName="isGreaterEqual" lineNumber="1312"/>
+    <functiondecl functionName="isLess" lineNumber="1317"/>
+    <functiondecl functionName="isLessEqual" lineNumber="1322"/>
+    <functiondecl functionName="isNullValue" lineNumber="1336"/>
+    <functiondecl functionName="isOctalDigit" lineNumber="1350"/>
+    <functiondecl functionName="isDigitSeparator" lineNumber="1355"/>
+    <functioncall functionName="AST"/>
+    <functioncall functionName="BASE_DIGITS1"/>
+    <functioncall functionName="BASE_DIGITS2"/>
+    <functioncall functionName="DIGIT"/>
+    <functioncall functionName="DIGITS"/>
+    <functioncall functionName="E"/>
+    <functioncall functionName="EXPONENT_DIGITS"/>
+    <functioncall functionName="EXPONENT_P"/>
+    <functioncall functionName="EXPONENT_SIGN"/>
+    <functioncall functionName="EXPONENT_SUFFIX"/>
+    <functioncall functionName="ErrorLogger"/>
+    <functioncall functionName="ErrorMessage"/>
+    <functioncall functionName="FLOAT"/>
+    <functioncall functionName="FRACTION"/>
+    <functioncall functionName="FileLocation"/>
+    <functioncall functionName="FloatHexToDoubleNumber"/>
+    <functioncall functionName="GNU_BIN_PREFIX_0"/>
+    <functioncall functionName="GNU_BIN_PREFIX_B"/>
+    <functioncall functionName="HEX_0"/>
+    <functioncall functionName="HEX_X"/>
+    <functioncall functionName="ID"/>
+    <functioncall functionName="INSTANTIATION"/>
+    <functioncall functionName="INT"/>
+    <functioncall functionName="INTERNAL"/>
+    <functioncall functionName="InternalError"/>
+    <functioncall functionName="LEADING_DECIMAL"/>
+    <functioncall functionName="LIMIT"/>
+    <functioncall functionName="LONG"/>
+    <functioncall functionName="LONGLONG"/>
+    <functioncall functionName="MANTISSA_DIGITS"/>
+    <functioncall functionName="MANTISSA_PLUSMINUS"/>
+    <functioncall functionName="NO_LINE"/>
+    <functioncall functionName="OCTAL_PREFIX"/>
+    <functioncall functionName="POINT"/>
+    <functioncall functionName="START"/>
+    <functioncall functionName="SUFFIX_F"/>
+    <functioncall functionName="SUFFIX_I"/>
+    <functioncall functionName="SUFFIX_I6"/>
+    <functioncall functionName="SUFFIX_I64"/>
+    <functioncall functionName="SUFFIX_L"/>
+    <functioncall functionName="SUFFIX_LL"/>
+    <functioncall functionName="SUFFIX_LLU"/>
+    <functioncall functionName="SUFFIX_LU"/>
+    <functioncall functionName="SUFFIX_U"/>
+    <functioncall functionName="SUFFIX_UI"/>
+    <functioncall functionName="SUFFIX_UI6"/>
+    <functioncall functionName="SUFFIX_UI64"/>
+    <functioncall functionName="SUFFIX_UL"/>
+    <functioncall functionName="SUFFIX_ULL"/>
+    <functioncall functionName="SYNTAX"/>
+    <functioncall functionName="Suppression"/>
+    <functioncall functionName="TRAILING_DECIMAL"/>
+    <functioncall functionName="UNKNOWN_MACRO"/>
+    <functioncall functionName="WHOLE_NUMBER_DIGIT"/>
+    <functioncall functionName="_finite"/>
+    <functioncall functionName="_isValidIntegerSuffix"/>
+    <functioncall functionName="_isnan"/>
+    <functioncall functionName="abs"/>
+    <functioncall functionName="action"/>
+    <functioncall functionName="add"/>
+    <functioncall functionName="atof"/>
+    <functioncall functionName="b"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="base"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="c"/>
+    <functioncall functionName="c_str"/>
+    <functioncall functionName="calc"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="characterLiteralToLongNumber"/>
+    <functioncall functionName="classic"/>
+    <functioncall functionName="close"/>
+    <functioncall functionName="column"/>
+    <functioncall functionName="compare"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="continue"/>
+    <functioncall functionName="cos"/>
+    <functioncall functionName="d1"/>
+    <functioncall functionName="d2"/>
+    <functioncall functionName="debug"/>
+    <functioncall functionName="decimalsep"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="digitval"/>
+    <functioncall functionName="distance"/>
+    <functioncall functionName="divide"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="doubleval"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="emptyString"/>
+    <functioncall functionName="encodeMultiChar"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="endlen"/>
+    <functioncall functionName="endsWith"/>
+    <functioncall functionName="error"/>
+    <functioncall functionName="errorId"/>
+    <functioncall functionName="exponent"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="file"/>
+    <functioncall functionName="fileIndex"/>
+    <functioncall functionName="fileName"/>
+    <functioncall functionName="filename"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="find_first_of"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="float"/>
+    <functioncall functionName="fmod"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="from"/>
+    <functioncall functionName="getDoubleValue"/>
+    <functioncall functionName="getSuffix"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="iCode"/>
+    <functioncall functionName="iPos"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="idx"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="imbue"/>
+    <functioncall functionName="info"/>
+    <functioncall functionName="information"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="intsuffix"/>
+    <functioncall functionName="isBin"/>
+    <functioncall functionName="isDec"/>
+    <functioncall functionName="isDecimalFloat"/>
+    <functioncall functionName="isDigitSeparator"/>
+    <functioncall functionName="isEqual"/>
+    <functioncall functionName="isFloat"/>
+    <functioncall functionName="isFloatHex"/>
+    <functioncall functionName="isInt"/>
+    <functioncall functionName="isIntHex"/>
+    <functioncall functionName="isNegative"/>
+    <functioncall functionName="isNullValue"/>
+    <functioncall functionName="isOct"/>
+    <functioncall functionName="isOctalDigit"/>
+    <functioncall functionName="isPositive"/>
+    <functioncall functionName="is_open"/>
+    <functioncall functionName="isdigit"/>
+    <functioncall functionName="isinf"/>
+    <functioncall functionName="isnan"/>
+    <functioncall functionName="isoctal"/>
+    <functioncall functionName="istr"/>
+    <functioncall functionName="isxdigit"/>
+    <functioncall functionName="it"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="line"/>
+    <functioncall functionName="lineNumber"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="mDoubleValue"/>
+    <functioncall functionName="mFileName"/>
+    <functioncall functionName="mInfo"/>
+    <functioncall functionName="mIntValue"/>
+    <functioncall functionName="mIsUnsigned"/>
+    <functioncall functionName="mOrigFileName"/>
+    <functioncall functionName="mType"/>
+    <functioncall functionName="matched"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="min"/>
+    <functioncall functionName="mod"/>
+    <functioncall functionName="msg"/>
+    <functioncall functionName="multiply"/>
+    <functioncall functionName="myStod"/>
+    <functioncall functionName="none"/>
+    <functioncall functionName="normStr"/>
+    <functioncall functionName="normalizeCharacterLiteral"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="op"/>
+    <functioncall functionName="other"/>
+    <functioncall functionName="p"/>
+    <functioncall functionName="performance"/>
+    <functioncall functionName="plistFooter"/>
+    <functioncall functionName="portability"/>
+    <functioncall functionName="pos"/>
+    <functioncall functionName="positivesign"/>
+    <functioncall functionName="pow"/>
+    <functioncall functionName="precision"/>
+    <functioncall functionName="promote"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="reportErr"/>
+    <functioncall functionName="result"/>
+    <functioncall functionName="ret"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="s"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="severity"/>
+    <functioncall functionName="shiftLeft"/>
+    <functioncall functionName="shiftRight"/>
+    <functioncall functionName="sin"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="stage"/>
+    <functioncall functionName="state"/>
+    <functioncall functionName="static_cast"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="strtod"/>
+    <functioncall functionName="strtoul"/>
+    <functioncall functionName="style"/>
+    <functioncall functionName="substr"/>
+    <functioncall functionName="subtract"/>
+    <functioncall functionName="suffix"/>
+    <functioncall functionName="suffix1"/>
+    <functioncall functionName="suffix2"/>
+    <functioncall functionName="supportMicrosoftExtensions"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="symbolName"/>
+    <functioncall functionName="tan"/>
+    <functioncall functionName="temp"/>
+    <functioncall functionName="tempBuf"/>
+    <functioncall functionName="toDoubleNumber"/>
+    <functioncall functionName="toLongNumber"/>
+    <functioncall functionName="toString"/>
+    <functioncall functionName="toULongNumber"/>
+    <functioncall functionName="tok"/>
+    <functioncall functionName="tolower"/>
+    <functioncall functionName="toupper"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="v"/>
+    <functioncall functionName="v1"/>
+    <functioncall functionName="v2"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="var"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="warning"/>
+    <functioncall functionName="while"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1163376393">
+        <error id="unreadVariable" severity="style" msg="Variable &apos;fp&apos; is assigned a value that is never used." verbose="Variable &apos;fp&apos; is assigned a value that is never used." cwe="563">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\gnu.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\gnu.c" line="27" column="12"/>
+            <symbol>fp</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;fp&apos; is assigned a value that is never used." verbose="Variable &apos;fp&apos; is assigned a value that is never used." cwe="563">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\gnu.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\gnu.c" line="45" column="12"/>
+            <symbol>fp</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;fp&apos; is assigned a value that is never used." verbose="Variable &apos;fp&apos; is assigned a value that is never used." cwe="563">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\gnu.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\gnu.c" line="63" column="12"/>
+            <symbol>fp</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;ptr&apos; is assigned a value that is never used." verbose="Variable &apos;ptr&apos; is assigned a value that is never used." cwe="563">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\gnu.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\gnu.c" line="175" column="15"/>
+            <symbol>ptr</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;ptr2&apos; is assigned a value that is never used." verbose="Variable &apos;ptr2&apos; is assigned a value that is never used." cwe="563">
+            <location file0="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\gnu.c" file="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\gnu.c" line="179" column="16"/>
+            <symbol>ptr2</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/Sau/Desktop/cppcheck-1.89/test/cfg/gnu.c:22:13" call-funcname="xfree" call-argnr="1" filename="C:/Users/Sau/Desktop/cppcheck-1.89/test/cfg/gnu.c" linenr="88" call-argexpr="p" call-argvaluetype="7" call-argvalue="5">
+  <path filename="C:\Users\Sau\Desktop\cppcheck-1.89\test\cfg\gnu.c" linenr="87" info="Assign p, buffer with size 5"/>
+</function-call>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="resourceLeak_mkostemps" lineNumber="24"/>
+    <functiondecl functionName="no_resourceLeak_mkostemps_01" lineNumber="31"/>
+    <functiondecl functionName="no_resourceLeak_mkostemps_02" lineNumber="37"/>
+    <functiondecl functionName="resourceLeak_mkstemps" lineNumber="42"/>
+    <functiondecl functionName="no_resourceLeak_mkstemps_01" lineNumber="49"/>
+    <functiondecl functionName="no_resourceLeak_mkstemps_02" lineNumber="55"/>
+    <functiondecl functionName="resourceLeak_mkostemp" lineNumber="60"/>
+    <functiondecl functionName="no_resourceLeak_mkostemp_01" lineNumber="67"/>
+    <functiondecl functionName="no_resourceLeak_mkostemp_02" lineNumber="73"/>
+    <functiondecl functionName="valid_code" lineNumber="78"/>
+    <functiondecl functionName="ignoreleak" lineNumber="104"/>
+    <functiondecl functionName="memleak_asprintf" lineNumber="111"/>
+    <functiondecl functionName="memleak_xmalloc" lineNumber="122"/>
+    <functiondecl functionName="uninitvar__builtin_memset" lineNumber="129"/>
+    <functiondecl functionName="bufferAccessOutOfBounds__builtin_memset" lineNumber="138"/>
+    <functiondecl functionName="bufferAccessOutOfBounds" lineNumber="145"/>
+    <functiondecl functionName="leakReturnValNotUsed" lineNumber="172"/>
+    <functiondecl functionName="nullPointer_epoll_ctl" lineNumber="193"/>
+    <functioncall functionName="EPOLL_CTL_DEL"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="__builtin_alloca"/>
+    <functioncall functionName="__builtin_expect"/>
+    <functioncall functionName="__builtin_expect_with_probability"/>
+    <functioncall functionName="__builtin_memset"/>
+    <functioncall functionName="__builtin_prefetch"/>
+    <functioncall functionName="__builtin_types_compatible_p"/>
+    <functioncall functionName="arg"/>
+    <functioncall functionName="argInt1"/>
+    <functioncall functionName="asprintf"/>
+    <functioncall functionName="buf"/>
+    <functioncall functionName="c"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="close"/>
+    <functioncall functionName="epfd"/>
+    <functioncall functionName="epoll_ctl"/>
+    <functioncall functionName="event"/>
+    <functioncall functionName="fd"/>
+    <functioncall functionName="flags"/>
+    <functioncall functionName="fmt"/>
+    <functioncall functionName="fp"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="mkostemp"/>
+    <functioncall functionName="mkostemps"/>
+    <functioncall functionName="mkstemps"/>
+    <functioncall functionName="n"/>
+    <functioncall functionName="op"/>
+    <functioncall functionName="p"/>
+    <functioncall functionName="pAlloc1"/>
+    <functioncall functionName="pAlloc2"/>
+    <functioncall functionName="ptr"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="s"/>
+    <functioncall functionName="sethostname"/>
+    <functioncall functionName="strcasestr"/>
+    <functioncall functionName="strdupa"/>
+    <functioncall functionName="strndupa"/>
+    <functioncall functionName="suffixlen"/>
+    <functioncall functionName="template"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="xcalloc"/>
+    <functioncall functionName="xfree"/>
+    <functioncall functionName="xmalloc"/>
+    <functioncall functionName="xrealloc"/>
+  </FileInfo>
+</analyzerinfo>
