@@ -4,5 +4,5 @@
 <img src="cppcheck-1.89/check1.png">
 <h2> Một số lỗi khi chạy tool </h2>
 - tool sẽ hiện ra thông báo lỗi gặp phải là gì
-<img src="cppcheck-1.89/2.png">
-<img src="cppcheck-1.89/3.png">
+<img src="cppcheck-1.89/check2.png">
+<img src="cppcheck-1.89/check3.png">
